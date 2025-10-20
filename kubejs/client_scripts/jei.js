@@ -189,7 +189,7 @@ JEIAddedEvents.registerRecipes((event) => {
             .add({name: 'fast:deepblue_shard', type: 'item', description: '深蓝之渊掉落(怪物房，boss房，商店都能获得)'})
             .add({name: 'fast:source_of_venom', type: 'item', description: '商店购买'})
             .add({name: 'fast:justice_shield', type: 'item', description: '商店购买'})
-            .add({name: 'fast:treasure_hoarder', type: 'item', description: '商店购买'})
+            .add({name: 'fast:treasure_hoarder', type: 'item', description: '宝藏概率获得'})
             .add({name: 'fast:treasure_bait', type: 'item', description: '商店购买'})
 });
 
