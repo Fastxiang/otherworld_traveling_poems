@@ -1,0 +1,209 @@
+{
+  "spell.kubejs.fireball_plus":"巨型火球-伤害（分支）",
+  "spell.kubejs.fireball_plus.guide":"伤害为巨型火球的2.5倍，范围变为单体",
+  "item.irons_spellbooks.scroll.tooltip.fireball_plus1": "伤害：%s",
+  "item.irons_spellbooks.scroll.tooltip.fireball_plus2": "效果半径：%s方块",
+  
+  "spell.kubejs.explosion":"爆裂魔法",
+  "spell.kubejs.explosion.guide":"从天而降的超巨型火球，基础伤害70，吟唱速度越低数值越高，每降低10%吟唱速度增加90%所有数值，最高增加的1800%的伤害，范围，火球大小。吟唱速度-50%及以下，会触发特殊吟唱音效",
+  "item.irons_spellbooks.scroll.tooltip.explosion1": "伤害：%s",
+  "item.irons_spellbooks.scroll.tooltip.explosion2": "效果半径：%s方块",
+  
+  "spell.kubejs.custom_spell":"灵渊秘术",
+  "spell.kubejs.custom_spell.guide":"使用末影饰品的力量，释放独属于你的法术",
+  "item.irons_spellbooks.scroll.tooltip.custom_spell1":"释放法术灵渊秘术时 按照末影箱所有灵渊秘术末影饰品决定释放的效果",
+  "item.irons_spellbooks.scroll.tooltip.custom_spell2":"使用灵渊秘术末影饰品来自定义你的灵渊秘术。",
+  "item.irons_spellbooks.scroll.tooltip.custom_spell3":"灵渊秘术末影饰品在副本获得，且掉落时随机获得一个效果",
+  
+  "spell.kubejs.oath_of_knight":"骑士之誓",
+  "spell.kubejs.oath_of_knight.guide":"给予附近20格自身的女仆buff骑士之誓 持续(20x法术强度%x神圣法术强度%)秒 cd为1分钟 骑士之誓: 女仆受到敌人伤害时 玩家受到相同伤害 该伤害的伤害类型为分摊伤害 女仆受到的伤害变为0",
+  "item.irons_spellbooks.scroll.tooltip.oath_of_knight1":"持续时间: %s秒",
+  "item.irons_spellbooks.scroll.tooltip.oath_of_knight2":"给予附近20格自身的女仆buff骑士之誓 骑士之誓: 女仆受到敌人的伤害时 玩家受到相同伤害 该伤害的伤害类型为分摊伤害 女仆受到的伤害变为0",
+  
+    "material.kubejs.andesite_alloy": "安山合金",
+    "material.kubejs.andesite_alloy.encyclopedia": "手持时，每级增加10点敏捷",
+    "modifier.kubejs.mechanical_heart": "机械之心",
+    "modifier.kubejs.mechanical_heart.flavor": "机械工艺的核心",
+    "modifier.kubejs.mechanical_heart.description": "手持时，每级增加10点敏捷",
+    
+    "material.kubejs.zinc_ingot": "锌",
+    "material.kubejs.zinc_ingot.encyclopedia": "手持攻击时，每级额外增加(3x暴击率x暴击伤害)点伤害",
+    "modifier.kubejs.weakness_analysis": "弱点解析",
+    "modifier.kubejs.weakness_analysis.flavor": "看破弱点",
+    "modifier.kubejs.weakness_analysis.description": "手持攻击时，每级额外增加(3x暴击率x暴击伤害)点伤害 ",
+  
+    "material.kubejs.brass_ingot": "黄铜",
+    "material.kubejs.brass_ingot.encyclopedia": "放置到末影箱时，视为机械",
+    "modifier.kubejs.precision_components": "精密元件",
+    "modifier.kubejs.precision_components.flavor": "精密制作的工具",
+    "modifier.kubejs.precision_components.description": "放置到末影箱时，视为机械",
+  
+  "kubejs.generic.extra_damage":"额外伤害",
+  
+  "item.kubejs.mixed_salad_jam": "果酱蔬菜沙拉",
+  "item.kubejs.mixed_salad_jam.type": "§6食物",
+  "item.kubejs.mixed_salad_jam.tooltip": "§7浇灌上果酱，更美味了。",
+  "item.kubejs.mixed_salad_jam.tooltip2": "§7能卖出更贵的价钱。",
+
+  "item.kubejs.cooked_rice_jam": "果酱熟米饭",
+  "item.kubejs.cooked_rice_jam.type": "§6食物",
+  "item.kubejs.cooked_rice_jam.tooltip": "§7浇灌上果酱，更美味了。",
+  "item.kubejs.cooked_rice_jam.tooltip2": "§7能卖出更贵的价钱。",
+
+  "item.kubejs.salmon_roll_jam": "果酱鲑鱼寿司卷",
+  "item.kubejs.salmon_roll_jam.type": "§6食物",
+  "item.kubejs.salmon_roll_jam.tooltip": "§7浇灌上果酱，更美味了。",
+  "item.kubejs.salmon_roll_jam.tooltip2": "§7能卖出更贵的价钱。",
+
+  "item.kubejs.cod_roll_jam": "果酱鳕鱼寿司卷",
+  "item.kubejs.cod_roll_jam.type": "§6食物",
+  "item.kubejs.cod_roll_jam.tooltip": "§7浇灌上果酱，更美味了。",
+  "item.kubejs.cod_roll_jam.tooltip2": "§7能卖出更贵的价钱。",
+
+  "item.kubejs.kelp_roll_slice_jam": "果酱海带寿司片",
+  "item.kubejs.kelp_roll_slice_jam.type": "§6食物",
+  "item.kubejs.kelp_roll_slice_jam.tooltip": "§7浇灌上果酱，更美味了。",
+  "item.kubejs.kelp_roll_slice_jam.tooltip2": "§7能卖出更贵的价钱。",
+
+  "item.kubejs.barbecue_stick_jam": "果酱烤肉串",
+  "item.kubejs.barbecue_stick_jam.type": "§6食物",
+  "item.kubejs.barbecue_stick_jam.tooltip": "§7浇灌上果酱，更美味了。",
+  "item.kubejs.barbecue_stick_jam.tooltip2": "§7能卖出更贵的价钱。",
+
+  "item.kubejs.vegetable_soup_jam": "果酱蔬菜汤",
+  "item.kubejs.vegetable_soup_jam.type": "§6食物",
+  "item.kubejs.vegetable_soup_jam.tooltip": "§7浇灌上果酱，更美味了。",
+  "item.kubejs.vegetable_soup_jam.tooltip2": "§7能卖出更贵的价钱。",
+
+  "item.kubejs.fruit_salad_jam": "果酱水果沙拉",
+  "item.kubejs.fruit_salad_jam.type": "§6食物",
+  "item.kubejs.fruit_salad_jam.tooltip": "§7浇灌上果酱，更美味了。",
+  "item.kubejs.fruit_salad_jam.tooltip2": "§7能卖出更贵的价钱。",
+
+  "item.kubejs.eggplant_burger_jam": "果酱茄子汉堡",
+  "item.kubejs.eggplant_burger_jam.type": "§6食物",
+  "item.kubejs.eggplant_burger_jam.tooltip": "§7浇灌上果酱，更美味了。",
+  "item.kubejs.eggplant_burger_jam.tooltip2": "§7能卖出更贵的价钱。",
+
+  "item.kubejs.dumplings_jam": "果酱饺子",
+  "item.kubejs.dumplings_jam.type": "§6食物",
+  "item.kubejs.dumplings_jam.tooltip": "§7浇灌上果酱，更美味了。",
+  "item.kubejs.dumplings_jam.tooltip2": "§7能卖出更贵的价钱。",
+
+  "item.kubejs.cabbage_rolls_jam": "果酱白菜卷",
+  "item.kubejs.cabbage_rolls_jam.type": "§6食物",
+  "item.kubejs.cabbage_rolls_jam.tooltip": "§7浇灌上果酱，更美味了。",
+  "item.kubejs.cabbage_rolls_jam.tooltip2": "§7能卖出更贵的价钱。",
+
+  "item.kubejs.bone_broth_jam": "果酱骨头汤",
+  "item.kubejs.bone_broth_jam.type": "§6食物",
+  "item.kubejs.bone_broth_jam.tooltip": "§7浇灌上果酱，更美味了。",
+  "item.kubejs.bone_broth_jam.tooltip2": "§7能卖出更贵的价钱。",
+
+  "item.kubejs.ratatouille_jam": "果酱蔬菜杂烩",
+  "item.kubejs.ratatouille_jam.type": "§6食物",
+  "item.kubejs.ratatouille_jam.tooltip": "§7浇灌上果酱，更美味了。",
+  "item.kubejs.ratatouille_jam.tooltip2": "§7能卖出更贵的价钱。",
+
+  "item.kubejs.egg_sandwich_jam": "果酱鸡蛋三明治",
+  "item.kubejs.egg_sandwich_jam.type": "§6食物",
+  "item.kubejs.egg_sandwich_jam.tooltip": "§7浇灌上果酱，更美味了。",
+  "item.kubejs.egg_sandwich_jam.tooltip2": "§7能卖出更贵的价钱。",
+
+  "item.kubejs.bacon_sandwich_jam": "果酱培根三明治",
+  "item.kubejs.bacon_sandwich_jam.type": "§6食物",
+  "item.kubejs.bacon_sandwich_jam.tooltip": "§7浇灌上果酱，更美味了。",
+  "item.kubejs.bacon_sandwich_jam.tooltip2": "§7能卖出更贵的价钱。",
+
+  "item.kubejs.chicken_sandwich_jam": "果酱鸡肉三明治",
+  "item.kubejs.chicken_sandwich_jam.type": "§6食物",
+  "item.kubejs.chicken_sandwich_jam.tooltip": "§7浇灌上果酱，更美味了。",
+  "item.kubejs.chicken_sandwich_jam.tooltip2": "§7能卖出更贵的价钱。",
+
+  "item.kubejs.hamburger_jam": "果酱汉堡",
+  "item.kubejs.hamburger_jam.type": "§6食物",
+  "item.kubejs.hamburger_jam.tooltip": "§7浇灌上果酱，更美味了。",
+  "item.kubejs.hamburger_jam.tooltip2": "§7能卖出更贵的价钱。",
+
+  "item.kubejs.mushroom_rice_jam": "果酱蘑菇饭",
+  "item.kubejs.mushroom_rice_jam.type": "§6食物",
+  "item.kubejs.mushroom_rice_jam.tooltip": "§7浇灌上果酱，更美味了。",
+  "item.kubejs.mushroom_rice_jam.tooltip2": "§7能卖出更贵的价钱。",
+
+  "item.kubejs.grilled_salmon_jam": "果酱烤鲑鱼",
+  "item.kubejs.grilled_salmon_jam.type": "§6食物",
+  "item.kubejs.grilled_salmon_jam.tooltip": "§7浇灌上果酱，更美味了。",
+  "item.kubejs.grilled_salmon_jam.tooltip2": "§7能卖出更贵的价钱。",
+
+  "item.kubejs.mutton_wrap_jam": "果酱羊肉卷",
+  "item.kubejs.mutton_wrap_jam.type": "§6食物",
+  "item.kubejs.mutton_wrap_jam.tooltip": "§7浇灌上果酱，更美味了。",
+  "item.kubejs.mutton_wrap_jam.tooltip2": "§7能卖出更贵的价钱。",
+
+  "item.kubejs.stuffed_potato_jam": "果酱酿土豆",
+  "item.kubejs.stuffed_potato_jam.type": "§6食物",
+  "item.kubejs.stuffed_potato_jam.tooltip": "§7浇灌上果酱，更美味了。",
+  "item.kubejs.stuffed_potato_jam.tooltip2": "§7能卖出更贵的价钱。",
+
+  "item.kubejs.beef_stew_jam": "果酱炖牛肉",
+  "item.kubejs.beef_stew_jam.type": "§6食物",
+  "item.kubejs.beef_stew_jam.tooltip": "§7浇灌上果酱，更美味了。",
+  "item.kubejs.beef_stew_jam.tooltip2": "§7能卖出更贵的价钱。",
+
+  "item.kubejs.chicken_soup_jam": "果酱鸡汤",
+  "item.kubejs.chicken_soup_jam.type": "§6食物",
+  "item.kubejs.chicken_soup_jam.tooltip": "§7浇灌上果酱，更美味了。",
+  "item.kubejs.chicken_soup_jam.tooltip2": "§7能卖出更贵的价钱。",
+
+  "item.kubejs.fried_rice_jam": "果酱炒饭",
+  "item.kubejs.fried_rice_jam.type": "§6食物",
+  "item.kubejs.fried_rice_jam.tooltip": "§7浇灌上果酱，更美味了。",
+  "item.kubejs.fried_rice_jam.tooltip2": "§7能卖出更贵的价钱。",
+
+  "item.kubejs.noodle_soup_jam": "果酱面条汤",
+  "item.kubejs.noodle_soup_jam.type": "§6食物",
+  "item.kubejs.noodle_soup_jam.tooltip": "§7浇灌上果酱，更美味了。",
+  "item.kubejs.noodle_soup_jam.tooltip2": "§7能卖出更贵的价钱。",
+
+  "item.kubejs.squid_ink_pasta_jam": "果酱墨鱼面",
+  "item.kubejs.squid_ink_pasta_jam.type": "§6食物",
+  "item.kubejs.squid_ink_pasta_jam.tooltip": "§7浇灌上果酱，更美味了。",
+  "item.kubejs.squid_ink_pasta_jam.tooltip2": "§7能卖出更贵的价钱。",
+
+  "item.kubejs.roast_chicken_block_jam": "果酱烤鸡",
+  "item.kubejs.roast_chicken_block_jam.type": "§6食物",
+  "item.kubejs.roast_chicken_block_jam.tooltip": "§7浇灌上果酱，更美味了。",
+  "item.kubejs.roast_chicken_block_jam.tooltip2": "§7能卖出更贵的价钱。",
+
+  "item.kubejs.shepherds_pie_block_jam": "果酱牧羊人派",
+  "item.kubejs.shepherds_pie_block_jam.type": "§6食物",
+  "item.kubejs.shepherds_pie_block_jam.tooltip": "§7浇灌上果酱，更美味了。",
+  "item.kubejs.shepherds_pie_block_jam.tooltip2": "§7能卖出更贵的价钱。",
+
+  "item.kubejs.steak_and_potatoes_jam": "果酱牛排配土豆",
+  "item.kubejs.steak_and_potatoes_jam.type": "§6食物",
+  "item.kubejs.steak_and_potatoes_jam.tooltip": "§7浇灌上果酱，更美味了。",
+  "item.kubejs.steak_and_potatoes_jam.tooltip2": "§7能卖出更贵的价钱。",
+
+  "item.kubejs.pasta_with_meatballs_jam": "果酱肉丸意面",
+  "item.kubejs.pasta_with_meatballs_jam.type": "§6食物",
+  "item.kubejs.pasta_with_meatballs_jam.tooltip": "§7浇灌上果酱，更美味了。",
+  "item.kubejs.pasta_with_meatballs_jam.tooltip2": "§7能卖出更贵的价钱。",
+
+  "item.kubejs.pasta_with_mutton_chop_jam": "果酱羊排意面",
+  "item.kubejs.pasta_with_mutton_chop_jam.type": "§6食物",
+  "item.kubejs.pasta_with_mutton_chop_jam.tooltip": "§7浇灌上果酱，更美味了。",
+  "item.kubejs.pasta_with_mutton_chop_jam.tooltip2": "§7能卖出更贵的价钱。",
+
+  "item.kubejs.honey_glazed_ham_block_jam": "果酱蜜汁火腿",
+  "item.kubejs.honey_glazed_ham_block_jam.type": "§6食物",
+  "item.kubejs.honey_glazed_ham_block_jam.tooltip": "§7浇灌上果酱，更美味了。",
+  "item.kubejs.honey_glazed_ham_block_jam.tooltip2": "§7能卖出更贵的价钱。",
+
+  "item.kubejs.rice_roll_medley_block_jam": "果酱寿司拼盘",
+  "item.kubejs.rice_roll_medley_block_jam.type": "§6食物",
+  "item.kubejs.rice_roll_medley_block_jam.tooltip": "§7浇灌上果酱，更美味了。",
+  "item.kubejs.rice_roll_medley_block_jam.tooltip2": "§7能卖出更贵的价钱。",
+
+  "item.fast.tooltips.shift": "§7按住Shift查看更多。"
+}

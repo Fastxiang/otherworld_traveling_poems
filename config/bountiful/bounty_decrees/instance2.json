@@ -1,0 +1,9 @@
+{
+	"objectives": [
+		"instance_objs2"
+	],
+	"rewards": [
+		"money_rews2",
+		"ender_rews2"
+	]
+}

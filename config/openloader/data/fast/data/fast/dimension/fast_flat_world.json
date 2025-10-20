@@ -1,0 +1,17 @@
+{
+  "type": "fast:fast_flat_type",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "fast:empty_plains",
+      "structure_overrides": [],
+      "layers": [
+        { "block": "minecraft:bedrock", "height": 1 },
+        { "block": "minecraft:deepslate", "height": 30 },
+        { "block": "minecraft:stone", "height": 30 },
+        { "block": "minecraft:dirt", "height": 2 },
+        { "block": "minecraft:grass_block", "height": 1 }
+      ]
+    }
+  }
+}

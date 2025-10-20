@@ -1,0 +1,97 @@
+[
+  {
+    "authors": "fast",
+    "name": "汉化包",
+    "desc": "机械动力-智能合成器汉化",
+    "mods": "smartcrafter",
+    "dynamic": false
+  },
+  {
+    "target_class": {
+      "name": "com.tatnux.crafter.modules.crafter.client.SmartCrafterScreen",
+      "method": ""
+    },
+    "pairs": [
+      {
+        "key": "Reset the recipe",
+        "value": "重置配方"
+      },
+      {
+        "key": "Ext",
+        "value": "外部模式"
+      },
+      {
+        "key": "All items output will go in the result slots.",
+        "value": "所有产物将输出至结果槽"
+      },
+      {
+        "key": "Secondary Int",
+        "value": "次要内部模式"
+      },
+      {
+        "key": "The primary result will go in the result slots",
+        "value": "主要产物进入结果槽"
+      },
+      {
+        "key": "and the secondary item in the ingredients slots.",
+        "value": "次要产物返回材料槽"
+      },
+      {
+        "key": "Int",
+        "value": "内部模式"
+      },
+      {
+        "key": "All items output will go back in the ingredients slots.",
+        "value": "所有产物将返回材料槽"
+      },
+      {
+        "key": "Keep Mode",
+        "value": "保留模式"
+      },
+      {
+        "key": "1 item will remain in each ingredients slots.",
+        "value": "每个材料槽保留一个物品"
+      },
+      {
+        "key": "Out Mode",
+        "value": "清空模式"
+      },
+      {
+        "key": "No item is kept in the ingredients slots.",
+        "value": "材料槽不保留任何物品"
+      },
+      {
+        "key": "Remember Items",
+        "value": "记录物品"
+      },
+      {
+        "key": "Forget Items",
+        "value": "忽略物品"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.tatnux.crafter.modules.crafter.client.widget.RecipeEntry",
+      "method": ""
+    },
+    "pairs": [
+      {
+        "key": "<empty>",
+        "value": "<空配方>"
+      }
+    ]
+  },
+  {
+    "target_class": {
+      "name": "com.tatnux.crafter.SmartCrafter",
+      "method": ""
+    },
+    "pairs": [
+      {
+        "key": "Smart Crafter",
+        "value": "智能合成器"
+      }
+    ]
+  }
+]

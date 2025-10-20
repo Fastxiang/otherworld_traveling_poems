@@ -1,0 +1,540 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "77A51AC8C87C89AA"
+	group: "3BBD5D19C3FF2423"
+	icon: {
+		Count: 1
+		id: "touhou_little_maid:entity_placeholder"
+		tag: {
+			RecipeId: "touhou_little_maid:altar/spawn_box"
+		}
+	}
+	id: "77A51AC8C87C89AA"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"53D30E6135A361AA"
+				"530DAFDE31C967A7"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"在怪奇宝典中，选择绑定记忆中的幻想乡，有女仆的详细攻略，任务难免有纰漏。比如可以在这本书上点击这个按钮可以直接查看多方块结构祭坛的制作方法："
+				"{image:kubejs:textures/jiaocheng/nv_pu.png width:200 height:100 align:center}"
+			]
+			id: "4CFB13AF9EC504B4"
+			rewards: [
+				{
+					id: "706E43C4ABC65920"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+				{
+					id: "3F0745242F66530C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "fast:resonance_crystal"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [{
+				icon: "kubejs:nv_pu_jiao_cheng"
+				id: "1596E769DA0112DD"
+				observe_type: 0
+				timer: 0L
+				title: "制作并观察祭坛"
+				to_observe: "touhou_little_maid:altar"
+				type: "observation"
+			}]
+			title: "制作一个祭坛"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4CFB13AF9EC504B4"]
+			description: ["女仆自动化的好帮手，可以让女仆把身上的物品自动放入容器，或者从容器拿取物品到女仆身上。（多个可以叠加，互相不影响，发挥你的想象力吧）"]
+			id: "345E931E20259991"
+			tasks: [{
+				id: "48A28BBA9E42A81F"
+				item: "touhou_little_maid:wireless_io"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["271A6D253F90B4AD"]
+			description: ["自动拿箱子里的原材料进行烹饪，并放置成品到另一个箱子的超强道具。（缺点是只能装一个，且不能用于除了烹饪以外的用途。）"]
+			id: "769EB273C739C0CD"
+			tasks: [{
+				id: "02E44675F8179F06"
+				item: "maidsoulkitchen:culinary_hub"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4CFB13AF9EC504B4"]
+			description: ["最大容量的女仆背包。"]
+			id: "30D75CA9947E4BD0"
+			tasks: [{
+				id: "0519D25E7D5940B4"
+				item: "touhou_little_maid:maid_backpack_big"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"3E458923780B5629"
+				"7B37073205BCB99C"
+			]
+			description: ["移动音响，如果只放一个唱片可以循环播放。"]
+			id: "6CFD7D58681D4FD2"
+			tasks: [{
+				id: "153A1FA32F3903AD"
+				item: "netmusic:music_player_backpack"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["63D055DD36213C87"]
+			id: "7B0DFA6423A92FC5"
+			tasks: [{
+				id: "7A9A8D04CC1F7A67"
+				item: "netmusic:music_cd"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			id: "63D055DD36213C87"
+			tasks: [{
+				id: "23E361D1E398C945"
+				item: "netmusic:cd_burner"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7B0DFA6423A92FC5"]
+			id: "3E458923780B5629"
+			tasks: [{
+				id: "5C591DE8A13A28FA"
+				item: "netmusic:music_player"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4CFB13AF9EC504B4"]
+			description: ["大部分功能性背包的合成材料。"]
+			id: "7B37073205BCB99C"
+			tasks: [{
+				id: "6E51DCD71586BA72"
+				item: "touhou_little_maid:maid_backpack_middle"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			description: ["驯服女仆必备的食物。初次召唤女仆时会赠送一个。"]
+			id: "1328E5AC6220A56B"
+			tasks: [{
+				id: "0249B06FC7F6553A"
+				item: "minecraft:cake"
+				type: "item"
+			}]
+			x: -0.0357142857142847d
+			y: -2.9285714285714306d
+		}
+		{
+			dependencies: [
+				"1328E5AC6220A56B"
+				"4CFB13AF9EC504B4"
+			]
+			description: [
+				"生成新的女仆，创建你的女仆大军吧！。"
+				"本任务只需要点击检查标记即可完成，只是为了方便查看配方。"
+			]
+			icon: {
+				Count: 1
+				id: "touhou_little_maid:entity_placeholder"
+				tag: {
+					RecipeId: "touhou_little_maid:altar/spawn_box"
+				}
+			}
+			id: "19E8595AD639D722"
+			size: 1.5d
+			tasks: [
+				{
+					id: "41CDE8EA6514A286"
+					item: {
+						Count: 1
+						id: "touhou_little_maid:entity_placeholder"
+						tag: {
+							RecipeId: "touhou_little_maid:altar/spawn_box"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0F4F0CC6B3CB8AC6"
+					type: "checkmark"
+				}
+			]
+			x: -0.0357142857142847d
+			y: -1.4642857142857224d
+		}
+		{
+			dependencies: [
+				"4CFB13AF9EC504B4"
+				"19E8595AD639D722"
+			]
+			description: ["类似于魂符作用的相机。"]
+			id: "32A1F6FD24BAFF99"
+			tasks: [{
+				id: "0F641424EBC354FA"
+				item: {
+					Count: 1
+					id: "touhou_little_maid:camera"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["345E931E20259991"]
+			description: ["商店可购买更多的末影珍珠。"]
+			id: "271A6D253F90B4AD"
+			tasks: [{
+				id: "5D80368BD744E363"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4CFB13AF9EC504B4"]
+			description: ["雷劈到女仆会增加女仆最大生命值，但是要记得保护好你的女仆。"]
+			icon: {
+				Count: 1
+				id: "touhou_little_maid:entity_placeholder"
+				tag: {
+					RecipeId: "touhou_little_maid:altar/spawn_lightning_bolt"
+				}
+			}
+			id: "189D4D1C39CE10F4"
+			min_required_tasks: 1
+			tasks: [
+				{
+					id: "1B1A813B2B9C6B91"
+					item: {
+						Count: 1
+						id: "touhou_little_maid:entity_placeholder"
+						tag: {
+							RecipeId: "touhou_little_maid:altar/spawn_lightning_bolt"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "382FC868506816E4"
+					type: "checkmark"
+				}
+			]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4CFB13AF9EC504B4"]
+			hide_dependency_lines: true
+			id: "6C5E228818BD9A14"
+			tasks: [{
+				id: "4FE37E1E48A44AAC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:str_gem"
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4CFB13AF9EC504B4"]
+			hide_dependency_lines: true
+			id: "536DB52C529CC6C6"
+			tasks: [{
+				id: "52EF428CA8132539"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:agi_gem"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4CFB13AF9EC504B4"]
+			hide_dependency_lines: true
+			id: "043E0E7453C5AEE3"
+			tasks: [{
+				id: "579D3D9E26B95D0A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:int_gem"
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4CFB13AF9EC504B4"]
+			hide_dependency_lines: true
+			id: "04E17399536041F9"
+			tasks: [{
+				id: "508CF884F6670E96"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:vit_gem"
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4CFB13AF9EC504B4"]
+			hide_dependency_lines: true
+			id: "25DDFF29B8F9DEB7"
+			tasks: [{
+				id: "7D6581DD0C4C738B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:spell_storage_sphere"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4CFB13AF9EC504B4"]
+			hide_dependency_lines: true
+			id: "51A0F338A513DF63"
+			tasks: [{
+				id: "5F90BE678246A0E6"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tarotcards:the_lovers"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4CFB13AF9EC504B4"]
+			hide_dependency_lines: true
+			id: "600FF2E56C69F46D"
+			tasks: [{
+				id: "19B632002610E84A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:resonance_crystal"
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4CFB13AF9EC504B4"]
+			hide_dependency_lines: true
+			id: "454AE222A75DBFBA"
+			tasks: [{
+				id: "43D04BCB520DB91B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:fate_gem_strength"
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4CFB13AF9EC504B4"]
+			hide_dependency_lines: true
+			id: "5B58719E83CBC6DD"
+			tasks: [{
+				id: "7240CEC821BD60ED"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:fate_gem_intelligence"
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4CFB13AF9EC504B4"]
+			hide_dependency_lines: true
+			id: "73B53DBFB1F74517"
+			tasks: [{
+				id: "14861066421572A2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:fate_gem_vitality"
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4CFB13AF9EC504B4"]
+			hide_dependency_lines: true
+			id: "4ABA3715A147BB0B"
+			tasks: [{
+				id: "11EBA0979A7B5B1D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:fate_gem_agility"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4CFB13AF9EC504B4"]
+			hide_dependency_lines: true
+			id: "60EA355545425D34"
+			tasks: [{
+				id: "5AACFCDB329367DB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "touhou_little_maid:fall_protect_bauble"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["32A1F6FD24BAFF99"]
+			description: ["作用也类似魂符，不过拍照后女仆会进行旅行，旅行结束后才能放出来，旅行结束女仆会根据地点给你带点战利品回来。"]
+			id: "220C83832E387DB7"
+			tasks: [{
+				id: "323A3E873B6E64D3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "maid_travel_camera:travel_camera"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+	]
+	title: "女仆"
+}

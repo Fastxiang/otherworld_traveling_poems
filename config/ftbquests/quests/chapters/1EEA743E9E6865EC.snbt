@@ -1,0 +1,2777 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1EEA743E9E6865EC"
+	group: "67091C4774FC5F4A"
+	icon: "minecraft:ender_chest"
+	id: "1EEA743E9E6865EC"
+	images: [
+		{
+			height: 14.3d
+			image: "fast:textures/gui/fast_ftb_gui_0.png"
+			rotation: 0.0d
+			width: 12.2d
+			x: -0.8214285714285339d
+			y: 4.607142857142868d
+		}
+		{
+			height: 6.8d
+			image: "fast:textures/gui/fast_ftb_gui_0.png"
+			rotation: 0.0d
+			width: 12.2d
+			x: 12.785714285714313d
+			y: 1.464285714285701d
+		}
+		{
+			height: 6.8d
+			image: "fast:textures/gui/fast_ftb_gui_0.png"
+			rotation: 0.0d
+			width: 12.2d
+			x: -0.7500000000000071d
+			y: 15.407142857142844d
+		}
+		{
+			height: 6.8d
+			image: "fast:textures/gui/fast_ftb_gui_0.png"
+			rotation: 0.0d
+			width: 12.2d
+			x: 12.78571428571432d
+			y: 8.464285714285701d
+		}
+		{
+			height: 6.8d
+			image: "fast:textures/gui/fast_ftb_gui_0.png"
+			rotation: 0.0d
+			width: 12.2d
+			x: 12.750000000000028d
+			y: 15.428571428571416d
+		}
+		{
+			height: 6.8d
+			image: "fast:textures/gui/fast_ftb_gui_0.png"
+			rotation: 0.0d
+			width: 12.2d
+			x: -0.7142857142857224d
+			y: 22.47857142857142d
+		}
+		{
+			height: 6.8d
+			image: "fast:textures/gui/fast_ftb_gui_0.png"
+			rotation: 0.0d
+			width: 12.2d
+			x: 12.78571428571432d
+			y: 22.428571428571416d
+		}
+		{
+			height: 6.8d
+			image: "fast:textures/gui/fast_ftb_gui_0.png"
+			rotation: 0.0d
+			width: 12.2d
+			x: -0.6785714285714306d
+			y: 29.407142857142837d
+		}
+		{
+			height: 6.8d
+			image: "fast:textures/gui/fast_ftb_gui_0.png"
+			rotation: 0.0d
+			width: 12.2d
+			x: 12.714285714285758d
+			y: 29.499999999999986d
+		}
+		{
+			height: 6.8d
+			image: "fast:textures/gui/fast_ftb_gui_0.png"
+			rotation: 0.0d
+			width: 12.2d
+			x: 12.714285714285765d
+			y: 36.464285714285694d
+		}
+		{
+			height: 6.8d
+			image: "fast:textures/gui/fast_ftb_gui_0.png"
+			rotation: 0.0d
+			width: 12.2d
+			x: 12.714285714285765d
+			y: 43.42857142857143d
+		}
+		{
+			height: 6.8d
+			image: "fast:textures/gui/fast_ftb_gui_0.png"
+			rotation: 0.0d
+			width: 12.2d
+			x: 12.714285714285765d
+			y: 50.499999999999986d
+		}
+		{
+			height: 6.8d
+			image: "fast:textures/gui/fast_ftb_gui_0.png"
+			rotation: 0.0d
+			width: 12.2d
+			x: -0.7142857142857082d
+			y: 36.49285714285712d
+		}
+		{
+			height: 6.8d
+			image: "fast:textures/gui/fast_ftb_gui_0.png"
+			rotation: 0.0d
+			width: 12.2d
+			x: -0.6785714285714306d
+			y: 43.52857142857141d
+		}
+		{
+			height: 6.8d
+			image: "fast:textures/gui/fast_ftb_gui_0.png"
+			rotation: 0.0d
+			width: 12.2d
+			x: -0.6785714285714306d
+			y: 50.49285714285713d
+		}
+		{
+			height: 6.8d
+			image: "fast:textures/gui/fast_ftb_gui_0.png"
+			rotation: 0.0d
+			width: 12.2d
+			x: 12.714285714285765d
+			y: 57.46428571428571d
+		}
+		{
+			height: 6.8d
+			image: "fast:textures/gui/fast_ftb_gui_0.png"
+			rotation: 0.0d
+			width: 12.2d
+			x: -0.7499999999999858d
+			y: 57.45714285714284d
+		}
+		{
+			height: 6.8d
+			image: "fast:textures/gui/fast_ftb_gui_0.png"
+			rotation: 0.0d
+			width: 12.2d
+			x: -0.7857142857142989d
+			y: 64.45714285714284d
+		}
+		{
+			height: 6.8d
+			image: "fast:textures/gui/fast_ftb_gui_0.png"
+			rotation: 0.0d
+			width: 12.2d
+			x: 12.714285714285758d
+			y: 64.42857142857143d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [""]
+			id: "24318E937C0475E2"
+			tasks: [{
+				id: "7231FFED2238B07C"
+				item: {
+					Count: 1
+					id: "tarotcards:the_fool"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 49.0d
+		}
+		{
+			description: [
+				"你需要证明你的决心。"
+				"女仆满好感任务获得。"
+			]
+			id: "48B449409766D5FE"
+			tasks: [{
+				id: "16807DFD80C2428E"
+				item: {
+					Count: 1
+					id: "tarotcards:the_lovers"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 7.0d
+		}
+		{
+			description: [""]
+			id: "5A92B9AE7D89BA37"
+			tasks: [{
+				id: "3BD72562C58AE3EF"
+				item: {
+					Count: 1
+					id: "tarotcards:the_magician"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 63.0d
+		}
+		{
+			description: [""]
+			id: "25F2AB82FC8C5E2B"
+			tasks: [{
+				id: "4AE9F31B8EABD488"
+				item: {
+					Count: 1
+					id: "tarotcards:the_high_priestess"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			description: [""]
+			id: "0C7C5A69A394FD77"
+			tasks: [{
+				id: "55E7AA8EFD0D8973"
+				item: {
+					Count: 1
+					id: "tarotcards:the_hanged_man"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 42.0d
+		}
+		{
+			description: [""]
+			id: "465BBF3CD60500FE"
+			tasks: [{
+				id: "1354D3D89CE7387F"
+				item: {
+					Count: 1
+					id: "tarotcards:strength"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 35.0d
+		}
+		{
+			description: [""]
+			id: "61D0A7CAB4AA98BE"
+			tasks: [{
+				id: "4897774F06745A72"
+				item: {
+					Count: 1
+					id: "tarotcards:the_sun"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: 63.0d
+		}
+		{
+			description: [""]
+			id: "5E4A861C4BED74E2"
+			tasks: [{
+				id: "5A751187B205AFCE"
+				item: {
+					Count: 1
+					id: "tarotcards:the_devil"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.5d
+		}
+		{
+			description: ["星星给予你新的希望。"]
+			id: "01BE5B5DA6C0C609"
+			tasks: [{
+				id: "55897A04DC9B3847"
+				item: {
+					Count: 1
+					id: "tarotcards:the_star"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 28.0d
+		}
+		{
+			description: [""]
+			id: "372656C8B8B451CC"
+			tasks: [{
+				id: "02DCBB0666F3F3EF"
+				item: {
+					Count: 1
+					id: "tarotcards:the_empress"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			description: [""]
+			id: "1B97CBD8EB0AEF8B"
+			tasks: [{
+				id: "2666CB0C6D2BEAE7"
+				item: {
+					Count: 1
+					id: "tarotcards:death"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 13.5d
+			y: 22.5d
+		}
+		{
+			description: [""]
+			id: "3DE3C2DB4DEA8190"
+			tasks: [{
+				id: "16977F40C8696610"
+				item: {
+					Count: 1
+					id: "tarotcards:the_tower"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 9.0d
+		}
+		{
+			description: [
+				"月亮照耀着大地，使你风雨无阻。"
+				"完成第一次睡觉任务后，拥有10铁币获得。"
+			]
+			id: "17C9F892954AA96C"
+			tasks: [{
+				id: "1EE9FAFD6140DD7B"
+				item: {
+					Count: 1
+					id: "tarotcards:the_moon"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 22.5d
+		}
+		{
+			description: [""]
+			id: "6EC0018978295AA0"
+			tasks: [{
+				id: "72A68CC704C67275"
+				item: {
+					Count: 1
+					id: "tarotcards:temperance"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			description: ["命运是否站在你这一边？"]
+			id: "0AC54E4D6551A166"
+			tasks: [{
+				id: "550218E44F082616"
+				item: {
+					Count: 1
+					id: "tarotcards:wheel_of_fortune"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 22.5d
+		}
+		{
+			description: [""]
+			id: "45A3D53BCC6BCE99"
+			tasks: [{
+				id: "1ACBA63A6CE15F9D"
+				item: {
+					Count: 1
+					id: "tarotcards:the_world"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.9642857142857224d
+			y: 63.02857142857141d
+		}
+		{
+			description: [""]
+			id: "5E0365542DD662A0"
+			tasks: [{
+				id: "271BBC18233D3FAF"
+				item: {
+					Count: 1
+					id: "tarotcards:the_emperor"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 63.0d
+		}
+		{
+			description: ["机械的效能使你看破敌人的弱点。"]
+			id: "6C14B77F5EF04104"
+			tasks: [{
+				id: "1DEAFCE13717D337"
+				item: {
+					Count: 1
+					id: "tarotcards:the_chariot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 16.5d
+			y: 29.5d
+		}
+		{
+			description: ["在阴影里获得力量，斩尽你的敌人。"]
+			id: "1BE46BB0F2EA14EA"
+			tasks: [{
+				id: "00FD6314BD1E7587"
+				item: {
+					Count: 1
+					id: "tarotcards:the_hermit"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 63.0d
+		}
+		{
+			description: ["分发你的信仰之力。"]
+			id: "64431E34C22F4DC8"
+			tasks: [{
+				id: "68BD1C5671457299"
+				item: {
+					Count: 1
+					id: "tarotcards:the_hierophant"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 22.5d
+		}
+		{
+			id: "63E9EDBB32F0C51F"
+			tasks: [{
+				id: "1E6E1B0CFB1E8133"
+				item: {
+					Count: 1
+					id: "tarotcards:judgement"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 35.0d
+		}
+		{
+			id: "79667F61FDBC17BC"
+			tasks: [{
+				id: "5E576ED8E9F16CDB"
+				item: {
+					Count: 1
+					id: "tarotcards:justice"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 49.0d
+		}
+		{
+			id: "51F3E37F2A6295E6"
+			tasks: [{
+				id: "668D19D304CBD636"
+				item: "fast:bule_gem"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 8.5d
+		}
+		{
+			id: "44BF6E86F6BBEB0F"
+			tasks: [{
+				id: "4D33831C6C4BDF49"
+				item: "fast:iron_ring"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			id: "1C90FA4114F372D6"
+			tasks: [{
+				id: "5BEF56DA77FA0C12"
+				item: "fast:gold_ring"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			description: ["只有商店购买的或者副本掉落的才有末影饰品效果。"]
+			id: "04DC504895C8D691"
+			tasks: [{
+				id: "4DDD14D42B2DF3FD"
+				item: {
+					Count: 1
+					id: "minecraft:iron_ingot"
+					tag: {
+						enderbonus: {
+							genericVitBonus: 2
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			description: ["只有商店购买的或者副本掉落的才有末影饰品效果。"]
+			id: "3669D09AB4412B3B"
+			tasks: [{
+				id: "2C771BA16CE926D8"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:arcane_essence"
+					tag: {
+						enderbonus: {
+							genericIntBonus: 2
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			description: ["只有商店购买的获得副本掉落的才有末影饰品效果。"]
+			id: "69C7097C8E146D6D"
+			tasks: [{
+				id: "6259223CEE2C8439"
+				item: {
+					Count: 1
+					id: "minecraft:gold_ingot"
+					tag: {
+						enderbonus: {
+							genericAgiBonus: 2
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "62EC741CB8835C27"
+			tasks: [{
+				id: "7A987BF2978AFADA"
+				item: "fast:the_hero_sword"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 14.0d
+		}
+		{
+			id: "03E65664D3A0F865"
+			tasks: [{
+				id: "6628D9E1C38C68B1"
+				item: "fast:the_hero_shield"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 14.0d
+		}
+		{
+			id: "71CE80B1E63CB5D2"
+			tasks: [{
+				id: "32FCB971ED889761"
+				item: "fast:the_hero_bow"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 14.0d
+		}
+		{
+			id: "473CD914B4846671"
+			tasks: [{
+				id: "5530953EC86473EC"
+				item: "fast:the_hero_staff"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 14.0d
+		}
+		{
+			id: "7197D9C5A95213D5"
+			tasks: [{
+				id: "3A6378A4053380E2"
+				item: "fast:shadow_assassin_cloak"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 63.0d
+		}
+		{
+			id: "5C48436C83A2CC54"
+			tasks: [{
+				id: "6B76E7821F99B367"
+				item: "fast:shadow_dagge"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 63.0d
+		}
+		{
+			id: "3688520B5D6BA533"
+			tasks: [{
+				id: "7C38EAA395DD0EAE"
+				item: "fast:overcharged_mana_flask"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 9.0d
+		}
+		{
+			id: "24B36E22E335F7EF"
+			tasks: [{
+				id: "4078F48B41222528"
+				item: "fast:magic_shield"
+				type: "item"
+			}]
+			x: -4.500000000000014d
+			y: 62.99285714285713d
+		}
+		{
+			id: "377CCDC95FB0A83F"
+			tasks: [{
+				id: "3B79C737F8BBF3F6"
+				item: "fast:ice_scroll"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 1.5d
+		}
+		{
+			id: "0E6FC7C4C9D6904E"
+			tasks: [{
+				id: "1994C005234E906A"
+				item: "fast:frost_staff"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 21.0d
+		}
+		{
+			id: "28B2E353CDEE3F0E"
+			tasks: [{
+				id: "27E711A301682FE8"
+				item: {
+					Count: 1
+					id: "touhou_little_maid:fall_protect_bauble"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 16.5d
+			y: 7.0d
+		}
+		{
+			id: "5B39BA46FBC6E6ED"
+			tasks: [{
+				id: "7DA5D96264194DDA"
+				item: "fast:blaze_necklace"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 35.0d
+		}
+		{
+			id: "65925B300C76D1F8"
+			tasks: [{
+				id: "3247C4AF3514BCE6"
+				item: "fast:blaze_scroll"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 21.0d
+		}
+		{
+			id: "159DCFC14ACEFA76"
+			tasks: [{
+				id: "39650ADD88231763"
+				item: "fast:primal_fire"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 21.0d
+		}
+		{
+			id: "193BA7B56A826FCD"
+			tasks: [{
+				id: "23F6BF29DA784308"
+				item: "fast:blaze_shard"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 35.0d
+		}
+		{
+			id: "0B21DE0937B97DD6"
+			tasks: [{
+				id: "69AABEF95230FBE6"
+				item: "fast:ender_scroll"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 21.0d
+		}
+		{
+			id: "113035404EDE995C"
+			tasks: [{
+				id: "036E3F9D25D66568"
+				item: "fast:ender_necklace"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 22.5d
+		}
+		{
+			id: "05DE88A6A15411E7"
+			tasks: [{
+				id: "763EBB0B14417648"
+				item: "fast:iron_precision_mechanism"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 28.0d
+		}
+		{
+			id: "7F692FB97EDEC181"
+			tasks: [{
+				id: "4D248B4E83E5E16C"
+				item: "fast:water_precision_mechanism"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 28.0d
+		}
+		{
+			id: "50D3D1C39F26FB59"
+			tasks: [{
+				id: "34F4DAA7734536DF"
+				item: "fast:charge"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			id: "1AF31D4C46D3BC6F"
+			tasks: [{
+				id: "39DD6E13C5E830D1"
+				item: "fast:megumin_magic_staff"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 9.0d
+		}
+		{
+			id: "4E673788334F2F0C"
+			tasks: [{
+				id: "5A3FFC0DCD7EBBB0"
+				item: "irons_spellbooks:fire_upgrade_orb"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 7.5d
+		}
+		{
+			id: "5C70D457A4214B45"
+			tasks: [{
+				id: "743EA0CB21266E9F"
+				item: "cataclysm:burning_ashes"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 35.0d
+		}
+		{
+			id: "0D0E4861C08DEB08"
+			tasks: [{
+				id: "547E292441957011"
+				item: "irons_spellbooks:ice_upgrade_orb"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 6.0d
+		}
+		{
+			id: "152F9028C13DA73F"
+			tasks: [{
+				id: "047FBC44C3C68A76"
+				item: "irons_spellbooks:lightning_upgrade_orb"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			id: "471E67CCA64F9556"
+			tasks: [{
+				id: "2A04E11994F6CEBF"
+				item: "irons_spellbooks:holy_upgrade_orb"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 6.0d
+		}
+		{
+			id: "79246119E60F195C"
+			tasks: [{
+				id: "55DE69D815C814B6"
+				item: "irons_spellbooks:ender_upgrade_orb"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			id: "087129CA1BB830B5"
+			tasks: [{
+				id: "1BA7E1DDF7334A1D"
+				item: "irons_spellbooks:blood_upgrade_orb"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			id: "1657D4629477EE44"
+			tasks: [{
+				id: "4662228337542C4F"
+				item: "irons_spellbooks:evocation_upgrade_orb"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			id: "501F6EF567EBD028"
+			tasks: [{
+				id: "24C7E7C6272AADAD"
+				item: "irons_spellbooks:nature_upgrade_orb"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			id: "6A0B74CFF0D2A3C6"
+			tasks: [{
+				id: "48A912B72B2D5D05"
+				item: "fast:godspeed_wield"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 28.0d
+		}
+		{
+			description: ["马娘只有一个联动饰品，但该饰品已经可以成型一个特殊流派了，增加巨量的移动速度。"]
+			id: "0BBCCC4A633679CA"
+			tasks: [{
+				id: "3F1D5C268A861042"
+				item: "fast:uma_factor_item"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 42.0d
+		}
+		{
+			id: "3C64FA169AE1B281"
+			tasks: [{
+				id: "7B98D4E7075A5CD5"
+				item: "fast:the_dice_of_fate"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			id: "1CBDC8194F87F3E9"
+			tasks: [{
+				id: "0D5BD9B544B5557B"
+				item: "fast:wooden_craftsman_hammer"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 21.0d
+		}
+		{
+			id: "1D9C5838F4FBACE7"
+			tasks: [{
+				id: "7CA89D6C031BCE48"
+				item: "fast:iron_craftsman_hammer"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 21.0d
+		}
+		{
+			id: "08D39C86EB7B713F"
+			tasks: [{
+				id: "4C96C445546E4D5F"
+				item: "fast:gold_craftsman_hammer"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 21.0d
+		}
+		{
+			id: "108F743A17569E91"
+			tasks: [{
+				id: "57D4CC839CEE3C2B"
+				item: "fast:diamond_craftsman_hammer"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 21.0d
+		}
+		{
+			id: "7EF40AA24F6B0A01"
+			tasks: [{
+				id: "0318BC170B189CA4"
+				item: "fast:netherite_ingot_craftsman_hammer"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 22.5d
+		}
+		{
+			id: "6EEF2C730D235999"
+			tasks: [{
+				id: "78DE0FE562674B41"
+				item: "fast:brass_craftsman_hammer"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 28.0d
+		}
+		{
+			id: "0C29B9C56AA7748B"
+			tasks: [{
+				id: "638E0A71E7557093"
+				item: "fast:rose_quartz_gauntlets"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 29.5d
+		}
+		{
+			id: "7516688A3C863A05"
+			tasks: [{
+				id: "7A7AFE990520FD2E"
+				item: "fast:magic_quiver"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			id: "05769BBD47FBE6EE"
+			tasks: [{
+				id: "2DA73B22C9042C02"
+				item: "fast:magic_arrow"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			id: "5C94D344581D0DB8"
+			tasks: [{
+				id: "35355BAE4EDAA949"
+				item: "fast:iron_heart"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 29.5d
+		}
+		{
+			description: [
+				"把末影饰品放置到末影箱即可生效，相关数值在物品介绍上。"
+				"如果不生效，重新打开背包就好了。"
+				""
+				"&l&6所有的末影饰品获取方式只需要对着末影箱点击R键（默认键）或者在任务书左键这个末影箱即可查看。"
+				""
+				"&l&c对应的副本钥匙/末影饰品也可使用jei查看。"
+			]
+			icon: "minecraft:ender_chest"
+			id: "7E3DA927D42DC93A"
+			min_required_tasks: 1
+			size: 2.0d
+			tasks: [
+				{
+					id: "30BBB4B9D45EBA2B"
+					title: "末影饰品"
+					type: "checkmark"
+				}
+				{
+					id: "12E5A933D9EE9898"
+					item: "minecraft:ender_chest"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			id: "21908DF13C8F7971"
+			tasks: [{
+				id: "1EBB5BA6451E23E9"
+				item: "cataclysm:abyssal_sacrifice"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			id: "2FBA6F211D2C6BF3"
+			tasks: [{
+				id: "3275B04596FBAE93"
+				item: "cataclysm:necklace_of_the_desert"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 14.0d
+		}
+		{
+			id: "5172239528EDE95D"
+			tasks: [{
+				id: "39ABE91A35644932"
+				item: "cataclysm:mech_eye"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			id: "2388A9277503D69C"
+			tasks: [{
+				id: "69AA31D21189220B"
+				item: "cataclysm:flame_eye"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 35.0d
+		}
+		{
+			id: "1E72E90D271525CC"
+			tasks: [{
+				id: "562BF1328CF02A0D"
+				item: "cataclysm:void_eye"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 7.5d
+		}
+		{
+			id: "1B9CC1409154B54B"
+			tasks: [{
+				id: "1CFEF409993088AA"
+				item: "cataclysm:monstrous_eye"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 56.0d
+		}
+		{
+			id: "74398CF18779B627"
+			tasks: [{
+				id: "28EC754C59B55F61"
+				item: "cataclysm:abyss_eye"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.5d
+		}
+		{
+			id: "1A78DE1B74AC0AA0"
+			tasks: [{
+				id: "2A71655F3DF18419"
+				item: "cataclysm:desert_eye"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 7.5d
+		}
+		{
+			id: "1423D05AFCB649AC"
+			tasks: [{
+				id: "371693AE675AF5E4"
+				item: "cataclysm:cursed_eye"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 22.5d
+		}
+		{
+			id: "3A28C4F4CE114382"
+			tasks: [{
+				id: "0A698BB60B09ECE7"
+				item: "tconstruct:encyclopedia"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 42.0d
+		}
+		{
+			id: "0F6132DE34FF95A0"
+			tasks: [{
+				id: "1DC1F5F7BCBF88E1"
+				item: "fast:lethal_shutter"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 64.5d
+		}
+		{
+			id: "6F1E4D8837A2F413"
+			tasks: [{
+				id: "67F35C6D2A6DFE49"
+				item: "fast:fire_magic_shard"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 35.0d
+		}
+		{
+			id: "2BFBD04018013F7A"
+			tasks: [{
+				id: "331F2740E336A06A"
+				item: "fast:ender_magic_shard"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 1.5d
+		}
+		{
+			id: "0F255D099926EC6E"
+			tasks: [{
+				id: "3C8FCF0C28BE107D"
+				item: "fast:holy_magic_shard"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 64.5d
+		}
+		{
+			id: "1E3D3B5A6AAC5DF8"
+			tasks: [{
+				id: "72FEDB9ACDA04B98"
+				item: "fast:nature_magic_shard"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 49.0d
+		}
+		{
+			id: "50CBB3B57DE55849"
+			tasks: [{
+				id: "5B1F8E0AC342D33C"
+				item: "fast:blood_magic_shard"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 0.0d
+		}
+		{
+			id: "752FA19130BA494C"
+			tasks: [{
+				id: "552A24BBDE413F66"
+				item: "fast:evocation_magic_shard"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			id: "02BC0CCE7031962D"
+			tasks: [{
+				id: "0A5F8871ACD03361"
+				item: "fast:ice_magic_shard"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 28.0d
+		}
+		{
+			id: "6BBBB3C18F74FDFB"
+			tasks: [{
+				id: "47E5A8DEA91433C9"
+				item: "fast:lightning_magic_shard"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 56.0d
+		}
+		{
+			id: "490FB971B1F616D8"
+			tasks: [{
+				id: "540F0C6EA02ED971"
+				item: "fast:grimoire_of_mana_reaping"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 21.0d
+		}
+		{
+			id: "537A8B99B11AB65D"
+			tasks: [{
+				id: "2A8D8CDF48B62F49"
+				item: "fast:blazing_judgement"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 35.0d
+		}
+		{
+			id: "00A03AC32CEF8E2B"
+			tasks: [{
+				id: "0AD71CF7109DBBE1"
+				item: "fast:riftsong_edge"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 43.5d
+		}
+		{
+			description: ["食物章节铁碗任务获得。"]
+			id: "7B2CBBEBB3F7A893"
+			tasks: [{
+				id: "0568E78409F3CACE"
+				item: "hmag:fortune_crystal_plus"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 21.0d
+		}
+		{
+			description: ["由幸运水晶+获得"]
+			id: "632B1C93C943861C"
+			tasks: [{
+				id: "5A5E52196412A1D9"
+				item: "hmag:fortune_crystal"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 21.0d
+		}
+		{
+			id: "0CE7E99AC1DF5A89"
+			tasks: [{
+				id: "0A00F31AA82DA381"
+				item: "fast:ender_brass_hand"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 29.5d
+		}
+		{
+			id: "48A25E20820611D6"
+			tasks: [{
+				id: "42B69362C74A4D8B"
+				item: "fast:the_card1"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 57.5d
+		}
+		{
+			id: "5B774C5FB2AFCADE"
+			tasks: [{
+				id: "0621607BECC062C7"
+				item: "fast:the_card2"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 57.5d
+		}
+		{
+			id: "70A21A5BE321D0BC"
+			tasks: [{
+				id: "1AF4510857F9E3B2"
+				item: "fast:the_card3"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 57.5d
+		}
+		{
+			id: "260ABB1CA03E3B86"
+			tasks: [{
+				id: "7BFDF86C6A2B3AA3"
+				item: "fast:the_card4"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 56.0d
+		}
+		{
+			id: "3B77BBF1E05D109F"
+			tasks: [{
+				id: "2DB4CC5044BC3CFF"
+				item: "fast:the_card5"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 56.0d
+		}
+		{
+			id: "1DE533A46474EA58"
+			tasks: [{
+				id: "20CE951624E7D4BF"
+				item: "fast:the_card6"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 56.0d
+		}
+		{
+			id: "3ABA6126A0C6CD04"
+			tasks: [{
+				id: "53B7992C316F4042"
+				item: "fast:the_card7"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 56.0d
+		}
+		{
+			id: "05C026240FA40A9F"
+			tasks: [{
+				id: "38576232DF1FE1CC"
+				item: "fast:the_card8"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 57.5d
+		}
+		{
+			id: "3206F706C5BDE302"
+			tasks: [{
+				id: "1A201C4F6C0142F3"
+				item: "fast:the_card9"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 57.5d
+		}
+		{
+			id: "19F762E12AED0064"
+			tasks: [{
+				id: "43D700C12B9C7E84"
+				item: "fast:the_card10"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 56.0d
+		}
+		{
+			id: "2B3FF23DB80A9C04"
+			tasks: [{
+				id: "08E94E8C0C6F9839"
+				item: "fast:the_card11"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 56.0d
+		}
+		{
+			id: "7748E51C2F393421"
+			tasks: [{
+				id: "76E98ABC125726EC"
+				item: "fast:the_card12"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 57.5d
+		}
+		{
+			id: "095302C1938E0F05"
+			tasks: [{
+				id: "6DBA094313465838"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:apprentice_staff"
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 14.0d
+		}
+		{
+			id: "2ACBC9342FD10DE8"
+			tasks: [{
+				id: "496AF0B176C10C57"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:shimmering_diamond"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 13.5d
+			y: 28.0d
+		}
+		{
+			id: "11168FF275AEB1B1"
+			tasks: [{
+				id: "2915216443C1FF65"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:shining_beacon"
+				}
+				type: "item"
+			}]
+			x: 13.5d
+			y: 29.5d
+		}
+		{
+			id: "4E8BB60AD6A1D506"
+			tasks: [{
+				id: "6AEE9CE70DD8C4CF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:compassionate_heart"
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 28.0d
+		}
+		{
+			id: "07652CFC4544B579"
+			tasks: [{
+				id: "1C11ED135727CD22"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "celestisynth:celestial_core"
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 28.0d
+		}
+		{
+			id: "68959AD2A8BFF159"
+			tasks: [{
+				id: "3A8E458433228D66"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:ammo_drive"
+				}
+				type: "item"
+			}]
+			x: 16.5d
+			y: 28.0d
+		}
+		{
+			id: "5F23335FCEABE148"
+			tasks: [{
+				id: "48644862219A65D3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:precision_pouch"
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: 29.5d
+		}
+		{
+			id: "6D9BAD5DA74EF77D"
+			tasks: [{
+				id: "4E856323464E9F47"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:thunderbrand_magazine"
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: 28.0d
+		}
+		{
+			description: [
+				"元素试炼，Boss战先驱者，Boss战咒翼灵骸，Boss战远古遗魂。都有概率掉落灵渊秘术。"
+				""
+				"灵渊秘术可以根据末影饰品灵渊秘术释放出自定义的法术。"
+				""
+				"灵渊秘术可以使用所有学派除了远古巫术的法术，可以延迟释放，或者一次性使用多个学派的法术。"
+				""
+				"元素试炼和boss战的灵渊秘术法术概率与池子都是相同的。"
+				""
+				"boss战掉落的灵渊秘术提供给法术的等级加成会更高。"
+			]
+			hide_dependency_lines: true
+			icon: "fast:custom_spell"
+			id: "0873ECE03CAB689A"
+			tasks: [
+				{
+					id: "1616933138242A36"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "fast:custom_spell"
+					}
+					type: "item"
+				}
+				{
+					id: "23233241092E6F87"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "kubejs:custom_spell"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 63.0d
+		}
+		{
+			id: "5929BD651917BAF8"
+			tasks: [{
+				id: "17C6D29226E5E1DF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:magic_sword"
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			id: "3D9FC14916E294B7"
+			tasks: [{
+				id: "563EBFC0A4DF63F9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:justice_staff"
+				}
+				type: "item"
+			}]
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			id: "160B53108114F490"
+			tasks: [{
+				id: "7FE2FCBAAFAC89FE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:berserker_bow"
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			id: "45A029A38BF0541A"
+			tasks: [{
+				id: "17471F5A3C95E852"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:strange_key"
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 14.0d
+		}
+		{
+			id: "0E08C69CDF7E5F29"
+			tasks: [{
+				id: "07F96C2D8EDCFCB6"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:storm_eye"
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 49.0d
+		}
+		{
+			id: "2E33F0175D0F854C"
+			tasks: [{
+				id: "1A721F032E390812"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:pot_pot"
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: 22.5d
+		}
+		{
+			id: "20D0949BA357A93F"
+			tasks: [{
+				id: "41D1D23DC36F8DBD"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:blood_pact"
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 21.0d
+		}
+		{
+			id: "6F354BC808E70A77"
+			tasks: [{
+				id: "5ED32C651206991D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:blood_brand"
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 49.0d
+		}
+		{
+			id: "58FE94906BDB71E7"
+			tasks: [{
+				id: "63FC1884CC01506B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:blood_tally"
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: 49.0d
+		}
+		{
+			id: "24864DD60B9A0BAE"
+			tasks: [{
+				id: "0E6EBE589C34D561"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:blood_oath"
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 49.0d
+		}
+		{
+			id: "3B61E515F8738E38"
+			tasks: [{
+				id: "03E243F6DA56E99F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:blood_vitality"
+				}
+				type: "item"
+			}]
+			x: 13.5d
+			y: 49.0d
+		}
+		{
+			id: "79D163992D0F3553"
+			tasks: [{
+				id: "0E0E96B8A259BA01"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:fate_gem_strength"
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 7.0d
+		}
+		{
+			id: "0288D6073D90CE9C"
+			tasks: [{
+				id: "55A0DDEDC7DBE37E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:fate_gem_intelligence"
+				}
+				type: "item"
+			}]
+			x: 13.5d
+			y: 7.0d
+		}
+		{
+			id: "36766197017E998D"
+			tasks: [{
+				id: "3F9E6687027D98ED"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:fate_gem_vitality"
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: 7.0d
+		}
+		{
+			id: "7360C0F62641265A"
+			tasks: [{
+				id: "2F96EF488B26EEAF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:sword_soul"
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 42.0d
+		}
+		{
+			id: "2E29AB8039772AF5"
+			tasks: [{
+				id: "5195ACC25CA17D67"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:shadow_chaser"
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 42.0d
+		}
+		{
+			id: "577196B80F733CD6"
+			tasks: [{
+				id: "10828CD98EC08163"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:realm_splitter"
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: 42.0d
+		}
+		{
+			id: "249DF74C47DFF77A"
+			tasks: [{
+				id: "5D71CD7DDC0518F6"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:spirit_surge"
+				}
+				type: "item"
+			}]
+			x: 16.5d
+			y: 42.0d
+		}
+		{
+			id: "0A6E7F5288789F0A"
+			tasks: [{
+				id: "11E7F22A2F9F4781"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:soul_pact"
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: 42.0d
+		}
+		{
+			id: "0BB3BCB08305584F"
+			tasks: [{
+				id: "3D713EB10D53D59F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:demon_caller"
+				}
+				type: "item"
+			}]
+			x: 13.5d
+			y: 42.0d
+		}
+		{
+			id: "4659F86041A30D62"
+			tasks: [{
+				id: "1FE16F23B3CE8F35"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:fate_gem_agility"
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: 7.0d
+		}
+		{
+			id: "7D03EAAF73479B73"
+			tasks: [{
+				id: "6E3795626039C377"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "hmag:ancient_stone"
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.5d
+		}
+		{
+			id: "0172C81E5B63F343"
+			tasks: [{
+				id: "741E538853161BC0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "hmag:lightning_particle"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			id: "4942C6B7441C790F"
+			tasks: [{
+				id: "2F89ABEBB47EF99F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "hmag:evil_crystal"
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			id: "1E16C7643C654C5A"
+			tasks: [{
+				id: "14AABAB96554F2AE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "hmag:insomnia_sword"
+					tag: {
+						Damage: 0
+						hmag.level: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			id: "772F23F635093D39"
+			tasks: [{
+				id: "1FD2238F9BF95E25"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "hmag:insomnia_fruit"
+					tag: {
+						hmag.level: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			id: "4BBDC162E1DF7FCD"
+			tasks: [{
+				id: "0DE82D689329ADD8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "hmag:greedy_crystal_plus"
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			id: "3875857B03D46960"
+			tasks: [{
+				id: "4F484CE7CEBB01CF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "hmag:fire_bottle"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			id: "0100C05A6E35E4E6"
+			tasks: [{
+				id: "703DA6CA31CDBD84"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "hmag:purification_cloth"
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			id: "51CE1C3E8393A338"
+			tasks: [{
+				id: "687A7DE8A383E58C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "hmag:endless_pearl"
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			id: "604158E7F6301C99"
+			tasks: [{
+				id: "47A03C2254CE8ED4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "hmag:reinforcing_chain"
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			description: ["数值加成类末影饰品，这类饰品带上就能获得数值，没有什么特殊效果。"]
+			icon: "fast:iron_ring"
+			id: "31E05DFD4104E705"
+			tasks: [{
+				id: "31E2AD12053A5150"
+				title: "物理伤害"
+				type: "checkmark"
+			}]
+			title: "数值加成类"
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			description: ["强化饰品，这类饰品会强化或改变某个末影饰品的效果，以此来提升战力或者改变构筑思路。"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "fast:riftsong_edge"
+			}
+			id: "73671F51EC0EBF5C"
+			tasks: [{
+				id: "439F8932C885FB64"
+				title: "弓箭伤害"
+				type: "checkmark"
+			}]
+			title: "强化饰品"
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			id: "6ED23C53E53ED2C8"
+			tasks: [{
+				id: "4E9AE1CE76FE67D8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:deepblue_shard"
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "757A4554A74F980A"
+			tasks: [{
+				id: "131BE16E410E0FD9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "hmag:evil_crystal_fragment"
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			id: "701A0BCD85CB9B3E"
+			tasks: [{
+				id: "0143B9B8CC5B00CF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:justice_shield"
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"物理伤害，该类末影饰品通过条件造成物理伤害或者原始物理伤害来触发特殊效果。"
+				""
+				"物理伤害一般而言为近战攻击，原始物理伤害的意思是就算改变了伤害类型，也只会计算你第一次造成的伤害类型。"
+			]
+			icon: "fast:the_hero_sword"
+			id: "694EF04C926FC6C4"
+			tasks: [{
+				id: "5B5B5BEB123DB4EE"
+				title: "物理伤害"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: 13.0d
+		}
+		{
+			description: [
+				"女仆，该类末影饰品配合塔罗牌：恋人或者某些特定条件来强化女仆。或者女仆辅助玩家的效果。"
+				""
+				"某些勇者系列的末影饰品还是女仆饰品，也可以以此来强化女仆，女仆的好感度是关键，更多强化女仆的相关物品在女仆章节有写。"
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "tarotcards:the_lovers"
+				tag: { }
+			}
+			id: "4EDB1B91CA4F1FA3"
+			tasks: [{
+				id: "24CC6BD374F408CD"
+				title: "强化女仆"
+				type: "checkmark"
+			}]
+			title: "女仆"
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			description: [
+				"勇者，该类末影饰品一般为初始饰品，且一般而言女仆也可以当做女仆饰品穿戴并获得相同效果。"
+				""
+				"该饰品提供的效果既可以作为构筑核心，也可以作为辅助其他构筑进行帮助，甚至可以多个勇者系列一起穿戴。"
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "fast:the_hero_shield"
+			}
+			id: "3C8FE42CC27944A1"
+			tasks: [{
+				id: "1CF0CE379819C772"
+				title: "勇者"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: 13.0d
+		}
+		{
+			id: "50564B18277F6C85"
+			tasks: [{
+				id: "26D64DBBAB439AD2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:the_hero_dice"
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: 14.0d
+		}
+		{
+			description: ["生活，该类末影饰品无明显的战力提升，但对生活方向有很大的提升，生活是可以做到反哺到战斗中的。"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "hmag:fortune_crystal_plus"
+			}
+			id: "16E961B9F6938025"
+			tasks: [{
+				id: "6CDF7AEA12DDF371"
+				title: "生活"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: 20.0d
+		}
+		{
+			description: ["机械，该类末影饰品大部分的都由机械动力模组制作，可能什么形式的末影饰品都有，但更多的关键词是自动和枪械。"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "fast:ender_brass_hand"
+			}
+			id: "7CC413A6258F6B1C"
+			tasks: [{
+				id: "552C858D9D6624B4"
+				title: "机械"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: 27.0d
+		}
+		{
+			description: [
+				"魔法伤害，该类末影饰品通过条件造成魔法伤害或者原始魔法伤害来触发特殊效果。"
+				""
+				"魔法伤害会根据铁魔法学派来细分伤害类型，比如末影学派的法术就会造成末影伤害。"
+				""
+				"虽然伤害类型叫魔法伤害，但是非法术也能造成魔法伤害，比如勇者之盾造成的也是末影伤害，属于魔法伤害的一种。"
+				""
+				"该类末影饰品一般只专精强化一个学派的魔法伤害，每个学派的魔法伤害都有不同的加成或机制特色。"
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "fast:the_hero_staff"
+			}
+			id: "3D3DABD97895183D"
+			tasks: [{
+				id: "5819E48A1813C7A6"
+				title: "魔法伤害"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: 20.0d
+		}
+		{
+			description: ["负面条件，该类末影饰品多为拥有负面效果来获得效果的末影饰品，比如无法造成某种伤害，造成的某种伤害变为xx%，受到的某种伤害增加xx%。"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "fast:godspeed_wield"
+			}
+			id: "2B0F05823BBBCE7F"
+			tasks: [{
+				id: "3177A1CE7D6E2335"
+				title: "无法造成某种伤害"
+				type: "checkmark"
+			}]
+			title: "负面条件"
+			x: -5.5d
+			y: 27.0d
+		}
+		{
+			description: ["烈焰，该类末影饰品以火焰伤害，火焰学派，炙热为主，也有些力量相关的效果。"]
+			icon: "fast:blaze_scroll"
+			id: "496355CCA8378B0A"
+			tasks: [{
+				id: "3C98C06CF5883B56"
+				title: "烈焰"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: 34.0d
+		}
+		{
+			description: ["灵刃，该类末影饰品以剑灵为核心。"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "fast:sword_soul"
+			}
+			id: "02F3EE3EBD2BFB28"
+			tasks: [{
+				id: "4EE5A5C75DD05509"
+				title: "灵刃"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: 41.0d
+		}
+		{
+			description: ["血祀，该类末影饰品会主动对自己造成伤害，或在受到伤害时会获得特殊效果。"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "fast:blood_pact"
+			}
+			id: "500D4B820AE09CD6"
+			tasks: [{
+				id: "1C9CA9B8F14D1BE7"
+				title: "血祀"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: 48.0d
+		}
+		{
+			description: ["属性转化，该类末影饰品用某种属性转化为另一种属性或更多属性。"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "tarotcards:strength"
+				tag: { }
+			}
+			id: "2BD03D3613D12C16"
+			tasks: [{
+				id: "7D5A843BD2403497"
+				title: "属性转化"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: 34.0d
+		}
+		{
+			description: ["条件属性，该类末影饰品会根据某个条件来增加或减少你的属性。"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "tconstruct:encyclopedia"
+			}
+			id: "70D987A58BBDCB6C"
+			tasks: [{
+				id: "6DC57422E349D540"
+				title: "条件属性"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: 41.0d
+		}
+		{
+			description: [
+				"造成某种伤害/造成非某种伤害，该类末影饰品会以造成某种伤害/造成非某种伤害的条件触发特殊效果。"
+				""
+				"你可能想说这个分类与之前的物理伤害，魔法伤害类型是不是冲突了，我只能说类型不止一种，很多末影饰品都有多个分类，只是优先级的问题罢了。"
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "cataclysm:storm_eye"
+			}
+			id: "31CDAF4129C31218"
+			tasks: [{
+				id: "4003924064D2DEF7"
+				title: "造成某种伤害"
+				type: "checkmark"
+			}]
+			title: "造成某种伤害/造成非某种伤害"
+			x: -5.5d
+			y: 48.0d
+		}
+		{
+			description: ["抽卡盒，此类末影饰品都由抽卡盒产出，它们都拥有品质。"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "fast:card_box"
+			}
+			id: "1B1BB5E264EBBA80"
+			tasks: [{
+				id: "26D08D0009A73690"
+				title: "抽卡盒"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: 55.0d
+		}
+		{
+			description: ["基础属性强化，该类末影饰品以强化四大基础属性(力量，敏捷，智力，体质，它们统称全属性)或修改全属性为主。"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "cataclysm:monstrous_eye"
+			}
+			id: "2F518A415FD4501F"
+			tasks: [{
+				id: "5FF85FE673464A15"
+				title: "基础属性强化"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: 55.0d
+		}
+		{
+			description: [
+				"条件，此类末影饰品为某个条件触发某个效果。"
+				""
+				"有些条件相同的末影饰品太少了，因此拥有这个分类。"
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "fast:magic_shield"
+			}
+			id: "0EB857E428ED4C43"
+			tasks: [{
+				id: "7A97F616C1BBDFC5"
+				title: "条件"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: 62.0d
+		}
+		{
+			description: ["释放法术，该类末影饰品可以让你通过不同的方式来释放法术。"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "fast:custom_spell"
+			}
+			id: "4345F158B568EAE0"
+			tasks: [{
+				id: "507A766FB665B5CA"
+				title: "释放魔法"
+				type: "checkmark"
+			}]
+			title: "释放法术"
+			x: 8.0d
+			y: 62.0d
+		}
+		{
+			description: ["只有商店购买的或者副本掉落的才有末影饰品效果。"]
+			id: "7B80548C7CDD9DE9"
+			tasks: [{
+				id: "1501982BAE3B8688"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create:brass_ingot"
+					tag: {
+						enderbonus: {
+							genericPhysicalMasteryBonus: 10.0d
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			id: "3E78FA6082E7CAE8"
+			tasks: [{
+				id: "15B142B90FA890D9"
+				item: {
+					Count: 2
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:diamond"
+					tag: {
+						enderbonus: {
+							genericAgiBonus: 3.0d
+							genericIntBonus: 3.0d
+							genericStrBonus: 3.0d
+							genericVitBonus: 3.0d
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 1.5d
+			y: 9.0d
+		}
+		{
+			description: ["在遗迹残响：骸骨boss掉落的铁剑才拥有的特殊铁剑。"]
+			id: "514E5E05954EAD35"
+			tasks: [{
+				id: "4C1A9E7E27077221"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:iron_sword"
+					tag: {
+						Damage: 0
+						enderbonus: {
+							SwordSoulCount: 1.0d
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 43.5d
+		}
+		{
+			id: "50A1A1E1CCA7A009"
+			tasks: [{
+				id: "6E89E27188DFFD24"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:source_of_venom"
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 22.5d
+		}
+		{
+			id: "4157BDB9E71AE75A"
+			tasks: [{
+				id: "06C9F91315CF41D8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:the_hero_fishing_rod"
+				}
+				type: "item"
+			}]
+			x: 16.5d
+			y: 14.0d
+		}
+	]
+	title: "末影饰品"
+}

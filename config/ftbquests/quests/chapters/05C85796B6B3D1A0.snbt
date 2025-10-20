@@ -1,0 +1,829 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "05C85796B6B3D1A0"
+	group: "1D1516A5D26CBDD3"
+	icon: "money:coin_gold"
+	id: "05C85796B6B3D1A0"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1B845BA783D316D4"]
+			description: [
+				"你已经证明了你的实力，但要小心，接下来的敌人难度会继续提高。"
+				""
+				"你现在已经拥有可以抵抗灾变的力量了,但这还不够"
+			]
+			icon: "money:coin_diamond"
+			id: "217680F67794EABD"
+			rewards: [{
+				id: "02145E98A5572E5F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:raffle_ticket"
+					tag: {
+						RaffleTicket: "highInstance"
+					}
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "6C37C9F36B135E87"
+				title: "开始第三章"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["217680F67794EABD"]
+			dependency_requirement: "one_completed"
+			description: [
+				"这个沙漠项链可不是普通的沙漠项链，它有末影饰品效果。但也有它本身的功能：唤醒远古遗魂。"
+				""
+				"''场上飘舞的风暴与黄沙,将会为你带来远古与雷霆的启示''"
+			]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "fast:instance_pass14"
+			}
+			id: "4ABB819C3AF35370"
+			rewards: [{
+				id: "2189360050DEC75A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:raffle_ticket"
+					tag: {
+						RaffleTicket: "highInstance"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "24EA23FBC8626797"
+					item: "fast:instance_pass30"
+					type: "item"
+				}
+				{
+					id: "418C0F56EE8C74B6"
+					item: "cataclysm:necklace_of_the_desert"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["217680F67794EABD"]
+			description: [
+				"全是负面的末影饰品，好像在哪见过？"
+				""
+				"''当你凝视深渊的时候,深渊也在凝视着你,但现在你已经看清了这底下的一切''"
+			]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "fast:instance_pass4"
+			}
+			id: "001254A37F314D66"
+			rewards: [{
+				id: "7FED257B59D65134"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:raffle_ticket"
+					tag: {
+						RaffleTicket: "highInstance"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "022F38E5DA6F5D69"
+					item: "fast:instance_pass31"
+					type: "item"
+				}
+				{
+					id: "0BC3E3F57B39CEE2"
+					item: "cataclysm:abyssal_sacrifice"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["217680F67794EABD"]
+			description: [
+				"力量法师。"
+				""
+				"''幽冥与烈火无法共存,王不见王''"
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "fast:instance_pass14"
+			}
+			id: "5E3CAFB72B227CCC"
+			rewards: [{
+				id: "18B9317E71CE828F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:raffle_ticket"
+					tag: {
+						RaffleTicket: "highInstance"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "76E058E7124B02B0"
+					item: "fast:instance_pass32"
+					type: "item"
+				}
+				{
+					id: "68BDB5C6EC8310AD"
+					item: "cataclysm:flame_eye"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["217680F67794EABD"]
+			description: [
+				"敏捷系的核心。"
+				""
+				"''错综复杂的阵法,也变相告诉了你机关的巧妙''"
+			]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "fast:instance_pass2"
+			}
+			id: "4DE6A31A1E508BA6"
+			rewards: [{
+				id: "2EBCBB292F2E6FF0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:raffle_ticket"
+					tag: {
+						RaffleTicket: "highInstance"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "41D2379639E58A03"
+					item: "fast:instance_pass33"
+					type: "item"
+				}
+				{
+					id: "389FF08674CCA650"
+					item: "cataclysm:void_eye"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"4DE6A31A1E508BA6"
+				"5E3CAFB72B227CCC"
+				"4ABB819C3AF35370"
+				"001254A37F314D66"
+			]
+			description: ["紫水晶巨蟹多了几个技能，现在属于BOSS级的了。"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "fast:instance_pass34"
+			}
+			id: "20F401EF8C1F5A6D"
+			min_required_dependencies: 1
+			rewards: [{
+				id: "06CD8303EC9C62D7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:raffle_ticket"
+					tag: {
+						RaffleTicket: "highInstance"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7247063D57C1FF0E"
+					item: "fast:instance_pass34"
+					type: "item"
+				}
+				{
+					id: "3E0001F60E4A70D0"
+					item: "cataclysm:abyss_eye"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["20F401EF8C1F5A6D"]
+			description: [
+				"都是老熟人了，修改了限伤，现在它们的限制伤害上限是难度1的初始血量，几乎没有限伤。"
+				""
+				"击败任意一个即可完成任务。"
+			]
+			icon: "minecraft:spawner"
+			id: "53E7476DBE358F81"
+			min_required_dependencies: 1
+			min_required_tasks: 1
+			rewards: [{
+				id: "4B147ECD0AA85842"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:raffle_ticket"
+					tag: {
+						RaffleTicket: "highInstance"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2A736043D14412FF"
+					item: "fast:instance_pass16"
+					type: "item"
+				}
+				{
+					id: "3B249265BABEA46E"
+					item: "fast:instance_pass25"
+					type: "item"
+				}
+				{
+					id: "5DDE32FA04D86935"
+					item: "fast:instance_pass24"
+					type: "item"
+				}
+				{
+					id: "6F13C1FD86E8CD8B"
+					item: "fast:instance_pass23"
+					type: "item"
+				}
+				{
+					id: "1411C31354BCAC89"
+					item: "fast:instance_pass27"
+					type: "item"
+				}
+				{
+					id: "724D48FAA4056B66"
+					item: "fast:instance_pass26"
+					type: "item"
+				}
+				{
+					id: "1A0A5A1A3C6C3DE5"
+					item: "fast:instance_pass22"
+					type: "item"
+				}
+				{
+					id: "75DF4DD6CFA152C2"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "fast:instance_pass40"
+					}
+					type: "item"
+				}
+			]
+			title: "击败任意灾变BOSS"
+			x: 0.0d
+			y: -10.5d
+		}
+		{
+			dependencies: [
+				"4DE6A31A1E508BA6"
+				"5E3CAFB72B227CCC"
+				"001254A37F314D66"
+				"4ABB819C3AF35370"
+			]
+			description: ["诅咒之人等待着你的救赎。"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "cataclysm:cursed_eye"
+			}
+			id: "1257BF67115DEF1E"
+			min_required_dependencies: 1
+			rewards: [{
+				id: "16ED5AE7AD1636C9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:raffle_ticket"
+					tag: {
+						RaffleTicket: "highInstance"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5094197862CB54D9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:cursed_eye"
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"53E7476DBE358F81"
+				"3444D877DE851762"
+			]
+			description: ["临时最终BOSS，能写的副本还是太多了。"]
+			id: "3952A8176B571682"
+			size: 2.0d
+			tasks: [{
+				id: "7CFC6B2493673B4E"
+				item: "fast:instance_pass21"
+				type: "item"
+			}]
+			title: "神秘来客(感谢游玩)"
+			x: 2.5d
+			y: -14.0d
+		}
+		{
+			dependencies: ["217680F67794EABD"]
+			description: ["燃魂掉落的末影饰品，解决自燃问题。"]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			id: "3178D4161A0D7F1E"
+			tasks: [{
+				id: "45EA814310A150EE"
+				item: "cataclysm:burning_ashes"
+				type: "item"
+			}]
+			title: "不灭余烬"
+			x: 6.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["217680F67794EABD"]
+			description: [
+				"打到这了我觉得你想问我原版BOSS怎么血量这么低，我只能说没做。"
+				""
+				"&l&6魔法下界合金币用于魔术师牌的施法。"
+			]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			id: "0303D9A52BF27A59"
+			rewards: [{
+				count: 5
+				id: "3570C35B0113E891"
+				item: "money:magic_coin_netherite"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0A37DDCC047C0F34"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			title: "凋零之心"
+			x: -1.5d
+			y: -5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"53E7476DBE358F81"
+				"1257BF67115DEF1E"
+			]
+			icon: "fast:key21"
+			id: "3444D877DE851762"
+			rewards: [{
+				id: "24E1F75936082C7C"
+				item: "fast:key21"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5DACC440F0EBA05F"
+				title: "无限领取最终BOSS副本"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["001254A37F314D66"]
+			description: ["来自深渊,甚至能撕裂时空的恐怖捕食者"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "cataclysm:abyss_eye"
+			}
+			id: "625DA07C5588B257"
+			tasks: [{
+				id: "746C79C31EBA97A1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:instance_pass25"
+				}
+				type: "item"
+			}]
+			title: "利维坦"
+			x: 7.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["5E3CAFB72B227CCC"]
+			description: ["烈焰之主宰,至尊之战神"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "cataclysm:flame_eye"
+			}
+			id: "1E84606FCF906710"
+			tasks: [{
+				id: "7F1932EDCD936531"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:instance_pass16"
+				}
+				type: "item"
+			}]
+			title: "焰魔"
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"1E84606FCF906710"
+				"625DA07C5588B257"
+			]
+			description: ["海底最深的深渊,与烈焰最初的主宰"]
+			id: "5CF2AE59B74B4F12"
+			size: 2.0d
+			tasks: [{
+				id: "24890EB2CC724DF4"
+				type: "checkmark"
+			}]
+			title: "烈焰与深渊"
+			x: 12.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4DE6A31A1E508BA6"]
+			description: ["无尽虚空的守卫者"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "cataclysm:void_eye"
+			}
+			id: "7A8E19804CB0CD67"
+			tasks: [{
+				id: "6FA0095ED7E5B896"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:instance_pass22"
+				}
+				type: "item"
+			}]
+			title: "末影守卫"
+			x: -2.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["4ABB819C3AF35370"]
+			description: [
+				"斯库拉,来源于希腊神话中女性海妖的名字"
+				"而你要面对的,正是那可以触及风暴,甚至是风暴本身的女王"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "cataclysm:storm_eye"
+			}
+			id: "1ED31F8AA754E980"
+			tasks: [{
+				id: "2E1E0CD71031E433"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:instance_pass40"
+				}
+				type: "item"
+			}]
+			title: "斯库拉"
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"7A8E19804CB0CD67"
+				"1ED31F8AA754E980"
+			]
+			description: ["虚空浮岛藏傀儡,风暴之上现雷霆"]
+			id: "5F3197731884158B"
+			shape: "circle"
+			size: 2.0d
+			tasks: [{
+				id: "7FF1E623CE873AD3"
+				type: "checkmark"
+			}]
+			title: "虚空与风暴"
+			x: -7.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4ABB819C3AF35370"]
+			description: [
+				"来自远古的灵魂,死亡遗忘的生物"
+				""
+				"(远古yee魂)"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "cataclysm:desert_eye"
+			}
+			id: "6F565923FF483CB0"
+			tasks: [{
+				id: "4DF4FF34439012F9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:instance_pass26"
+				}
+				type: "item"
+			}]
+			title: "远古遗魂"
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5E3CAFB72B227CCC"]
+			description: ["苦寒之地昔日的传奇战士,后来的暴虐统领,再到今日的诅咒亡灵...咒翼灵骸"]
+			hide_dependency_lines: true
+			id: "5BDBF9FCE76F0D8C"
+			tasks: [{
+				id: "18D33D80836888DE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:cursed_eye"
+				}
+				type: "item"
+			}]
+			title: "咒翼灵骸"
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"6F565923FF483CB0"
+				"5BDBF9FCE76F0D8C"
+			]
+			description: ["被死亡遗忘之造物,古代暴虐之统领"]
+			id: "308D5EE8DB5E5F91"
+			size: 2.0d
+			tasks: [{
+				id: "4FAA0E9908D428E2"
+				type: "checkmark"
+			}]
+			title: "黄沙与咒灵"
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["217680F67794EABD"]
+			description: ["来自远古的科技,古人制造的战争机器"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "cataclysm:mech_eye"
+			}
+			id: "7D5C00C5E99DF8D5"
+			tasks: [{
+				id: "344047C99F8CF1E1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:instance_pass24"
+				}
+				type: "item"
+			}]
+			title: "远古科技"
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["217680F67794EABD"]
+			description: ["来自下界的恶兽,残骸铸身,吾焱永存!"]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "cataclysm:monstrous_eye"
+			}
+			id: "7243A6C23795867A"
+			tasks: [{
+				id: "33879E22209E915E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:instance_pass23"
+				}
+				type: "item"
+			}]
+			title: "战争机器"
+			x: 2.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["217680F67794EABD"]
+			description: ["本章节跨越较大,建议先去刷一下第二章,凑齐大部分饰品搭配之后再来,不然可能会被踹飞..."]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "7FB914E3C1A16090"
+			rewards: [{
+				id: "7B375D9FAC0108CA"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:enchanted_golden_apple"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6E9E29B5DD462B26"
+				type: "checkmark"
+			}]
+			title: "嘿,看我看我"
+			x: -5.5d
+			y: -12.0d
+		}
+	]
+	title: "第三章-更多的副本"
+}

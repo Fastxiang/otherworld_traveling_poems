@@ -1,0 +1,13 @@
+{
+  "item.money.coin_copper": "铜币",
+  "item.money.coin_iron": "铁币",
+  "item.money.coin_gold": "金币",
+  "item.money.coin_diamond": "钻石币",
+  "item.money.coin_emerald": "绿宝石币",
+  "item.money.coin_netherite": "下界合金币",
+  "item.money.magic_coin_gold": "魔法金币",
+  "item.money.magic_coin_diamond": "魔法钻石币",
+  "item.money.magic_coin_emerald": "魔法绿宝石币",
+  "item.money.magic_coin_netherite": "魔法下界合金币",
+  "item.money.magic_transformation_coin": "魔法转化币"
+}

@@ -1,0 +1,198 @@
+[20:59:49] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
+[20:59:49] [INIT] Loaded plugins:
+[20:59:49] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[20:59:49] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[20:59:49] [INIT] - dev.latvian.mods.kubejs.integration.forge.gamestages.GameStagesIntegration
+[20:59:49] [INIT] - com.lowdragmc.lowdraglib.kjs.LDLibKubeJSPlugin
+[20:59:49] [INIT] - io.github.mortuusars.exposure.integration.kubejs.ExposureJSPlugin
+[20:59:49] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
+[20:59:49] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbchunks.kubejs.FTBChunksKubeJSPlugin
+[20:59:49] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
+[20:59:49] [INIT] - com.squoshi.irons_spells_js.IronsSpellsJSPlugin
+[20:59:49] [INIT] - com.squoshi.irons_spells_js.compat.entityjs.EntityJSPlugin
+[20:59:49] [INIT] - com.lowdragmc.mbd2.integration.kubejs.MBDKubeJSPlugin
+[20:59:49] [INIT] - zank.mods.eventjs.EventJSKubeJSPlugin
+[20:59:49] [INIT] - net.liopyu.entityjs.EntityJSPlugin
+[20:59:49] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
+[20:59:49] [INIT] - studio.fantasyit.maid_storage_manager.integration.kubejs.KJSPlugin
+[20:59:49] [INIT] - com.prunoideae.powerfuljs.forge.PowerfulJSPluginForge
+[20:59:49] [INIT] - com.almostreliable.morejs.Plugin
+[20:59:49] [INIT] - pie.ilikepiefoo.AdditionsPlugin
+[20:59:49] [INIT] - pie.ilikepiefoo.compat.jei.JEIKubeJSPlugin
+[20:59:49] [INIT] - com.github.tartaricacid.touhoulittlemaid.compat.kubejs.ModKubeJSPlugin
+[20:59:49] [INIT] - qinomed.kubejsdelight.KubeJSDelightPlugin
+[20:59:49] [INIT] - net.sixik.sdmshoprework.common.integration.KubeJS.ShopJSPlugin
+[20:59:49] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
+[20:59:49] [INIT] - com.tacz.guns.compat.kubejs.TimelessKubeJSPlugin
+[20:59:49] [INIT] - net.liopyu.animationjs.AnimationJSPlugin
+[20:59:49] [INIT] - snownee.loquat.compat.kubejs.LoquatKubeJSPlugin
+[20:59:49] [INIT] - snownee.lychee.compat.kubejs.LycheeKubeJSPlugin
+[20:59:52] [INFO] common.js#2: Loaded Java class 'net.minecraft.world.phys.Vec3'
+[20:59:52] [INFO] common.js#3: Loaded Java class 'io.redspace.ironsspellbooks.damage.DamageSources'
+[20:59:52] [INFO] common.js#4: Loaded Java class 'io.redspace.ironsspellbooks.api.magic.MagicData'
+[20:59:52] [INFO] common.js#5: Loaded Java class 'io.redspace.ironsspellbooks.api.spells.CastSource'
+[20:59:52] [INFO] common.js#6: Loaded Java class 'io.redspace.ironsspellbooks.api.registry.SpellRegistry'
+[20:59:52] [INFO] common.js#7: Loaded Java class 'net.minecraft.resources.ResourceLocation'
+[20:59:52] [INFO] common.js#8: Loaded Java class 'io.redspace.ironsspellbooks.setup.Messages'
+[20:59:52] [INFO] common.js#9: Loaded Java class 'io.redspace.ironsspellbooks.network.ClientboundSyncMana'
+[20:59:52] [INFO] common.js#10: Loaded Java class 'io.redspace.ironsspellbooks.registries.EntityRegistry'
+[20:59:52] [INFO] common.js#11: Loaded Java class 'io.redspace.ironsspellbooks.entity.spells.fireball.MagicFireball'
+[20:59:52] [INFO] common.js#12: Loaded Java class 'io.redspace.ironsspellbooks.entity.spells.fireball.SmallMagicFireball'
+[20:59:52] [INFO] common.js#13: Loaded Java class 'virtuoel.pehkui.api.ScaleTypes'
+[20:59:52] [INFO] common.js#14: Loaded Java class 'net.minecraft.core.registries.Registries'
+[20:59:52] [INFO] common.js#15: Loaded Java class 'net.minecraft.resources.ResourceKey'
+[20:59:52] [INFO] common.js#16: Loaded Java class 'snownee.loquat.core.area.AABBArea'
+[20:59:52] [INFO] common.js#17: Loaded Java class 'snownee.loquat.core.AreaManager'
+[20:59:52] [INFO] common.js#18: Loaded Java class 'snownee.loquat.core.area.Area'
+[20:59:52] [INFO] common.js#19: Loaded Java class 'java.util.UUID'
+[20:59:52] [INFO] common.js#20: Loaded Java class 'snownee.loquat.core.RestrictInstance'
+[20:59:52] [INFO] common.js#22: Loaded Java class 'snownee.loquat.network.SSyncRestrictionPacket'
+[20:59:52] [INFO] common.js#23: Loaded Java class 'net.minecraft.world.BossEvent'
+[20:59:52] [INFO] common.js#24: Loaded Java class 'net.minecraft.server.level.ServerBossEvent'
+[20:59:52] [INFO] common.js#25: Loaded Java class 'net.minecraft.sounds.SoundSource'
+[20:59:52] [INFO] common.js#26: Loaded Java class 'tn.mbs.memory.network.MemoryOfThePastModVariables'
+[20:59:52] [INFO] common.js#27: Loaded Java class 'tn.mbs.memory.procedures.LevelUpProcedureProcedure'
+[20:59:52] [INFO] common.js#28: Loaded Java class 'tn.mbs.memory.configuration.MainConfigFileConfiguration'
+[20:59:52] [INFO] common.js#29: Loaded Java class 'forge.net.mca.entity.ai.relationship.EntityRelationship'
+[20:59:52] [INFO] common.js#30: Loaded Java class 'net.sixik.sdmshoprework.SDMShopR'
+[20:59:52] [INFO] common.js#31: Loaded Java class 'top.theillusivec4.curios.api.CuriosApi'
+[20:59:52] [INFO] common.js#32: Loaded Java class 'io.redspace.ironsspellbooks.spells.nature.PoisonSplashSpell'
+[20:59:52] [INFO] common.js#33: Loaded Java class 'com.simibubi.create.content.logistics.box.PackageItem'
+[20:59:52] [INFO] common.js#34: Loaded Java class 'com.simibubi.create.content.logistics.box.PackageEntity'
+[20:59:52] [INFO] common.js#35: Loaded Java class 'net.minecraftforge.items.ItemStackHandler'
+[20:59:52] [INFO] common.js#36: Loaded Java class 'net.minecraft.core.particles.ParticleTypes'
+[20:59:52] [INFO] common.js#37: Loaded Java class 'net.minecraft.world.inventory.ChestMenu'
+[20:59:52] [INFO] common.js#38: Loaded Java class 'net.minecraft.world.SimpleContainer'
+[20:59:52] [INFO] common.js#39: Loaded Java class 'com.sky.weaponmaster.SweeperWeapon'
+[20:59:52] [INFO] common.js#40: Loaded Java class 'net.minecraft.world.level.block.CropBlock'
+[20:59:52] [INFO] common.js#41: Loaded Java class 'net.minecraft.world.level.block.Blocks'
+[20:59:52] [INFO] common.js#42: Loaded Java class 'net.sixik.sdmshoprework.common.shop.ShopBase'
+[20:59:52] [INFO] common.js#43: Loaded Java class 'net.sixik.sdmshoprework.common.integration.KubeJS.KubeJSHelper'
+[20:59:52] [INFO] common.js#44: Loaded Java class 'com.simibubi.create.AllBlocks'
+[20:59:52] [INFO] common.js#45: Loaded Java class 'net.minecraft.world.InteractionHand'
+[20:59:52] [INFO] common.js#46: Loaded Java class 'net.minecraftforge.items.ItemHandlerHelper'
+[20:59:52] [INFO] common.js#47: Loaded Java class 'net.minecraft.world.entity.projectile.ProjectileUtil'
+[20:59:52] [INFO] common.js#48: Loaded Java class 'com.github.tartaricacid.touhoulittlemaid.entity.ai.brain.task.MaidUseShieldTask'
+[20:59:52] [INFO] common.js#49: Loaded Java class 'net.minecraft.world.entity.ai.memory.MemoryModuleType'
+[20:59:52] [INFO] common.js#50: Loaded Java class 'io.redspace.ironsspellbooks.capabilities.magic.TargetEntityCastData'
+[20:59:53] [INFO] common.js#51: Loaded Java class 'com.github.L_Ender.cataclysm.entity.projectile.Water_Spear_Entity'
+[20:59:53] [INFO] common.js#52: Loaded Java class 'com.main.fast.entity.SpiritSwordEntity'
+[20:59:53] [INFO] common.js#53: Loaded Java class 'com.lowdragmc.lowdraglib.misc.ItemStackTransfer'
+[20:59:53] [INFO] common.js#54: Loaded Java class 'com.main.fast.entity.FastSwordEntity'
+[20:59:53] [INFO] common.js#55: Loaded Java class 'com.main.fast.util.SwordEntityHelper'
+[20:59:53] [INFO] common.js#56: Loaded Java class 'io.redspace.ironsspellbooks.entity.spells.poison_cloud.PoisonCloud'
+[20:59:53] [INFO] Loaded script server_scripts:common.js in 0.22 s
+[20:59:53] [INFO] Loaded script server_scripts:ender_chest/event.js in 0.007 s
+[20:59:53] [INFO] ender_chest/forge/event.js#3: Loaded Java class 'net.minecraftforge.event.entity.living.MobEffectEvent$Added'
+[20:59:53] [INFO] ender_chest/forge/event.js#4: Loaded Java class 'net.minecraftforge.event.entity.player.CriticalHitEvent'
+[20:59:53] [INFO] ender_chest/forge/event.js#5: Loaded Java class 'net.minecraftforge.event.entity.living.LivingAttackEvent'
+[20:59:53] [INFO] ender_chest/forge/event.js#6: Loaded Java class 'net.minecraftforge.event.entity.living.LivingHurtEvent'
+[20:59:53] [INFO] ender_chest/forge/event.js#7: Loaded Java class 'net.minecraftforge.event.entity.living.LivingDamageEvent'
+[20:59:53] [INFO] ender_chest/forge/event.js#8: Loaded Java class 'io.redspace.ironsspellbooks.api.events.SpellHealEvent'
+[20:59:53] [INFO] ender_chest/forge/event.js#9: Loaded Java class 'com.github.tartaricacid.touhoulittlemaid.api.event.InteractMaidEvent'
+[20:59:53] [INFO] ender_chest/forge/event.js#10: Loaded Java class 'net.minecraftforge.event.entity.living.LivingGetProjectileEvent'
+[20:59:53] [INFO] ender_chest/forge/event.js#11: Loaded Java class 'net.minecraftforge.event.AnvilUpdateEvent'
+[20:59:53] [INFO] ender_chest/forge/event.js#12: Loaded Java class 'net.minecraftforge.event.entity.living.ShieldBlockEvent'
+[20:59:53] [INFO] ender_chest/forge/event.js#13: Loaded Java class 'net.minecraftforge.event.ItemStackedOnOtherEvent'
+[20:59:53] [INFO] ender_chest/forge/event.js#14: Loaded Java class 'com.tacz.guns.api.event.common.GunShootEvent'
+[20:59:53] [INFO] ender_chest/forge/event.js#15: Loaded Java class 'com.bonker.stardewfishing.server.event.StardewMinigameStartedEvent'
+[20:59:53] [INFO] ender_chest/forge/event.js#16: Loaded Java class 'com.bonker.stardewfishing.server.event.StardewMinigameEndedEvent'
+[20:59:53] [INFO] Loaded script server_scripts:ender_chest/forge/event.js in 0.026 s
+[20:59:53] [INFO] Loaded script server_scripts:item/shaped.js in 0.002 s
+[20:59:53] [INFO] Loaded script server_scripts:entity/difficult.js in 0.003 s
+[20:59:53] [INFO] Loaded script server_scripts:ender_chest/maid_event.js in 0.01 s
+[20:59:53] [INFO] Loaded script server_scripts:Instance/config.js in 0.019 s
+[20:59:53] [INFO] Loaded script server_scripts:item/raffle_ticket.js in 0.009 s
+[20:59:53] [INFO] Loaded script server_scripts:ender_chest/maid_tick.js in 0.003 s
+[20:59:53] [INFO] Loaded script server_scripts:ender_chest/inventory_closed_event.js in 0.021 s
+[20:59:53] [INFO] Loaded script server_scripts:ender_chest/hero_card.js in 0.002 s
+[20:59:53] [INFO] entity/ai.js#3: Loaded Java class 'net.minecraft.world.entity.player.Player'
+[20:59:53] [INFO] Loaded script server_scripts:entity/ai.js in 0.042 s
+[20:59:53] [INFO] Loaded script server_scripts:ender_chest/player_rightclicked.js in 0.003 s
+[20:59:53] [INFO] Loaded script server_scripts:ender_chest/forge/player_hurt.js in 0.005 s
+[20:59:53] [INFO] Loaded script server_scripts:ender_chest/forge/player_damage.js in 0.014 s
+[20:59:53] [INFO] Loaded script server_scripts:ender_chest/forge/entity_hurt.js in 0.001 s
+[20:59:53] [INFO] Loaded script server_scripts:entity/boss_event.js in 0.002 s
+[20:59:53] [INFO] Loaded script server_scripts:Instance/rogue_like.js in 0.021 s
+[20:59:53] [INFO] Loaded script server_scripts:tags_create/entity_type.js in 0.0 s
+[20:59:53] [INFO] Loaded script server_scripts:entity/ossukage.js in 0.001 s
+[20:59:53] [INFO] Loaded script server_scripts:entity/alex.js in 0.001 s
+[20:59:53] [INFO] Loaded script server_scripts:entity/zombie_summoner.js in 0.001 s
+[20:59:53] [INFO] Loaded script server_scripts:entity/mysterious_black_cloaked_swordsman.js in 0.003 s
+[20:59:53] [INFO] Loaded script server_scripts:entity/mydterious_figure.js in 0.005 s
+[20:59:53] [INFO] Loaded script server_scripts:entity/amethyst_crab.js in 0.002 s
+[20:59:53] [INFO] Loaded script server_scripts:ender_chest/entity_event.js in 0.003 s
+[20:59:53] [INFO] Loaded script server_scripts:ender_chest/forge/maid_food.js in 0.002 s
+[20:59:53] [INFO] Loaded script server_scripts:ender_chest/ender_pouch.js in 0.003 s
+[20:59:53] [INFO] Loaded script server_scripts:debug.js in 0.0 s
+[20:59:53] [INFO] Loaded script server_scripts:tags_create/mob_effect.js in 0.0 s
+[20:59:53] [INFO] Loaded script server_scripts:tags_create/item.js in 0.001 s
+[20:59:53] [INFO] Loaded script server_scripts:tags_create/damage_type.js in 0.0 s
+[20:59:53] [INFO] Loaded script server_scripts:item/shapeds.js in 0.0 s
+[20:59:53] [INFO] Loaded script server_scripts:item/remove.js in 0.001 s
+[20:59:53] [INFO] Loaded script server_scripts:item/jamcooking.js in 0.003 s
+[20:59:53] [INFO] Loaded script server_scripts:item/crushing.js in 0.0 s
+[20:59:53] [INFO] Loaded script server_scripts:item/cooking.js in 0.0 s
+[20:59:53] [INFO] Loaded script server_scripts:item/weapon/config.js in 0.0 s
+[20:59:53] [INFO] Loaded script server_scripts:item/tinkering/rigister.js in 0.001 s
+[20:59:53] [INFO] Loaded script server_scripts:item/create/recipes.js in 0.001 s
+[20:59:53] [INFO] Loaded script server_scripts:item/ender_chest/tag.js in 0.001 s
+[20:59:53] [INFO] Loaded script server_scripts:ender_chest/tick_event.js in 0.003 s
+[20:59:53] [INFO] Loaded script server_scripts:ender_chest/sdm_shop_event.js in 0.001 s
+[20:59:53] [INFO] Loaded script server_scripts:ender_chest/player_food_eaten.js in 0.0 s
+[20:59:53] [INFO] Loaded script server_scripts:ender_chest/maid_chest.js in 0.0 s
+[20:59:53] [INFO] Loaded script server_scripts:ender_chest/loot.js in 0.031 s
+[20:59:53] [INFO] Loaded script server_scripts:ender_chest/key.js in 0.002 s
+[20:59:53] [INFO] Loaded script server_scripts:ender_chest/fe_value.js in 0.0 s
+[20:59:53] [INFO] Loaded script server_scripts:ender_chest/exposure_event.js in 0.001 s
+[20:59:53] [INFO] Loaded script server_scripts:ender_chest/entity_dead.js in 0.001 s
+[20:59:53] [INFO] Loaded script server_scripts:ender_chest/ender_chest.js in 0.027 s
+[20:59:53] [INFO] Loaded script server_scripts:ender_chest/charge_attack.js in 0.0 s
+[20:59:53] [INFO] Loaded script server_scripts:ender_chest/anger_value.js in 0.001 s
+[20:59:53] [INFO] Loaded script server_scripts:ender_chest/magic/sword_technique_heroic_strike.js in 0.001 s
+[20:59:53] [INFO] Loaded script server_scripts:ender_chest/magic/sword_technique_moon_god_calamity.js in 0.001 s
+[20:59:53] [INFO] Loaded script server_scripts:ender_chest/magic/sword_technique_decisive_strike.js in 0.001 s
+[20:59:53] [INFO] Loaded script server_scripts:ender_chest/magic/sword_technique_flying_sword_guard.js in 0.001 s
+[20:59:53] [INFO] Loaded script server_scripts:ender_chest/magic/sword_rechnique_utli.js in 0.0 s
+[20:59:53] [INFO] Loaded script server_scripts:ender_chest/magic/sword_technique_four_strike.js in 0.002 s
+[20:59:53] [INFO] Loaded script server_scripts:ender_chest/magic/player_magic.js in 0.005 s
+[20:59:53] [INFO] Loaded script server_scripts:ender_chest/magic/player_event.js in 0.001 s
+[20:59:53] [INFO] Loaded script server_scripts:ender_chest/magic/oath_of_knight.js in 0.0 s
+[20:59:53] [INFO] Loaded script server_scripts:ender_chest/magic/magic_data.js in 0.001 s
+[20:59:53] [INFO] Loaded script server_scripts:ender_chest/magic/fireballplus.js in 0.001 s
+[20:59:53] [INFO] Loaded script server_scripts:ender_chest/magic/explosion.js in 0.001 s
+[20:59:53] [INFO] Loaded script server_scripts:ender_chest/magic/custom_spell.js in 0.001 s
+[20:59:53] [INFO] Loaded script server_scripts:ender_chest/forge/player_fish_game.js in 0.001 s
+[20:59:53] [INFO] Loaded script server_scripts:ender_chest/forge/player_key_event.js in 0.0 s
+[20:59:53] [INFO] Loaded script server_scripts:ender_chest/forge/player_maid_entity_event.js in 0.003 s
+[20:59:53] [INFO] Loaded script server_scripts:ender_chest/forge/player_login.js in 0.0 s
+[20:59:53] [INFO] Loaded script server_scripts:ender_chest/forge/player_heal.js in 0.0 s
+[20:59:53] [INFO] Loaded script server_scripts:ender_chest/forge/player_effect.js in 0.0 s
+[20:59:53] [INFO] Loaded script server_scripts:ender_chest/forge/player_crt.js in 0.0 s
+[20:59:53] [INFO] Loaded script server_scripts:ender_chest/forge/player_attack.js in 0.002 s
+[20:59:53] [INFO] Loaded script server_scripts:ender_chest/forge/player_arrow.js in 0.0 s
+[20:59:53] [INFO] ender_chest/forge/player_anvil.js#1: Loaded Java class 'net.minecraftforge.event.ItemAttributeModifierEvent'
+[20:59:53] [INFO] ender_chest/forge/player_anvil.js#2: Loaded Java class 'net.minecraft.world.entity.ai.attributes.AttributeModifier'
+[20:59:53] [INFO] Loaded script server_scripts:ender_chest/forge/player_anvil.js in 0.036 s
+[20:59:53] [INFO] Loaded script server_scripts:ender_chest/forge/gun_shoot.js in 0.002 s
+[20:59:53] [INFO] ender_chest/forge/gui.js#3: Loaded Java class 'net.minecraft.world.SimpleMenuProvider'
+[20:59:53] [INFO] ender_chest/forge/gui.js#4: Loaded Java class 'java.util.Optional'
+[20:59:53] [INFO] Loaded script server_scripts:ender_chest/forge/gui.js in 0.006 s
+[20:59:53] [INFO] Loaded script server_scripts:ender_chest/forge/entity_event.js in 0.001 s
+[20:59:53] [INFO] Loaded script server_scripts:ender_chest/forge/entity_shield.js in 0.0 s
+[20:59:53] [INFO] Loaded script server_scripts:Instance/loquat.js in 0.0 s
+[20:59:53] [INFO] Loaded script server_scripts:Instance/command.js in 0.001 s
+[20:59:53] [INFO] Loaded 82/82 KubeJS server scripts in 0.665 s with 0 errors and 0 warnings
+[20:59:53] [INFO] Scripts loaded
+[20:59:53] [INFO] Initializing recipe event...
+[20:59:58] [INFO] [minecraft:mob_effect] Found 13 tags, added 2 objects, removed 0 objects
+[20:59:58] [INFO] [minecraft:item] Found 1534 tags, added 353 objects, removed 22 objects
+[20:59:59] [INFO] [minecraft:entity_type] Found 239 tags, added 6 objects, removed 0 objects
+[20:59:59] [INFO] [minecraft:damage_type] Found 93 tags, added 18 objects, removed 0 objects
+[21:00:04] [INFO] Processing recipes...
+[21:00:04] [WARN] Failed to parse recipe 'cataclysm:stonecutting/azure_seastone_brick_stair_from_stonecutting[minecraft:stonecutting]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+[21:00:05] [INFO] Found 9387 recipes in 663.5 ms
+[21:00:05] [INFO] Posted recipe events in 386.2 ms
+[21:00:05] [WARN] Error parsing recipe tconstruct:kjs/1rwx773xgvpoeylkwkf2m95pg[tconstruct:material]: {"type":"tconstruct:material","ingredient":{"item":"create:zinc_ingot_block"},"leftover":{"count":1,"item":"create:zinc_ingot"},"material":"kubejs:zinc_ingot","needed":1,"value":9}: Unknown item 'create:zinc_ingot_block'
+[21:00:05] [WARN] Error parsing recipe tconstruct:kjs/1ranne0cajl9lmmoluofgjltw[tconstruct:material]: {"type":"tconstruct:material","ingredient":{"item":"create:brass_ingot_block"},"leftover":{"count":1,"item":"create:brass_ingot"},"material":"kubejs:brass_ingot","needed":1,"value":9}: Unknown item 'create:brass_ingot_block'
+[21:00:05] [INFO] Added 99 recipes, removed 232 recipes, modified 27 recipes, with 2 failed recipes in 236.9 ms

@@ -1,0 +1,310 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1F0327F53EE5D043"
+	group: "67091C4774FC5F4A"
+	icon: "fast:potential_paper"
+	id: "1F0327F53EE5D043"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["62883B1717961C17"]
+			description: [
+				"潜力锻造是本整合包新加一个系统，用于自定义你的武器属性，任何物品都可以进行潜力锻造，但效果只有手持时才能生效。"
+				""
+				"要进行潜力锻造，首先得有潜力值，潜力值由潜力纸获得。潜力纸由副本获得，当然副本可能也会掉落一些本身就有潜力的装备。"
+				""
+				"&l&3使用铁砧，左边放需要添加潜力的物品，右边放潜力纸，即可让左边物品获得潜力。"
+			]
+			icon: "fast:potential_paper"
+			id: "2DCBF60ED1041F1C"
+			rewards: [{
+				id: "3D08DE668DCCC114"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:potential_reverter"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "023C6C3C8295D29E"
+				title: "潜力锻造介绍"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2DCBF60ED1041F1C"]
+			description: [
+				"如何进行锻造？"
+				"&l&3同理，也是使用铁砧，左边放拥有潜力的物品，右边放对应材料，对应材料在任务查看。"
+				"&l&6锻造可获得的所有正面/负面属性，上限为6个&r&r"
+				"&l&e锻造的单个属性上限提升需要技巧。"
+				"&l&f技巧：每4点 +1非百分比属性的锻造上限 每8点 +1%百分比属性的锻造上限 负面属性则增加相等的负面上限"
+			]
+			icon: "minecraft:anvil"
+			id: "54784C7AA3C0B158"
+			tasks: [{
+				id: "0FFBC9C5C6D13F95"
+				title: "进行锻造"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["54784C7AA3C0B158"]
+			description: [
+				"&l&7负面锻造材料："
+				"• 煤炭：获得3潜力 -1%攻击（基础上限-6%）"
+				"• 燧石：获得2潜力 -1攻击（基础上限-6）"
+				"• 青金石：获得3潜力 -1%法术强度（基础上限-6%）"
+				"• 红石：获得2潜力 -1智力（基础上限-10）"
+				"• 烈焰棒：获得2潜力 -1力量（基础上限-10）"
+				"• 骨头：获得2潜力 -1体质（基础上限-10）"
+				"• 粘液球：获得2潜力 -1敏捷（基础上限-10）"
+				"• 萤石：获得2潜力 -1护甲（基础上限-10）"
+				"• 纸：获得1潜力 -1防御（基础上限-10）"
+				"• 皮革：获得2潜力 -1最大生命值（基础上限-6）"
+				"• 黏土：获得1潜力 -1%暴击率（基础上限-15%）"
+				"• 木棍：获得3潜力 -1%暴击伤害（基础上限-6%）"
+			]
+			icon: "minecraft:coal"
+			id: "7467143C51310095"
+			tasks: [{
+				id: "70EA2BDD9030079A"
+				title: "负面锻造材料"
+				type: "checkmark"
+			}]
+			title: "负面锻造材料"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7467143C51310095"]
+			description: [
+				"&l&c正面锻造材料："
+				"• 钻石：消耗6潜力 +1%攻击（基础上限6%）"
+				"• 绿宝石：消耗4潜力 +1攻击（基础上限6）"
+				"• 奥术源质：消耗6潜力 +1%法术强度（基础上限6%）"
+				"• 紫水晶碎片：消耗4潜力 +1智力（基础上限10）"
+				"• 铜锭：消耗4潜力 +1力量（基础上限10）"
+				"• 金锭：消耗4潜力 +1敏捷（基础上限10）"
+				"• 铁锭：消耗4潜力 +1体质（基础上限10）"
+				"• 安山合金：消耗4潜力 +1护甲（基础上限10）"
+				"• 圆石：消耗2潜力 +1防御（基础上限10）"
+				"• 石英：消耗4潜力 +1最大生命值（基础上限6）"
+				"• 铁板：消耗2潜力 +1%暴击率（基础上限15%）"
+				"• 黄铜板：消耗6潜力 +1%暴击伤害（基础上限6%）"
+			]
+			icon: "minecraft:diamond"
+			id: "0B787E6BF522F6B2"
+			tasks: [{
+				id: "248BB9861C991434"
+				title: "正面锻造材料"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0B787E6BF522F6B2"]
+			description: [
+				"在提升的过程中，你也许会看到描述写着可锻造特性的描述。"
+				"这些物品锻造的方法和属性锻造的方法是一样的。"
+				""
+				"&l&c但是额外占用一个属性上限，也就是说锻造物品特性需要2个属性的需求。"
+				""
+				"&l&6特性锻造只能拥有一个"
+			]
+			icon: "waystones:warp_dust"
+			id: "6906A4A74833E986"
+			rewards: [{
+				count: 4
+				id: "3DB3C5318F6C4825"
+				item: "waystones:warp_dust"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5604531508A909AA"
+				title: "特性锻造"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6906A4A74833E986"]
+			description: ["岩浆钓鱼获得"]
+			hide_dependency_lines: true
+			id: "7C7C9B0270C9170C"
+			tasks: [{
+				id: "65DF6F8FDD02AC23"
+				item: "lavafishing:quartz_fish"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["6906A4A74833E986"]
+			hide_dependency_lines: true
+			id: "75160AA83C023CED"
+			tasks: [{
+				id: "1697EFDFE94E1EB6"
+				item: "collectorsreap:lime_popsicle"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["6906A4A74833E986"]
+			description: ["岩浆钓鱼获得"]
+			hide_dependency_lines: true
+			id: "33659A9713F07F91"
+			tasks: [{
+				id: "4D762511395101A8"
+				item: "lavafishing:arowana_fish"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["6906A4A74833E986"]
+			description: [""]
+			hide_dependency_lines: true
+			id: "47A707A6F0B05FBF"
+			tasks: [{
+				id: "7C8D557B454BB2B7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:big_popsicle"
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["6906A4A74833E986"]
+			description: [""]
+			hide_dependency_lines: true
+			id: "58704300559E7C44"
+			tasks: [{
+				id: "67009A06C8482000"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "youkaishomecoming:assorted_dango"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["6906A4A74833E986"]
+			hide_dependency_lines: true
+			id: "1F4D4F4FFE50FBB1"
+			tasks: [{
+				id: "031B7811921575A0"
+				item: "irons_spellbooks:divine_pearl"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["6906A4A74833E986"]
+			hide_dependency_lines: true
+			id: "23E172674950F8E8"
+			tasks: [{
+				id: "48ACA5760ADDAFF2"
+				item: "hmag:greedy_crystal"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6906A4A74833E986"]
+			hide_dependency_lines: true
+			id: "2E0F35477EA161BD"
+			tasks: [{
+				id: "09FD365CF540004D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:recoil_musket"
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6906A4A74833E986"]
+			description: ["注意：这是一个通用的潜力锻造，可以让所有消耗耐久的物品变得无法破坏。"]
+			hide_dependency_lines: true
+			id: "0856A651ACF04CAF"
+			tasks: [{
+				id: "6AD85D73B4095F43"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:bedrock"
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["6906A4A74833E986"]
+			description: ["不是我喜欢的潜力锻造，直接洗掉。"]
+			id: "4459B39C248C3176"
+			tasks: [{
+				id: "53197FF52327A9B8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:potential_reverter"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.5d
+		}
+	]
+	title: "潜力锻造"
+}

@@ -1,0 +1,7 @@
+#在这里填入URL
+checkUrl = "https://gitee.com/Fast_xiang/fast/blob/master/version/version.txt"
+#在这里填入次要URL
+secondaryCheckUrl = "null"
+#当前版本
+version = "0.57测试版"
+

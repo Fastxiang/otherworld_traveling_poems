@@ -1,0 +1,171 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6A1980D2D47718DB"
+	group: ""
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			"celestisynth:celestisynthitemstackcapabilities": {
+				cs.aquaSkin: 0
+			}
+		}
+		id: "minecraft:apple"
+	}
+	id: "6A1980D2D47718DB"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"写着末影饰品的物品。放入末影箱即可生效特殊效果。"
+				"{image:kubejs:textures/jiaocheng/shiping_jiao_cheng.png width:200 height:100 align:center}"
+			]
+			icon: "minecraft:ender_chest"
+			id: "4F4BBD737B8AAB59"
+			tasks: [{
+				id: "65C5AC0AA3A27CBF"
+				type: "checkmark"
+			}]
+			title: "末影饰品"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4F4BBD737B8AAB59"]
+			description: [
+				"现在的目标就是打败最终boss神秘来客。"
+				""
+				"靠着末影饰品和潜力锻造和属性点提供的加成来打败敌人变得更强。"
+				""
+				"而获得这些东西又需要你赚钱，因此，赚钱是最重要的过程。"
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:netherite_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "555DA2FF4F3D7C90"
+			tasks: [{
+				id: "0594F92E3C1D08D8"
+				type: "checkmark"
+			}]
+			title: "我该干什么？"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["555DA2FF4F3D7C90"]
+			description: [
+				"搭配末影饰品之前，你可能需要一个紫水晶共鸣项链。"
+				""
+				"这个饰品装备到普通饰品位置时，可以查看你所造成伤害的伤害类型。"
+				""
+				"末影饰品的效果，一般都是根据这个伤害类型来进行强化的。"
+				"{image:kubejs:textures/jiaocheng/shiping_jiao_cheng2.png width:200 height:100 align:center}"
+			]
+			id: "569C5777D302A4D1"
+			rewards: [{
+				id: "544D75B182A4E8FB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:raffle_ticket"
+					tag: {
+						RaffleTicket: "lowInstance"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4C92902B690E1A96"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "irons_spellbooks:amethyst_resonance_charm"
+				}
+				type: "item"
+			}]
+			title: "如何搭配末影饰品？"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["569C5777D302A4D1"]
+			description: [
+				"打开背包，点击上方的铁剑即可查看你当前属性。"
+				""
+				"按Y键可以进行加点，赠送的重生法典就是用来重置这个加点的。"
+				"{image:kubejs:textures/jiaocheng/shiping_jiao_cheng3.png width:200 height:100 align:center}"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:iron_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "22E1244EB8AD5964"
+			rewards: [{
+				id: "34343453D4C0B8C4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "memory_of_the_past:tome_of_rebirth"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6C6D633B6DF27EED"
+				title: "如何查看我的属性？"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			description: ["这个包并不会特意为了一些奇奇怪怪的东西卡你,相反它的很多东西都比较自由化,比方说赚钱,你既可以依靠机械动力的收割机器来实现自动化,也可以依靠女仆种田来实现,当然也可以通过副本,甚至悬赏."]
+			id: "06C090698908C8E5"
+			rewards: [{
+				id: "6462CC113BC1B8F9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:apple"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "598560362A213C5E"
+				type: "checkmark"
+			}]
+			title: "话外题"
+			x: 0.0d
+			y: -6.0d
+		}
+	]
+	title: "如何游玩？"
+}

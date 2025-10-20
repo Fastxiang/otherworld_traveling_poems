@@ -1,0 +1,11 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "kubejs:button/ender_chest.png",
+            "ascent": 11,
+            "height": 18,
+            "chars": ["\u0062"]
+        }
+    ]
+}

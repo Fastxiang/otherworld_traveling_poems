@@ -1,0 +1,104 @@
+
+["General Settings"]
+	init_val_starting_level = 0.0
+
+["Attribute 1"]
+	display_name = "体质 : "
+	cmd_to_exc = ["/attribute @p fast:vit base set"]
+	on_level_event = [" "]
+	tip_to_display = "§7每点体质增加0.5生命值，2点防御"
+	init_val_attribute_one = 0.0
+	max_level = 200.0
+	base_value_per_point = 1.0
+	lock = false
+
+["Attribute 2"]
+	display_name = "力量 : "
+	cmd_to_exc = ["/attribute @p fast:str base set"]
+	on_level_event = [" "]
+	tip_to_display = "§7每点力量增加0.5攻击，0.1生命值"
+	init_val_attribute_two = 0.0
+	max_level = 200.0
+	base_value_per_point = 1.0
+	lock = false
+
+["Attribute 3"]
+	display_name = "敏捷 : "
+	cmd_to_exc = ["/attribute @p fast:agi base set"]
+	on_level_event = [" "]
+	tip_to_display = "§7每点敏捷增加0.1%攻击速度，0.1%移动速度"
+	init_val_attribute_three = 0.0
+	max_level = 200.0
+	base_value_per_point = 1.0
+	lock = false
+
+["Attribute 4"]
+	display_name = "智力 : "
+	cmd_to_exc = ["/attribute @p fast:int base set"]
+	on_level_event = [" "]
+	tip_to_display = "§7每点智力增加0.005基础法术强度，1法力值上限"
+	init_val_attribute_forth = 0.0
+	max_level = 200.0
+	base_value_per_point = 1.0
+	lock = false
+
+["Attribute 5"]
+	display_name = ""
+	cmd_to_exc = [" "]
+	on_level_event = [" "]
+	tip_to_display = ""
+	max_level = 0.0
+	base_value_per_point = 0.0
+	lock = true
+	init_val_attribute_fifth = 20.0
+
+["Attribute 6"]
+	display_name = ""
+	cmd_to_exc = [" "]
+	on_level_event = [" "]
+	tip_to_display = ""
+	max_level = 0.0
+	base_value_per_point = 0.0
+	lock = true
+	init_val_attribute_sixth = 0.0
+
+["Attribute 7"]
+	display_name = ""
+	cmd_to_exc = [" "]
+	on_level_event = [" "]
+	tip_to_display = ""
+	max_level = 0.0
+	base_value_per_point = 0.0
+	lock = true
+	init_val_attribute_seventh = 0.0
+
+["Attribute 8"]
+	display_name = ""
+	cmd_to_exc = [" "]
+	on_level_event = [" "]
+	tip_to_display = ""
+	init_val_attribute_eight = 0.0
+	max_level = 0.0
+	base_value_per_point = 0.0
+	lock = true
+
+["Attribute 9"]
+	"display_name " = ""
+	cmd_to_exc = [" "]
+	on_level_event = [" "]
+	"tip_to_display " = ""
+	init_val_attribute_nine = 0.0
+	max_level = 0.0
+	base_value_per_point = 0.0
+	lock = true
+
+["Attribute 10"]
+	"display_name " = ""
+	cmd_to_exc = [" "]
+	on_level_event = [" "]
+	"tip_to_display " = ""
+	init_val_attribute_ten = 0.0
+	max_level = 0.0
+	base_value_per_point = 0.0
+	lock = true
+

@@ -1,0 +1,458 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "3FD32AB82468A4D2"
+	group: "4FC82DFE0A9AFD1F"
+	icon: "create:brass_casing"
+	id: "3FD32AB82468A4D2"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7374C9CC42B522D5"]
+			description: [
+				"开始机械动力的最基础材料。"
+				"安山合金右键去皮原木获得，去皮原木用斧头右键原木获得。"
+				"多对着物品长按w进行思索，比任务书详细多了。"
+			]
+			id: "6167E94240DF273E"
+			tasks: [{
+				id: "417CD59D8CC2542B"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["62317BB14D7B7219"]
+			description: ["制作机器少不了铁板，因此，冲压机几乎人手必备。"]
+			id: "3367A29801FDE0AC"
+			rewards: [{
+				count: 3
+				id: "0B263DCCFB568AB1"
+				item: "create:rotation_speed_controller"
+				type: "item"
+			}]
+			tasks: [{
+				id: "67B273104E439AE2"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3367A29801FDE0AC"]
+			description: ["一般而言，无序合成都可以用搅拌机合成，还有一些需求搅拌的合成需要它。"]
+			id: "2968E1007E4B8750"
+			tasks: [{
+				id: "2534377EA454810B"
+				item: "create:mechanical_mixer"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["62317BB14D7B7219"]
+			description: ["低配的粉碎轮，用于制作粉碎物品。"]
+			id: "6119427253B26331"
+			tasks: [{
+				id: "55E5FF37768AA8F9"
+				item: "create:millstone"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3367A29801FDE0AC"]
+			description: ["用于全自动砍树，合成部分配方。"]
+			id: "6B73C90C8AF6E133"
+			tasks: [{
+				id: "5E7D110CBF773792"
+				item: "create:mechanical_saw"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6119427253B26331"]
+			description: ["用于全自动挖矿。"]
+			id: "041969B0C645FE19"
+			tasks: [{
+				id: "109281AD6B8C6DBB"
+				item: "create:mechanical_drill"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3367A29801FDE0AC"]
+			description: ["全自动收菜，配合可移动结构可以做到大范围收菜。"]
+			id: "603CA426F7AC0812"
+			tasks: [{
+				id: "6A1A45F5D46773F5"
+				item: "create:mechanical_harvester"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6167E94240DF273E"]
+			description: ["连接动力的物品，还能当做合成材料。"]
+			icon: "create:cogwheel"
+			id: "62317BB14D7B7219"
+			tasks: [
+				{
+					id: "5321BEA79E658E06"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					id: "040FA66203A8363F"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+				{
+					id: "63C134A416199B29"
+					item: "create:shaft"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3367A29801FDE0AC"]
+			description: ["风力发电，放上羊毛和风帆空手右键即可产生动力。使用羊毛的话需要强力胶。"]
+			id: "2168B6EAE192B63D"
+			tasks: [{
+				id: "3617674C1EB17561"
+				item: "create:windmill_bearing"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["62317BB14D7B7219"]
+			description: ["最廉价的动力来源。"]
+			icon: "create:large_water_wheel"
+			id: "13D46D3E6001C828"
+			tasks: [
+				{
+					id: "26D29DD1886B9D41"
+					item: "create:water_wheel"
+					type: "item"
+				}
+				{
+					id: "398B3911B77124AA"
+					item: "create:large_water_wheel"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2168B6EAE192B63D"]
+			description: ["所有有关移动结构的生产，都少不了它的身影。"]
+			id: "3BF57D0D100DAAF3"
+			tasks: [{
+				id: "4DBBAA3416177CA3"
+				item: {
+					Count: 1
+					id: "create:super_glue"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3BF57D0D100DAAF3"]
+			description: ["会带着对着的单个方块进行旋转，配合强力胶可以旋转更多方块。"]
+			id: "5F78BBE1D7BFBD1F"
+			tasks: [{
+				id: "749507F13F1BD3E9"
+				item: "create:mechanical_bearing"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["603CA426F7AC0812"]
+			description: ["与动力轴承配合可以全自动耕地。不过一般用不到，因为耕地仅需一次。"]
+			id: "089479D81E3C5273"
+			tasks: [{
+				id: "17AA3FFD2D9FBA2B"
+				item: "create:mechanical_plough"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["411FA4DB5FDD5B45"]
+			description: ["连接容器，可以输入红石信号对物品打包，或在上面放置仓储链接站，然后使用仓储发报机进行请求打包行为。"]
+			id: "3169F0875913A9C1"
+			tasks: [{
+				id: "0129D58FEFFC869D"
+				item: "create:packager"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"0B29BEFA84C655CE"
+				"281229993145683E"
+			]
+			description: ["更高级的动力源。"]
+			id: "72EE6DB2FA96565B"
+			tasks: [{
+				id: "7F9583E22AE10666"
+				item: "create:steam_engine"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3169F0875913A9C1"]
+			description: ["连接一个仓储发报机，并放置到打包机上方，可以使用发报机请求包裹。"]
+			id: "4B50516F5940BA85"
+			tasks: [{
+				id: "295D59B8EB55E28B"
+				item: "create:stock_link"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4B50516F5940BA85"]
+			description: ["仓储发报机可以连请求仓储链接站对应打包机内的容器物品。这需要在旁边放置一个坐垫并坐下一个生物，或者放置烈焰人燃烧室。"]
+			id: "458036CA1FCB1C85"
+			tasks: [{
+				id: "7541656A71B503EA"
+				item: "create:stock_ticker"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3367A29801FDE0AC"]
+			description: ["右键烈焰人进行捕捉，很重要的热源。"]
+			icon: "create:blaze_burner"
+			id: "0B29BEFA84C655CE"
+			rewards: [{
+				id: "22CE73C525310273"
+				item: "create:blaze_burner"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4193CC8CCD4F8C5F"
+					item: "create:empty_blaze_burner"
+					type: "item"
+				}
+				{
+					id: "53C1901DE62162FA"
+					item: "create:blaze_burner"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0979E049932D9AF9"]
+			description: ["就是漏斗"]
+			id: "411FA4DB5FDD5B45"
+			tasks: [{
+				id: "6AB23BC3FD4E7353"
+				item: "create:andesite_funnel"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["41EC6FB982A2F741"]
+			description: ["比黄铜漏斗快64倍的漏斗，还能进行过滤。"]
+			id: "571F5AD25C706839"
+			tasks: [{
+				id: "44D6354CEA4B5C5E"
+				item: "create:brass_funnel"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["077FC50EB2A2D05C"]
+			description: ["配置好合成表后，只需要放入材料就能合成的智能合成器。"]
+			id: "2756FF6F5467A123"
+			tasks: [{
+				id: "2D2879E327470734"
+				item: "smartcrafter:smart_crafter"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["62317BB14D7B7219"]
+			description: ["机械动力物流系统的核心。"]
+			id: "0979E049932D9AF9"
+			rewards: [{
+				count: 3
+				id: "6BA5A1F9DFB96DD0"
+				item: "create:belt_connector"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7415E0B5A7CBC22A"
+				item: "create:belt_connector"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["41EC6FB982A2F741"]
+			description: ["制作超越9x9配方时需要的机器。"]
+			id: "077FC50EB2A2D05C"
+			tasks: [{
+				id: "1FC7D19BD0B5BE46"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6167E94240DF273E"]
+			description: ["黄铜时代！"]
+			hide_dependency_lines: true
+			id: "41EC6FB982A2F741"
+			tasks: [{
+				id: "5B8F3FE6D53176F1"
+				item: "create:brass_casing"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["077FC50EB2A2D05C"]
+			description: ["超快的粉碎机器。"]
+			id: "4382A180256A9713"
+			tasks: [{
+				id: "12939EED47A991E3"
+				item: "create:crushing_wheel"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["41EC6FB982A2F741"]
+			description: ["神之手的力量是绝对的。模仿玩家行为的机器。"]
+			id: "6AA1A0E7F215C771"
+			tasks: [{
+				id: "496CB67C2129D4F4"
+				item: "create:deployer"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6AA1A0E7F215C771"]
+			description: ["合成材料。"]
+			id: "307032BB715CD6D3"
+			tasks: [{
+				id: "3C3E7E3EDAAECB6D"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["11327F48A851EE51"]
+			description: ["进行注液的机器。"]
+			id: "690561930C747E66"
+			tasks: [{
+				id: "588DDDBFDE32CECE"
+				item: "create:spout"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6167E94240DF273E"]
+			description: ["机壳获取方式都是一样的，换个材料而已。"]
+			hide_dependency_lines: true
+			id: "11327F48A851EE51"
+			tasks: [{
+				id: "51718EE7C15522E0"
+				item: "create:copper_casing"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["11327F48A851EE51"]
+			description: ["传输流体。"]
+			id: "124A63F9B407CCA2"
+			tasks: [{
+				id: "0518EE72DE3F79CB"
+				item: "create:fluid_pipe"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["124A63F9B407CCA2"]
+			description: ["用动力抽取或取出流体。"]
+			id: "281229993145683E"
+			tasks: [{
+				id: "4A62E7C51580DA10"
+				item: "create:mechanical_pump"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["72EE6DB2FA96565B"]
+			description: ["蒸汽引擎的核心。"]
+			id: "64726F7E67CDFB92"
+			tasks: [{
+				id: "7494B60BE23131CD"
+				item: "create:fluid_tank"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+	]
+	title: "机械动力"
+}

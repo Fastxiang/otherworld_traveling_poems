@@ -1,0 +1,106 @@
+{
+  "list": [
+    {
+      "id": "minecraft:generic.knockback_resistance",
+      "intrinsic": 0.0,
+      "order": 10100,
+      "usePercent": false
+    },
+    {
+      "id": "minecraft:generic.armor",
+      "intrinsic": 0.0,
+      "order": 10200,
+      "usePercent": false
+    },
+    {
+      "id": "minecraft:generic.armor_toughness",
+      "intrinsic": 0.0,
+      "order": 10300,
+      "usePercent": false
+    },
+    {
+      "id": "l2damagetracker:crit_rate",
+      "intrinsic": 0.0,
+      "order": 11000,
+      "usePercent": true
+    },
+    {
+      "id": "l2damagetracker:crit_damage",
+      "intrinsic": 0.0,
+      "order": 12000,
+      "usePercent": true
+    },
+    {
+      "id": "l2damagetracker:bow_strength",
+      "intrinsic": 0.0,
+      "order": 13000,
+      "usePercent": true
+    },
+    {
+      "id": "l2damagetracker:damage_reduction",
+      "intrinsic": 0.0,
+      "order": 14000,
+      "usePercent": true
+    },
+    {
+      "id": "l2damagetracker:damage_absorption",
+      "intrinsic": 0.0,
+      "order": 15000,
+      "usePercent": false
+    },
+    {
+      "id": "irons_spellbooks:fire_spell_power",
+      "intrinsic": 0.0,
+      "order": 15100,
+      "usePercent": true
+    },
+    {
+      "id": "irons_spellbooks:ice_spell_power",
+      "intrinsic": 0.0,
+      "order": 15200,
+      "usePercent": true
+    },
+    {
+      "id": "irons_spellbooks:lightning_spell_power",
+      "intrinsic": 0.0,
+      "order": 15300,
+      "usePercent": true
+    },
+    {
+      "id": "irons_spellbooks:nature_spell_power",
+      "intrinsic": 0.0,
+      "order": 15400,
+      "usePercent": true
+    },
+    {
+      "id": "irons_spellbooks:holy_spell_power",
+      "intrinsic": 0.0,
+      "order": 15500,
+      "usePercent": true
+    },
+    {
+      "id": "irons_spellbooks:ender_spell_power",
+      "intrinsic": 0.0,
+      "order": 15600,
+      "usePercent": true
+    },
+    {
+      "id": "irons_spellbooks:evocation_spell_power",
+      "intrinsic": 0.0,
+      "order": 15700,
+      "usePercent": true
+    },
+    {
+      "id": "irons_spellbooks:eldritch_spell_power",
+      "intrinsic": 0.0,
+      "order": 15800,
+      "usePercent": true
+    },
+    {
+      "id": "irons_spellbooks:blood_spell_power",
+      "intrinsic": 0.0,
+      "order": 15900,
+      "usePercent": true
+    }
+  ]
+}

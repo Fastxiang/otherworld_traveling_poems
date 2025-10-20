@@ -1,0 +1,3 @@
+ServerEvents.tags('damage_type',e=>{
+    e.add('minecraft:bypasses_cooldown',['fast:holy_magic', 'fast:fire_magic', 'fast:ice_magic', 'fast:lightning_magic', 'fast:ender_magic', 'fast:blood_magic', 'fast:evocation_magic', 'fast:eldritch_magic', 'fast:nature_magic', 'fast:blood_cauldron', 'fast:heartstop', 'fast:dragon_breath_pool', 'fast:fire_field', 'fast:poison_cloud', 'fast:player', 'fast:arrow', 'fast:exposure', 'fast:share'])
+})

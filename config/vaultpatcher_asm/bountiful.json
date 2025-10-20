@@ -1,0 +1,21 @@
+[
+  {
+    "authors": "fast",
+    "name": "Bountiful 汉化包",
+    "desc": "悬赏令及其稀有度名称汉化",
+    "mods": "bountiful", 
+    "dynamic": false
+  },
+  {
+    "target_class": {
+      "name": "io.ejekta.bountiful.content.item.BountyItem",
+      "method": "" 
+    },
+    "pairs": [
+      {
+        "key": "Bounty", 
+        "value": "@悬赏"
+      }
+    ]
+  }
+]

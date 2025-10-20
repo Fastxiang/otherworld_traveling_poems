@@ -1,0 +1,13 @@
+{
+    "modifier.kubejs": {
+        "mechanical_heart" : "#C7C8BB",
+        "weakness_analysis" : "#B7E6BF",
+        "precision_components" : "#F8CA67"
+    },
+    "material.kubejs": {
+        "andesite_alloy" : "#C7C8BB",
+        "zinc_ingot" : "#B7E6BF",
+        "brass_ingot" : "#F8CA67"
+    }
+}
+

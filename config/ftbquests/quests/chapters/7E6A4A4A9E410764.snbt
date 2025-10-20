@@ -1,0 +1,611 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "7E6A4A4A9E410764"
+	group: "67091C4774FC5F4A"
+	icon: {
+		Count: 1
+		id: "irons_spellbooks:scroll"
+		tag: {
+			ISB_Spells: {
+				data: [{
+					id: "kubejs:explosion"
+					index: 0
+					level: 1
+					locked: 1b
+				}]
+				maxSpells: 1
+				mustEquip: 0b
+				spellWheel: 0b
+			}
+		}
+	}
+	id: "7E6A4A4A9E410764"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"1A2A356198B64C3F"
+				"224135AA128E1E56"
+				"022FCF17C7C9E734"
+				"27CCC8C778D83810"
+				"6682B9667B6A9333"
+			]
+			dependency_requirement: "one_completed"
+			description: ["你通过各种途径获得法术卷轴后，右键法术抄写台，且装备了法术书时。即可点击空栏位或者已有法术栏位，装备并卸下法术至法术书。"]
+			id: "52CBE8B8FF15F9DC"
+			min_required_dependencies: 1
+			tasks: [{
+				id: "1FB33F4851A79961"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "irons_spellbooks:inscription_table"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"释放法术/物理技能，你需要一本法术书。"
+				""
+				"通过装备法术书到饰品栏上，并通过法术抄写台来获得你的法术/物理技能。"
+				""
+				"&l&c注意！必须装备到法术书栏位，装备到通用饰品栏位不能使用魔法，只能生效属性。"
+			]
+			id: "7A604ADF37D1A4D2"
+			tasks: [{
+				id: "6EC4C529D39957C7"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "curios:spellbook"
+					}
+				}
+				title: "Any #curios:spellbook"
+				type: "item"
+			}]
+			title: "法术书"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7A604ADF37D1A4D2"]
+			description: [
+				"获得所有卷轴的途径。"
+				""
+				"元素试炼和远古骑士可以掉所有学派卷轴所需的材料。"
+			]
+			id: "1A2A356198B64C3F"
+			tasks: [{
+				id: "43CDF0CD8DDCE399"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "irons_spellbooks:scroll_forge"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7A604ADF37D1A4D2"]
+			description: [
+				"僵尸召唤者副本获得。"
+				""
+				"吟唱速度越低伤害越高，最大能提升1800%输出。点击这个卷轴可以查看详细数据。"
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "irons_spellbooks:scroll"
+				tag: {
+					ISB_Spells: {
+						data: [{
+							id: "kubejs:explosion"
+							index: 0
+							level: 1
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 0b
+					}
+				}
+			}
+			id: "224135AA128E1E56"
+			tasks: [
+				{
+					id: "76314D4B0ED13DE8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "kubejs:explosion"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "5353147081CF33DB"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "fast:instance_pass8"
+					}
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7A604ADF37D1A4D2"]
+			description: [
+				"元素试炼，Boss战先驱者，Boss战咒翼灵骸，Boss战远古遗魂。都有概率掉落灵渊秘术。"
+				""
+				"灵渊秘术可以根据末影饰品灵渊秘术释放出自定义的法术。"
+				""
+				"灵渊秘术可以使用所有学派除了远古巫术的法术，可以延迟释放，或者一次性使用多个学派的法术。"
+				""
+				"元素试炼和boss战的灵渊秘术法术概率与池子都是相同的。"
+				""
+				"boss战掉落的灵渊秘术提供给法术的等级加成会更高。"
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "irons_spellbooks:scroll"
+				tag: {
+					ISB_Spells: {
+						data: [{
+							id: "kubejs:custom_spell"
+							index: 0
+							level: 1
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 0b
+					}
+				}
+			}
+			id: "022FCF17C7C9E734"
+			tasks: [
+				{
+					id: "209CF7EFE1A2D397"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "kubejs:custom_spell"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "24FCDF93EEDFC41D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "fast:custom_spell"
+					}
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7A604ADF37D1A4D2"]
+			description: ["动力充能器给巨型火球充能获得。伤害为巨型火球2.5倍，但是没有范围伤害。"]
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:scroll"
+				tag: {
+					ISB_Spells: {
+						data: [{
+							id: "kubejs:fireball_plus"
+							index: 0
+							level: 5
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 0b
+					}
+				}
+			}
+			id: "6682B9667B6A9333"
+			min_required_tasks: 1
+			tasks: [
+				{
+					id: "09808303822EBA21"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "kubejs:fireball_plus"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "0D85CAE054FA1183"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "mbd2:create001"
+					}
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["52CBE8B8FF15F9DC"]
+			description: ["通过法球强化你的装备和武器。"]
+			id: "03E9B567DF0731DC"
+			tasks: [{
+				id: "09E4E5270BAB92C1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "irons_spellbooks:arcane_anvil"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7A604ADF37D1A4D2"]
+			description: ["守护型魔法，商店购买获得。"]
+			id: "27CCC8C778D83810"
+			tasks: [{
+				id: "5FA20AAC2607915F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "kubejs:oath_of_knight"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["03E9B567DF0731DC"]
+			description: [
+				"攻击类法术一般而言，遵守以下公式："
+				"基础伤害x法术强度x对应属性学派法术强度"
+				""
+				"基础伤害由法术的等级决定"
+			]
+			id: "6F028E9D3B1B892B"
+			tasks: [{
+				id: "1EDA2326A674D06F"
+				title: "如何提升我的魔法伤害？"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6F028E9D3B1B892B"]
+			description: ["法球非常重要，法球既能用奥术铁砧给装备增加法术强度，也能作为末影饰品使用。"]
+			id: "533D9A4FC31B38B5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4F4A226B7277D9D5"
+				table_id: 1742705577431623287L
+				type: "random"
+			}]
+			tasks: [{
+				id: "23846F03E6877D61"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "irons_spellbooks:upgrade_orb"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["7A604ADF37D1A4D2"]
+			description: [
+				"商店购买获得。"
+				"具体效果点击卷轴在jei查看。"
+			]
+			id: "1AE7FCDA1F5238BD"
+			tasks: [{
+				id: "050A6315DADE4838"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "fast:sword_technique_four_strike"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7A604ADF37D1A4D2"]
+			description: [
+				"商店购买获得。"
+				"具体效果点击卷轴在jei查看。"
+			]
+			id: "393781F5EC4602C4"
+			tasks: [{
+				id: "72E642B73A49F874"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "fast:sword_technique_decisive_strike"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7A604ADF37D1A4D2"]
+			description: [
+				"商店购买获得。"
+				"具体效果点击卷轴在jei查看。"
+			]
+			id: "6C0DCA540D19192A"
+			tasks: [{
+				id: "2287A8798AC49B89"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "fast:sword_technique_flying_sword_guard"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7A604ADF37D1A4D2"]
+			description: [
+				"第二章装备商店购买。"
+				"具体效果点击卷轴在jei查看。"
+			]
+			id: "7DC3428D62FCFA00"
+			tasks: [{
+				id: "3A0B934CF6B24B60"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "fast:sword_technique_moon_god_calamity"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7A604ADF37D1A4D2"]
+			description: [
+				"商店购买获得。"
+				"具体效果点击卷轴在jei查看。"
+			]
+			id: "0936DD87D622CF56"
+			tasks: [{
+				id: "4D7188D0A568FBDD"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "irons_spellbooks:scroll"
+					tag: {
+						ISB_Spells: {
+							data: [{
+								id: "fast:sword_technique_heroic_strike"
+								index: 0
+								level: 1
+								locked: 1b
+							}]
+							maxSpells: 1
+							mustEquip: 0b
+							spellWheel: 0b
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+	]
+	title: "铁魔法法术/物理技能"
+}

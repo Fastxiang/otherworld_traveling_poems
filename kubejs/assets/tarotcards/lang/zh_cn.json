@@ -1,0 +1,91 @@
+{
+    "item.tarotcards.the_hanged_man.type": "§3塔罗牌 §5末影饰品",
+    "item.tarotcards.the_hanged_man.tooltip": "换位思考",
+    "item.tarotcards.the_hanged_man.tooltip2": "§6唯一 §e获得%s§e",
+    
+    "item.tarotcards.the_fool.type": "§3塔罗牌 §5末影饰品",
+    "item.tarotcards.the_fool.tooltip": "得不偿失",
+    "item.tarotcards.the_fool.tooltip2": "§6唯一 §e造成的所有伤害变为%s§e 固定为（力量+敏捷+智力+体质）的伤害 该效果有0.5秒的冷却时间",
+    
+    "item.tarotcards.the_emperor.type": "§3塔罗牌 §5末影饰品",
+    "item.tarotcards.the_emperor.tooltip": "绝对指令",
+    "item.tarotcards.the_emperor.tooltip2": "§6唯一 §e左键时 若准心选中了生物 则会让20格附近随机一个自身召唤物瞬移到该实体附近 随后玩家自动对该召唤物释放一次铁魔法法术 法术为(1+(体质+智力)/30)级的献祭 无吟唱 无消耗",
+    
+    "item.tarotcards.the_chariot.type": "§3塔罗牌 §8机械 §5末影饰品",
+    "item.tarotcards.the_chariot.tooltip": "钢铁洪流",
+    "item.tarotcards.the_chariot.tooltip2": "§6唯一 §e每个机械系列 §c+4%暴击率",
+
+    "item.tarotcards.the_high_priestess.type": "§3塔罗牌 §5末影饰品",
+    "item.tarotcards.the_high_priestess.tooltip": "洞察之眼",
+    "item.tarotcards.the_high_priestess.tooltip2": "§6唯一 §e无特殊效果",
+    
+  "item.tarotcards.the_devil.type": "§3塔罗牌 §5末影饰品",
+  "item.tarotcards.the_devil.tooltip": "黑暗契约",
+  "item.tarotcards.the_devil.tooltip2": "§6唯一 §e无特殊效果",
+  
+    "item.tarotcards.strength.type": "§3塔罗牌 §5末影饰品",
+    "item.tarotcards.strength.tooltip": "野性之力",
+    "item.tarotcards.strength.tooltip2": "§6唯一 §e基础速度以外的速度转化为力量值 力量值会按照比例来增加你的属性 力量值为:((速度-0.1)x500) 转化比例为: 5%额外攻击伤害 38%x1.5法力值 2%最大生命值 5%x1%法术强度 50%攻击力 为0时不生效 按K键开启/关闭（转化属性之间互相不生效）",
+    
+    "item.tarotcards.the_lovers.type": "§3塔罗牌 §5末影饰品",
+    "item.tarotcards.the_lovers.tooltip": "灵魂链接",
+    "item.tarotcards.the_lovers.tooltip2": "§6唯一 §e女仆亲自击杀副本怪物时 每击杀10只获得1好感度 距离玩家40格以内的女仆 继承玩家的全属性，吟唱速度和所有学派的属性法术强度 继承基础比例为25%(每多1级好感度+25%) 附近女仆大于一个时 每多一个女仆+10%继承比例(乘以110%) 但是继承比例由附近所有女仆分摊 如两个女仆就是分别继承60%的继承比例",
+    
+    "item.tarotcards.the_empress.type": "§3塔罗牌 §5末影饰品",
+    "item.tarotcards.the_empress.tooltip": "生命绽放",
+    "item.tarotcards.the_empress.tooltip2": "§6唯一 §e无特殊效果",
+    
+    "item.tarotcards.the_hermit.type": "§3塔罗牌 §8暗影 §5末影饰品",
+    "item.tarotcards.the_hermit.tooltip": "遁入阴影",
+    "item.tarotcards.the_hermit.tooltip2": "§6唯一  §e站立不动6秒时 每3秒获得真实隐身 获得破隐一击：拥有真实隐身时，造成的非魔法枪械以外的伤害提升1.5倍",
+    
+    "item.tarotcards.wheel_of_fortune.type": "§3塔罗牌 §5末影饰品",
+    "item.tarotcards.wheel_of_fortune.tooltip": "命运抉择",
+    "item.tarotcards.wheel_of_fortune.tooltip2": "§6唯一 §e造成%s§e时 随机转化伤害类型 随机列表：%s§e %s§e %s§e %s§e %s§e %s§e %s§e %s§e 唤魔伤害 %s§e 转化成魔法伤害时 该伤害会x对应学派的法术强度（优先结算）来增加伤害或减少伤害",
+    
+    "item.tarotcards.temperance.type": "§3塔罗牌 §5末影饰品",
+    "item.tarotcards.temperance.tooltip": "内敛均衡",
+    "item.tarotcards.temperance.tooltip2": "§6唯一 §e无特殊效果",
+    
+    "item.tarotcards.the_tower.type": "§3塔罗牌 §5末影饰品",
+    "item.tarotcards.the_tower.tooltip": "分崩离析",
+    "item.tarotcards.the_tower.tooltip2": "§6唯一 §e无特殊效果",
+    
+    "item.tarotcards.the_sun.type": "§3塔罗牌 §5末影饰品",
+    "item.tarotcards.the_sun.tooltip": "阳炎炽盛",
+    "item.tarotcards.the_sun.tooltip2": "§6唯一 §e拿着物品右键时 释放超限魔法炽焰斩击 等级为(1+((炽焰法术强度-1)*5)) 无消耗 无冷却",
+    
+    "item.tarotcards.the_moon.type": "§3塔罗牌 §5末影饰品",
+    "item.tarotcards.the_moon.tooltip": "捕风捉影",
+    "item.tarotcards.the_moon.tooltip2": "§6唯一 §e获得夜视",
+    
+    "item.tarotcards.the_star.type": "§3塔罗牌 §5末影饰品",
+    "item.tarotcards.the_star.tooltip": "希望之光",
+    "item.tarotcards.the_star.tooltip2": "§6唯一 §e造成的所有伤害变为20%",
+    
+    "item.tarotcards.death":"塔罗牌：死神",
+    "item.tarotcards.death.type": "§3塔罗牌 §5末影饰品",
+    "item.tarotcards.death.tooltip": "灵魂收割",
+    "item.tarotcards.death.tooltip2": "§6唯一 §e双倍掉落",
+    
+    "item.tarotcards.the_world.type": "§3塔罗牌 §5末影饰品",
+    "item.tarotcards.the_world.tooltip": "操纵一切",
+    "item.tarotcards.the_world.tooltip2": "§6唯一 §e周围20格生物每3秒获得冰封 冰封：降低敌人移动速度 冰封持续10秒",
+    
+    "item.tarotcards.the_magician.type": "§3塔罗牌 §5末影饰品",
+    "item.tarotcards.the_magician.tooltip": "运筹帷幄",
+    "item.tarotcards.the_magician.tooltip2": "§6唯一 §e右键钱币释放超限魔法 最低为金币 法术等级＝钱币等级(魔法钱币x2) 法术类型由末影箱中的法术卷轴决定 优先选择右下角的卷轴 无法释放长时间存在的攻击召唤物法术 无冷却 释放法术时 你周围20格的女仆 宠物 伴侣都会释放相同的魔法 技能等级和法术与你释放的法术相同",
+    
+    "item.tarotcards.judgement.type": "§3塔罗牌 §5末影饰品",
+    "item.tarotcards.judgement.tooltip": "重生洗礼",
+    "item.tarotcards.judgement.tooltip2": "§6唯一 §e最大生命值的70%转化为雷霆基础法术强度 转化比例1：0.01 最大生命值锁定为10",
+    
+    "item.tarotcards.the_hierophant.type": "§3塔罗牌 §5末影饰品",
+    "item.tarotcards.the_hierophant.tooltip": "奉若神明",
+    "item.tarotcards.the_hierophant.tooltip2": "§6唯一 §e造成%s§e时 如果附近20格有召唤物 则给予召唤物信仰持续1分钟并回复满血 拥有信仰时不生效 信仰：增加100%s§e生命值 ",
+
+    "item.tarotcards.justice.type": "§3塔罗牌 §5末影饰品",
+    "item.tarotcards.justice.tooltip": "一视同仁",
+    "item.tarotcards.justice.tooltip2": "§6唯一 §e造成所有伤害时 对当前血量生命值百分比高于自身的生物额外增加自身最大血量的伤害"
+    
+}

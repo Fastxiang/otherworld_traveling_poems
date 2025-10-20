@@ -1,0 +1,126 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1EE260DD56FA5F74"
+	group: "39EFE5D4ED781F69"
+	icon: "refurbished_furniture:oak_chair"
+	id: "1EE260DD56FA5F74"
+	order_index: 0
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["799011B4F52890FF"]
+			description: ["有了发电机才能制作家具。"]
+			icon: "refurbished_furniture:light_electricity_generator"
+			id: "74CA84B064C5D407"
+			tasks: [{
+				id: "653141FCB39090DC"
+				title: "你需要一个发电机"
+				type: "checkmark"
+			}]
+			title: "你需要一个发电机"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2CFF390BCC4368B5"]
+			description: ["家具制造器。"]
+			id: "1AD6F71F94C06716"
+			tasks: [{
+				id: "7C04A745EE6CEA07"
+				item: "refurbished_furniture:workbench"
+				type: "item"
+			}]
+			title: "所有家具从工作站制作"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["74CA84B064C5D407"]
+			description: ["你需要它。"]
+			id: "2CFF390BCC4368B5"
+			tasks: [{
+				id: "7E487D8B90F87220"
+				item: "refurbished_furniture:wrench"
+				type: "item"
+			}]
+			title: "连接电路工具"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2BD01EB2FCA45F9A"]
+			description: ["可以放置一些不用碗装的食物原来装饰。（附属可能不兼容）"]
+			hide_dependency_lines: true
+			id: "7AE07903C71C8C95"
+			tasks: [{
+				id: "1440824963BB2362"
+				item: "displaydelight:small_food_plate"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2BD01EB2FCA45F9A"]
+			description: ["和小餐盘同理，不过能放的东西和种类不一样。"]
+			hide_dependency_lines: true
+			id: "5CB26EEE2E3BF052"
+			tasks: [{
+				id: "03178B7DBF2F6644"
+				item: "displaydelight:food_plate"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["74CA84B064C5D407"]
+			description: ["使用钻石右键可获得随机玩偶。"]
+			hide_dependency_lines: true
+			id: "34C6B8DDFBAFF806"
+			tasks: [{
+				id: "363258A2220F66C1"
+				item: "kaleidoscope_doll:doll_machine"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["74CA84B064C5D407"]
+			description: ["非常多方块变种，就是用多了可能会卡。"]
+			hide_dependency_lines: true
+			id: "19DD5D6444B954D8"
+			tasks: [{
+				id: "03330B8975F57D43"
+				item: "domum_ornamentum:architectscutter"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["74CA84B064C5D407"]
+			description: ["建筑党必备神器！"]
+			hide_dependency_lines: true
+			id: "266BDFE819BC2D6D"
+			tasks: [{
+				id: "3D6E77023D9DEB08"
+				item: {
+					Count: 1
+					id: "constructionwand:stone_wand"
+					tag: {
+						Damage: 0
+						wand_options: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+	]
+	title: "家具"
+}

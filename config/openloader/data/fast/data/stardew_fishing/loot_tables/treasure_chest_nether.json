@@ -1,0 +1,123 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "money:coin_copper",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "money:coin_iron",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "lavafishing:promethium_ingot",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aquaculture:double_hook",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aquaculture:redstone_hook",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "aquaculture:nether_star_hook",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "lavafishing:obsidian_fishing_rod",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "stardew_fishing:trap_bobber",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "stardew_fishing:cork_bobber",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "stardew_fishing:sonar_bobber",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fast:treasure_hoarder",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "stardew_fishing:treasure_bobber",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "grimoireofgaia:box_iron",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "grimoireofgaia:box_gold",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "grimoireofgaia:box_diamond",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "stardew_fishing:quality_bobber",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fast:blazing_judgement",
+          "weight": 20
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,221 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "5112ED57811E5587"
+	group: "67091C4774FC5F4A"
+	icon: "tconstruct:smeltery_controller"
+	id: "5112ED57811E5587"
+	order_index: 2
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["03504F1EB4B5D615"]
+			description: ["匠魂的燃料源，二选一，但只有燃料储罐可用于大炉子。"]
+			icon: "tconstruct:seared_fuel_tank"
+			id: "2B44C416256311BF"
+			min_required_tasks: 1
+			tasks: [
+				{
+					id: "2819E38E495CD236"
+					item: "tconstruct:seared_heater"
+					type: "item"
+				}
+				{
+					id: "2D16A87B7A9C6831"
+					item: "tconstruct:seared_fuel_tank"
+					type: "item"
+				}
+				{
+					id: "2498E85B994DE79F"
+					item: "tconstruct:seared_faucet"
+					type: "item"
+				}
+				{
+					id: "313067689455AB3B"
+					item: "tconstruct:seared_basin"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2B44C416256311BF"]
+			description: [
+				"制作出小炉子是为了做出大炉子。"
+				"{image:kubejs:textures/jiaocheng/tc_jiao_cheng1.png width:200 height:100 align:center}"
+			]
+			icon: "tconstruct:smeltery_controller"
+			id: "530C114EBEB22F42"
+			tasks: [{
+				id: "691F7D838D076B4C"
+				item: "tconstruct:smeltery_controller"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["530C114EBEB22F42"]
+			description: [
+				"制作出大炉子后。随便拆除个砖块替换为排液孔，并放上浇注口，浇注口下方放上铸造盆或者铸造台即可开始制作各种各样的匠魂相关物品了。"
+				"&l&6铸造台：用于制作铸模和制作工具。"
+				"&l&d铸造盆，用于合成块或者制作一些方块。"
+			]
+			icon: "tconstruct:seared_basin"
+			id: "298202E05A0F02D7"
+			tasks: [
+				{
+					id: "22A7194E6C2C5A49"
+					item: "tconstruct:seared_drain"
+					type: "item"
+				}
+				{
+					id: "72C08C948D82F392"
+					item: "tconstruct:seared_table"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["298202E05A0F02D7"]
+			description: ["虽然烈焰人燃烧室和匠魂没关系。但是匠魂炉子也需要烈焰人，记得使用生物敌对套索抓几只烈焰人到炉子里获得烈焰血。高燃度矿石需要它。"]
+			icon: "create:blaze_burner"
+			id: "7AD7AB942020418C"
+			tasks: [
+				{
+					id: "2689D3B29FFE9C38"
+					item: "create:blaze_burner"
+					type: "item"
+				}
+				{
+					id: "64B0583F9818029F"
+					item: "moblassos:hostile_lasso"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2B44C416256311BF"]
+			description: [
+				"木质工具与潜力锻造系统联动"
+				"潜力锻造时 每级提升潜力锻造的属性15%"
+			]
+			hide_dependency_lines: true
+			id: "1DE0A09E527BFA99"
+			tasks: [{
+				id: "3D64CF51AA8C4C35"
+				item: "minecraft:oak_planks"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2B44C416256311BF"]
+			description: [
+				"铜工具与潜力锻造系统联动"
+				"进行潜力锻造时 每级提高潜力锻造2点上限"
+			]
+			hide_dependency_lines: true
+			id: "4F0BBB2960A526DF"
+			tasks: [{
+				id: "236C2D3364FAA50F"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2B44C416256311BF"]
+			description: [
+				"黄铜工具与末影饰品联动"
+				"放置末影箱时 视为机械"
+			]
+			hide_dependency_lines: true
+			id: "50BDD23FA79D89B6"
+			tasks: [{
+				id: "3BF544409791703A"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2B44C416256311BF"]
+			description: [
+				"安山合金工具与新增属性联动"
+				"手持时 每级增加10点敏捷"
+			]
+			hide_dependency_lines: true
+			id: "74A7AA6556B1C017"
+			tasks: [{
+				id: "0A3A0CBEC2F1387E"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2B44C416256311BF"]
+			description: [
+				"锌工具与末影饰品联动"
+				"手持工具攻击时 每级增加3x暴击率x暴击伤害的伤害"
+			]
+			hide_dependency_lines: true
+			id: "10B7BCD357010A5E"
+			tasks: [{
+				id: "26641B368E8E4555"
+				item: "create:zinc_ingot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2B44C416256311BF"]
+			description: [
+				"与末影饰品和女仆联动"
+				"手持工具时 女仆会触发烈焰卷轴和原初之火效果"
+			]
+			hide_dependency_lines: true
+			id: "6106831142A40998"
+			tasks: [{
+				id: "3FEC4FD6F7FF45C1"
+				item: "tconstruct:blazing_bone"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7AD7AB942020418C"]
+			description: ["查看所有匠魂材料和强化。同时也是末影饰品。"]
+			id: "0A9D06FB873CF00E"
+			tasks: [{
+				id: "2FFA1E2F0A4BAB00"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tconstruct:encyclopedia"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+	]
+	title: "匠魂"
+}

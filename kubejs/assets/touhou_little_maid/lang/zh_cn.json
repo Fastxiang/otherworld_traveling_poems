@@ -1,0 +1,5 @@
+{
+    "item.touhou_little_maid.fall_protect_bauble.type": "§5末影饰品",
+    "item.touhou_little_maid.fall_protect_bauble.tooltip": "给女仆最好的食物",
+    "item.touhou_little_maid.fall_protect_bauble.tooltip2": "§6唯一 §e根据女仆背包所有格子的不同类型食物的饱和度进行计算 女仆额外增加总饱和度x1.5的末影伤害"
+}

@@ -1,0 +1,157 @@
+{
+  "content": {
+    "armorer_trade_2_1": {
+      "type": "item",
+      "content": "fast:gold_ring",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 4000,
+      "weightMult": 0.1
+    },
+    "armorer_trade_2_2": {
+      "type": "item",
+      "content": "minecraft:iron_ingot",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 4500,
+      "nbt": "{enderbonus:{genericVitBonus:4}}",
+      "weightMult": 0.1
+    },
+    "armorer_trade_2_3": {
+      "type": "item",
+      "content": "irons_spellbooks:arcane_essence",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 4500,
+      "nbt": "{enderbonus:{genericIntBonus:4}}",
+      "weightMult": 0.1
+    },
+    "armorer_trade_2_4": {
+      "type": "item",
+      "content": "minecraft:gold_ingot",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 4500,
+      "nbt": "{enderbonus:{genericAgiBonus:4}}",
+      "weightMult": 0.1
+    },
+    "armorer_trade_2_5": {
+      "type": "item",
+      "content": "tarotcards:the_magician",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 5000,
+      "weightMult": 0.1
+    },
+    "armorer_trade_2_6": {
+      "type": "item",
+      "content": "tarotcards:the_tower",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 6000,
+      "weightMult": 0.1
+    },
+    "armorer_trade_2_7": {
+      "type": "item",
+      "content": "tarotcards:wheel_of_fortune",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 7000,
+      "weightMult": 0.1
+    },
+    "armorer_trade_2_8": {
+      "type": "item",
+      "content": "tarotcards:the_hermit",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 2000,
+      "weightMult": 0.1
+    },
+    "armorer_trade_2_9": {
+      "type": "item",
+      "content": "fast:shadow_assassin_cloak",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 3000,
+      "weightMult": 0.1
+    },
+    "armorer_trade_2_10": {
+      "type": "item",
+      "content": "fast:int_gem",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 7500,
+      "weightMult": 0.1
+    },
+    "armorer_trade_2_11": {
+      "type": "item",
+      "content": "fast:spell_storage_sphere",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 8500,
+      "weightMult": 0.1
+    },
+    "armorer_trade_2_12": {
+      "type": "item",
+      "content": "fast:magic_shield",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 9500,
+      "weightMult": 0.1
+    },
+    "armorer_trade_2_13": {
+      "type": "item",
+      "content": "fast:megumin_magic_staff",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 9000,
+      "weightMult": 0.1
+    },
+    "armorer_trade_2_14": {
+      "type": "item",
+      "content": "fast:charge",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 10000,
+      "weightMult": 0.1
+    },
+    "armorer_trade_2_15": {
+      "type": "item",
+      "content": "fast:grimoire_of_mana_reaping",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 11000,
+      "weightMult": 0.1
+    }
+  }
+}

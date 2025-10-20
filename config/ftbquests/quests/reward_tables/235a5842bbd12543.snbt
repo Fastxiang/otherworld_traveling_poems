@@ -1,0 +1,50 @@
+{
+	id: "235A5842BBD12543"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			command: "/fast difficult @p 1"
+			elevate_perms: true
+			icon: {
+				Count: 1
+				id: "minecraft:iron_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			silent: true
+			title: "普通难度"
+			type: "command"
+		}
+		{
+			command: "/fast difficult @p 2"
+			elevate_perms: true
+			icon: {
+				Count: 1
+				id: "minecraft:golden_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			silent: true
+			title: "困难难度"
+			type: "command"
+		}
+		{
+			command: "/fast difficult @p 3"
+			elevate_perms: true
+			icon: {
+				Count: 1
+				id: "minecraft:diamond_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			silent: true
+			title: "地狱难度"
+			type: "command"
+		}
+	]
+	title: "选择难度"
+}

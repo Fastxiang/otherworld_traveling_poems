@@ -1,0 +1,185 @@
+{
+	"content": {
+	
+		"instance_obj1_fast3": {
+			"type": "item",
+			"content": "fast:instance_pass3",
+			"amount": { "min": 1, "max": 1 },
+			"unitWorth": 1700,
+		    "weightMult": 1.0,
+			"rarity": "COMMON",
+			"forbids": [
+				{
+					"type": "item_tag",
+					"content": "fast:instance_pass"
+				}
+			]
+		},
+		
+		"instance_obj1_fast9": {
+			"type": "item",
+			"content": "fast:instance_pass9",
+			"amount": { "min": 1, "max": 1 },
+			"unitWorth": 1600,
+		    "weightMult": 1.0,
+			"rarity": "COMMON",
+			"forbids": [
+				{
+					"type": "item_tag",
+					"content": "fast:instance_pass"
+				}
+			]
+		},
+	
+		"instance_obj1_fast4": {
+			"type": "item",
+			"content": "fast:instance_pass4",
+			"amount": { "min": 1, "max": 1 },
+			"unitWorth": 1500,
+		    "weightMult": 1.0,
+			"rarity": "COMMON",
+			"forbids": [
+				{
+					"type": "item_tag",
+					"content": "fast:instance_pass"
+				}
+			]
+		},
+		"instance_obj1_fast5": {
+			"type": "item",
+			"content": "fast:instance_pass5",
+			"amount": { "min": 1, "max": 1 },
+			"unitWorth": 1400,
+		    "weightMult": 1.0,
+			"rarity": "COMMON",
+			"forbids": [
+				{
+					"type": "item_tag",
+					"content": "fast:instance_pass"
+				}
+			]
+		},
+		
+		"instance_obj1_fast1": {
+			"type": "item",
+			"content": "fast:instance_pass1",
+			"amount": { "min": 1, "max": 1 },
+			"unitWorth": 1200,
+		    "weightMult": 1.0,
+			"rarity": "COMMON",
+			"forbids": [
+				{
+					"type": "item_tag",
+					"content": "fast:instance_pass"
+				}
+			]
+		},
+		
+		"instance_obj1_fast2": {
+			"type": "item",
+			"content": "fast:instance_pass2",
+			"amount": { "min": 1, "max": 1 },
+			"unitWorth": 1100,
+		    "weightMult": 1.0,
+			"rarity": "COMMON",
+			"forbids": [
+				{
+					"type": "item_tag",
+					"content": "fast:instance_pass"
+				}
+			]
+		},
+		
+		"instance_obj1_fast35": {
+			"type": "item",
+			"content": "fast:instance_pass35",
+			"amount": { "min": 1, "max": 1 },
+			"unitWorth": 1000,
+		    "weightMult": 1.0,
+			"rarity": "COMMON",
+			"forbids": [
+				{
+					"type": "item_tag",
+					"content": "fast:instance_pass"
+				}
+			]
+		},
+		
+		"instance_obj1_fast36": {
+			"type": "item",
+			"content": "fast:instance_pass36",
+			"amount": { "min": 1, "max": 1 },
+			"unitWorth": 900,
+		    "weightMult": 1.0,
+			"rarity": "COMMON",
+			"forbids": [
+				{
+					"type": "item_tag",
+					"content": "fast:instance_pass"
+				}
+			]
+		},
+		
+		"instance_obj1_fast41": {
+			"type": "item",
+			"content": "fast:instance_pass41",
+			"amount": { "min": 1, "max": 1 },
+			"unitWorth": 1150,
+		    "weightMult": 1.0,
+			"rarity": "COMMON",
+			"forbids": [
+				{
+					"type": "item_tag",
+					"content": "fast:instance_pass"
+				}
+			]
+		},
+		
+		"instance_obj1_fast42": {
+			"type": "item",
+			"content": "fast:instance_pass42",
+			"amount": { "min": 1, "max": 1 },
+			"unitWorth": 1050,
+		    "weightMult": 1.0,
+			"rarity": "COMMON",
+			"forbids": [
+				{
+					"type": "item_tag",
+					"content": "fast:instance_pass"
+				}
+			]
+		},
+		
+		"instance_obj1_fast43": {
+			"type": "item",
+			"content": "fast:instance_pass43",
+			"amount": { "min": 1, "max": 1 },
+			"unitWorth": 950,
+		    "weightMult": 1.0,
+			"rarity": "COMMON",
+			"forbids": [
+				{
+					"type": "item_tag",
+					"content": "fast:instance_pass"
+				}
+			]
+		},
+		
+		"instance_obj1_fast37": {
+			"type": "item",
+			"content": "fast:instance_pass37",
+			"amount": { "min": 1, "max": 1 },
+			"unitWorth": 800,
+		    "weightMult": 1.0,
+			"rarity": "COMMON",
+			"forbids": [
+				{
+					"type": "item_tag",
+					"content": "fast:instance_pass"
+				}
+			]
+		}
+		
+
+	}
+}

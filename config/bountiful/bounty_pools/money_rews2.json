@@ -1,0 +1,39 @@
+{
+	"content": {
+
+        "money_rew2_fast1": {
+            "type": "item",
+            "content": "money:coin_copper",
+            "amount": {
+                "min": 1,
+                "max": 64
+            },
+			"rarity": "COMMON",
+            "unitWorth": 300
+        },
+        
+        
+        "money_rew2_fast2": {
+            "type": "item",
+            "content": "money:coin_iron",
+            "amount": {
+                "min": 1,
+                "max": 8
+            },
+			"rarity": "UNCOMMON",
+            "unitWorth": 1000
+        },
+        
+        "money_rew2_fast3": {
+            "type": "item",
+            "content": "money:coin_iron",
+            "amount": {
+                "min": 8,
+                "max": 16
+            },
+			"rarity": "EPIC",
+            "unitWorth": 1000
+        }
+        
+    }
+}

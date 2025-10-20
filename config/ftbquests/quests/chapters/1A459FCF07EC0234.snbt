@@ -1,0 +1,1093 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1A459FCF07EC0234"
+	group: "1D1516A5D26CBDD3"
+	icon: "money:coin_copper"
+	id: "1A459FCF07EC0234"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["你从昏迷中醒来,发现身上只有一本奇怪的书,跟随它的指引吧."]
+			id: "2E8D196CAB565259"
+			rewards: [
+				{
+					id: "3F2ABB420763FE0B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:stone_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6ADC58F63FE8D775"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:stone_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A28FBCFF3EBFBE9"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:stone_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [{
+				icon: "minecraft:oak_log"
+				id: "464A1E60C4B89126"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				title: "收集木头"
+				type: "item"
+			}]
+			title: "初来乍到"
+			x: -10.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["2E8D196CAB565259"]
+			description: ["总的来说,一切的开头总是不变的,先做一个工作台吧?"]
+			id: "0547DA81820AC717"
+			size: 1.25d
+			tasks: [{
+				id: "673AFBF75BE9A0B9"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			title: "制作工作台"
+			x: -8.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0547DA81820AC717"]
+			description: [
+				"&l&b开启食物章节"
+				""
+				"种田是一个很重要的赚钱来源，你可以靠女仆帮你种田或者机械动力自动种田。"
+				"当然你也可以选择不种田靠打副本赚钱。"
+			]
+			id: "7B1F615A9A656339"
+			rewards: [
+				{
+					id: "35208CC7C738CEFC"
+					item: "farmersdelight:cabbage_seeds"
+					type: "item"
+				}
+				{
+					id: "33E7CA1871BF8FE0"
+					item: "minecraft:beetroot_seeds"
+					type: "item"
+				}
+				{
+					id: "37CA33E28FF5EF84"
+					item: "farmersdelight:tomato_seeds"
+					type: "item"
+				}
+				{
+					count: 9
+					id: "4D215EC8BD95A60C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "farmersdelight:rich_soil"
+					}
+					type: "item"
+				}
+				{
+					id: "42BFAB9ED1DAAF3A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "fast:raffle_ticket"
+						tag: {
+							RaffleTicket: "lowInstance"
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [{
+				id: "2EB295004F90336F"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:hoes"
+					}
+				}
+				title: "Any #minecraft:hoes"
+				type: "item"
+			}]
+			title: "开始种田"
+			x: -6.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["6B9A1CD5DAEC202D"]
+			description: ["貌不惊人的粗矿石,但有着举足轻重的作用"]
+			id: "6172842F8815B445"
+			rewards: [{
+				id: "5147D9E4979BE9F3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:raffle_ticket"
+					tag: {
+						RaffleTicket: "lowInstance"
+					}
+				}
+				type: "item"
+			}]
+			size: 1.25d
+			tasks: [{
+				id: "5498BE8F61DC767D"
+				item: "minecraft:raw_iron"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["6172842F8815B445"]
+			description: ["&b&l开启家具章节&r&r"]
+			hide_dependency_lines: true
+			id: "4FAB206267C13A90"
+			size: 1.5d
+			tasks: [{
+				id: "799011B4F52890FF"
+				item: "refurbished_furniture:light_electricity_generator"
+				type: "item"
+			}]
+			title: "家具章节(可选)"
+			x: 4.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["6FFEBD66CCE8E54A"]
+			description: [
+				"羊毛是很重要的东西，它能："
+				"制作女仆多方块结构神社。"
+				"制作女仆大部分道具。"
+				"机械动力动力源。"
+			]
+			icon: "minecraft:white_wool"
+			id: "7A1592445681E5DF"
+			rewards: [{
+				count: 3
+				id: "7E6D2A0ABF881C55"
+				item: "minecraft:red_wool"
+				type: "item"
+			}]
+			size: 1.25d
+			tasks: [{
+				id: "5F7A3F2A4BDE2716"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:wool"
+					}
+				}
+				title: "Any #minecraft:wool"
+				type: "item"
+			}]
+			title: "羊毛"
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7A1592445681E5DF"]
+			description: [
+				"&b&l选择任意一个即可解锁女仆章节&r&r"
+				"两个御币只有外观差别。"
+			]
+			id: "53D30E6135A361AA"
+			size: 1.25d
+			tasks: [{
+				id: "5C5B2069C4158FE5"
+				item: {
+					Count: 1
+					id: "touhou_little_maid:sanae_gohei"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.25d
+			y: -3.125d
+		}
+		{
+			dependencies: ["7B1F615A9A656339"]
+			description: [
+				"铜币是整合包的核心，由出售食物或者悬赏或者副本或者深蓝之渊获得。"
+				""
+				"当你获得足够多的铜币即可按O键打开商店购买提升战力的末影饰品。"
+			]
+			icon: "money:coin_copper"
+			id: "6B9A1CD5DAEC202D"
+			rewards: [
+				{
+					id: "6537E4B3EA28E780"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "fast:deepblue_crystal"
+					}
+					type: "item"
+				}
+				{
+					id: "0D51EBE2C02A629A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "money:coin_copper"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [{
+				id: "63AC4EFF16CA9869"
+				type: "checkmark"
+			}]
+			title: "铜币"
+			x: -4.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["40F4145C0DDAEA5F"]
+			description: [
+				"&b&l用于开启第二章&r&r"
+				""
+				"&c小试牛刀副本只能在商店购买开启副本。"
+				""
+				"&6其他副本都可以在悬赏板接取悬赏副本任务进行副本。"
+				""
+				"通常而言的第一个副本，掉落的末影饰品可以大幅强化自身。"
+				""
+				"开启副本有两种方式："
+				"&l接受悬赏副本，根据悬赏副本提供的坐标，拿着悬赏右键坐标附近50格(无视高度)开启副本。"
+				""
+				"&l&6或者钥匙右键海晶灯即可开始副本。"
+				"海晶灯可在后面的任务获得或商店购买。"
+				""
+				"&l&c建议远离家进行副本，否则你的家可能会被BOSS锤烂。"
+			]
+			icon: "fast:instance_pass38"
+			id: "56B9860B570AAF28"
+			rewards: [{
+				id: "01A7A8E70495A01C"
+				item: {
+					Count: 1
+					id: "fast:raffle_ticket"
+					tag: {
+						RaffleTicket: "lowInstance"
+					}
+				}
+				type: "item"
+			}]
+			size: 1.25d
+			tasks: [
+				{
+					id: "1288B99F02895134"
+					item: "fast:instance_pass38"
+					type: "item"
+				}
+				{
+					id: "138E1278472A6C1B"
+					item: "fast:key38"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["6B9A1CD5DAEC202D"]
+			description: ["为你提供夜视属性,算是前期能获取的性价比不错的饰品"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "tarotcards:the_moon"
+				tag: { }
+			}
+			id: "528D5A66658A3AEA"
+			rewards: [{
+				id: "5CEBF85F3FFB2934"
+				item: {
+					Count: 1
+					id: "tarotcards:the_moon"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 50L
+					id: "4FFA9DF7150D62E8"
+					item: "money:coin_copper"
+					type: "item"
+				}
+				{
+					advancement: "minecraft:adventure/sleep_in_bed"
+					criterion: ""
+					id: "3B848FEFE5C68B44"
+					type: "advancement"
+				}
+			]
+			title: "塔罗牌：月亮"
+			x: -7.5d
+			y: -14.0d
+		}
+		{
+			dependencies: ["6172842F8815B445"]
+			description: [
+				"&l&b开启机械动力章节"
+				"安山合金和锌只能通过购买获得，但有了安山合金后获取它们将不再困难，自动化的魅力正是在此。"
+				""
+				"通关不需要你游玩机械动力，机械动力只是部分末影饰品的获得渠道或者自动化种田的帮手。"
+			]
+			hide_dependency_lines: false
+			id: "7374C9CC42B522D5"
+			size: 1.5d
+			tasks: [{
+				id: "371654A622E6A3BE"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			title: "机械动力章"
+			x: -1.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["0547DA81820AC717"]
+			dependency_requirement: "one_completed"
+			description: [
+				"赚钱有多种方式，但大部分方式都放在了悬赏板里"
+				""
+				"悬赏板的赚钱方式："
+				""
+				"&6&l悬赏副本：领取需要通关副本的悬赏后关闭背包，背包的悬赏会告诉你坐标，右键对应坐标附近50格即可开启对应悬赏任务要求的副本"
+				""
+				"&b&l钓鱼：添加了星露谷物语的钓鱼系统，实在不想钓鱼可以靠女仆钓鱼"
+				""
+				"&d&l种田：种田赚钱的大头在O键开启的商店，也是可以靠女仆种田，前期赚钱速度慢，但是可以靠机械动力自动化"
+			]
+			hide_dependency_lines: false
+			id: "1080EF4773D65D1C"
+			rewards: [
+				{
+					id: "150323C3548CBC86"
+					item: {
+						Count: 1
+						id: "bountiful:decree"
+						tag: {
+							"bountiful:decree_data": "{}"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "376ACA276B2613E8"
+					item: {
+						Count: 1
+						id: "bountiful:decree"
+						tag: {
+							"bountiful:decree_data": "{\"ids\":[\"instance1\"]}"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "72D8A0D3D842FFF6"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "fast:raffle_ticket"
+						tag: {
+							RaffleTicket: "lowInstance"
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [{
+				id: "5F0AF1E248AA3CE4"
+				item: "bountiful:bountyboard"
+				type: "item"
+			}]
+			title: "做一名赏金猎人"
+			x: -9.375d
+			y: -5.625d
+		}
+		{
+			dependencies: ["6172842F8815B445"]
+			description: ["钓鱼佬必备的工具,(后续补充)"]
+			hide_dependency_lines: true
+			id: "59C7641BE97042DD"
+			rewards: [
+				{
+					id: "558D367384433E9A"
+					item: {
+						Count: 1
+						id: "stardew_fishing:cork_bobber"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4599DF642CEFF2F6"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "fast:raffle_ticket"
+						tag: {
+							RaffleTicket: "lowInstance"
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "291EF1D7DEE83BF9"
+				item: "aquaculture:tackle_box"
+				type: "item"
+			}]
+			title: "钓具盒(钓鱼篇敬请期待)"
+			x: 6.75d
+			y: -10.5d
+		}
+		{
+			dependencies: ["0547DA81820AC717"]
+			description: [
+				"制作匠魂工具"
+				""
+				"部分匠魂材料被加强了，因此，可以查看工匠大百科来制造你的专属匠魂装备。"
+				""
+				"当然还有其他武器mod，比如武器大师，天体武器，选择一种你最喜欢的武器mod来强化自己。"
+				""
+				"匠魂的材料或者其他武器mod的教程都在&d战斗–强化自身&r的列表里面。"
+				""
+				"也是后续制作更好的食物用于售卖的唯一途径,不建议跳过他"
+			]
+			hide_dependency_lines: false
+			icon: "tconstruct:tinker_station"
+			id: "3C960E92B5F89A4A"
+			rewards: [
+				{
+					count: 6
+					id: "6D83843E52873D65"
+					item: "waystones:warp_dust"
+					type: "item"
+				}
+				{
+					id: "7E92FD1D29A960DD"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "fast:raffle_ticket"
+						tag: {
+							RaffleTicket: "lowInstance"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6E91C0594EE4414D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "tconstruct:cleaver"
+						tag: {
+							Damage: 0
+							tic_broken: 0b
+							tic_materials: [
+								"tconstruct:iron"
+								"kubejs:andesite_alloy"
+								"tconstruct:rock"
+								"tconstruct:flint"
+							]
+							tic_modifiers: [
+								{
+									level: 1
+									name: "tconstruct:magnetic"
+								}
+								{
+									level: 1
+									name: "tconstruct:stonebound"
+								}
+								{
+									level: 1
+									name: "tconstruct:jagged"
+								}
+								{
+									level: 2
+									name: "tconstruct:severing"
+								}
+								{
+									level: 1
+									name: "tconstruct:silky_aoe_shears"
+								}
+								{
+									level: 1
+									name: "kubejs:mechanical_heart"
+								}
+							]
+							tic_multipliers: {
+								"tconstruct:attack_damage": 1.5f
+								"tconstruct:durability": 3.5f
+								"tconstruct:mining_speed": 0.25f
+							}
+							tic_persistent: { }
+							tic_stats: {
+								"tconstruct:attack_damage": 7.21875f
+								"tconstruct:durability": 730.625f
+								"tconstruct:harvest_tier": "minecraft:iron"
+								"tconstruct:mining_speed": 1.3773438f
+							}
+							tic_volatile_data: {
+								abilities: 2
+								upgrades: 2
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "351405EF65E549F9"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:bow"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "2998CADA85EA0A53"
+					item: "tconstruct:pattern"
+					type: "item"
+				}
+				{
+					id: "306C9639BEE77372"
+					item: "tconstruct:tinker_station"
+					type: "item"
+				}
+				{
+					id: "7648FA4386C5F266"
+					item: "tconstruct:part_builder"
+					type: "item"
+				}
+			]
+			title: "匠造之路"
+			x: -6.875d
+			y: -5.625d
+		}
+		{
+			dependencies: ["6B9A1CD5DAEC202D"]
+			description: [
+				"把背包的所有物品钱币转化为虚拟钱币。"
+				""
+				"或者从虚拟钱币转化为物品钱币。"
+			]
+			hide_dependency_lines: true
+			id: "0A9556C5F0F2A171"
+			tasks: [{
+				id: "48414551D51D4E2A"
+				item: "money:magic_transformation_coin"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["6B9A1CD5DAEC202D"]
+			description: ["快捷切换末箱内的物品。"]
+			hide_dependency_lines: true
+			id: "241CF40E2E1080B8"
+			tasks: [{
+				id: "76CEFF8A20BD78E8"
+				item: "fast:ender_pouch"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["6172842F8815B445"]
+			description: [
+				"马儿蹦跳模组，具体攻略看怪奇宝典的特雷森训练员手册即可。(人话:自己学)"
+				""
+				"可靠抽奖卷获得赛马娘相关的末影饰品。"
+				""
+				"抽卡卷在商店即可购买。"
+			]
+			hide_dependency_lines: true
+			id: "04AA13D70EAB9487"
+			rewards: [{
+				count: 2
+				id: "3094CEEFF16C7C7B"
+				item: {
+					Count: 1
+					id: "fast:raffle_ticket"
+					tag: {
+						RaffleTicket: "smn"
+					}
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "5B292A0FA0CD1134"
+				item: "umapyoi:silver_uma_pedestal"
+				type: "item"
+			}]
+			title: "成为赛马娘高手(可选)"
+			x: 6.75d
+			y: -12.0d
+		}
+		{
+			dependencies: ["6B9A1CD5DAEC202D"]
+			description: ["伤害显示功能"]
+			hide_dependency_lines: true
+			id: "7246BA0B098D0CB4"
+			tasks: [{
+				id: "6AB700CB46F9F952"
+				item: "irons_spellbooks:amethyst_resonance_charm"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["6172842F8815B445"]
+			description: ["&l&b开启拍照章节"]
+			id: "05024EB671CBEBCD"
+			size: 1.5d
+			tasks: [{
+				id: "501ACBFC39E5D62C"
+				item: "exposure:camera"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["6B9A1CD5DAEC202D"]
+			description: ["另一种伤害显示方式。"]
+			hide_dependency_lines: true
+			id: "0B944E289AEC30F6"
+			tasks: [{
+				id: "6E18033FFDF9C008"
+				item: "fast:gold_ring"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["6B9A1CD5DAEC202D"]
+			description: [
+				"&b&l开启深蓝之渊章节"
+				""
+				"深蓝之渊是一个简单的肉鸽副本。"
+				""
+				"是获得大部分末影饰品的另一种方式。同时，是&d末影饰品&r&b深蓝碎片&r获取的唯一途径，深蓝碎片是&b通用强力属性末影饰品&r。"
+				"深蓝币的十分之一结算时会自动转化成虚拟钱币。"
+				""
+				"在这里你可以体验到："
+				"1.无尽层数的肉鸽爬塔。"
+				""
+				"2.通关3层以上结束后可获得一个指定的你在深蓝之渊获得的末影饰品。"
+				""
+				"3.提前体验末影饰品的完全体。"
+				""
+				"&c&l注意：深蓝之渊会替换地形，开启时远离自己家！！！！！"
+				"&l&c注意：深蓝水晶在非背包外的地方无法记录进度。"
+				""
+				"介绍:散发着蓝色的水晶,似乎有着前往某个地方进行挑战的用处"
+			]
+			hide_dependency_lines: false
+			id: "40F4145C0DDAEA5F"
+			rewards: [
+				{
+					id: "3BE37F936F53D10D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "fast:raffle_ticket"
+						tag: {
+							RaffleTicket: "lowInstance"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4D2E2F130E53D1B7"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "fast:blue_realm"
+					}
+					type: "item"
+				}
+				{
+					id: "68B21EBDBB563E16"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:sea_lantern"
+					}
+					type: "item"
+				}
+				{
+					id: "3986DF03829D4674"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "fast:dirt_platform"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [{
+				id: "2BB236262CB44628"
+				item: "fast:deepblue_crystal"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["6B9A1CD5DAEC202D"]
+			description: [
+				"宝箱怪25%概率掉落。"
+				"(弓箭流用它比较好,其他的流派来看,这玩意如同鸡肋)"
+			]
+			hide_dependency_lines: true
+			id: "7BE9037D9E0ADE62"
+			tasks: [{
+				id: "279EBDC6E40AB961"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:daedalus_stormbow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["56B9860B570AAF28"]
+			description: [
+				"现在通关副本都有概率获得抽卡盒。"
+				""
+				"低级副本概率为20% "
+				"中级副本概率为40%"
+				"高级副本概率为60%"
+				"每点幸运值所有副本概率都能提高1%"
+				""
+				"低级副本品质固定r"
+				"中级副本品质为 70%概率r 30%概率sr"
+				"高级副本品质为 40%概率r 40%概率sr 20%概率ssr"
+			]
+			icon: {
+				Count: 1
+				id: "fast:card_box"
+				tag: {
+					carddata: {
+						rarity: "r"
+					}
+				}
+			}
+			id: "5A731934D44CBB6B"
+			rewards: [
+				{
+					id: "59A631E7B8FFEAD0"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "fast:card_box"
+						tag: {
+							carddata: {
+								rarity: "r"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1B0290D42B113033"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "fast:raffle_ticket"
+						tag: {
+							RaffleTicket: "lowInstance"
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [{
+				id: "4835F6990063EC57"
+				title: "抽卡盒"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["05024EB671CBEBCD"]
+			description: [
+				"神秘拍照流。"
+				"''你看我还有机会吗''(笑)"
+			]
+			id: "3A2D24FD32F3D585"
+			tasks: [{
+				id: "3D11A834D86B7E30"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:lethal_shutter"
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -11.0d
+		}
+		{
+			description: ["相比于匠魂,他有不错的可成长性"]
+			id: "3D864108302055EA"
+			size: 1.5d
+			tasks: [{
+				id: "39645060B9615A28"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "weaponmaster:weaponkit"
+				}
+				type: "item"
+			}]
+			title: "武器大师(可选)"
+			x: 4.5d
+			y: -12.0d
+		}
+		{
+			id: "0668452E8E4183F3"
+			tasks: [{
+				id: "20FC1C268FCB072C"
+				title: "一些前期须知的小东西"
+				type: "checkmark"
+			}]
+			x: -10.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["7A1592445681E5DF"]
+			description: [
+				"&b&l选择任意一个即可解锁女仆章节&r&r"
+				"两种御币只有外观差异"
+			]
+			id: "530DAFDE31C967A7"
+			size: 1.25d
+			tasks: [{
+				id: "5DD7EB5143650F28"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "touhou_little_maid:hakurei_gohei"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.75d
+			y: -3.125d
+		}
+		{
+			dependencies: ["6172842F8815B445"]
+			description: ["无论在什么地方都具有广泛性的宝贝,这也代表着你度过了铁器时代"]
+			id: "6FFEBD66CCE8E54A"
+			shape: "circle"
+			size: 1.25d
+			tasks: [{
+				id: "18967409CA2EA842"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:diamond"
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["6FFEBD66CCE8E54A"]
+			description: ["一个传奇的开始,踏上旅途吧勇者,不管前面有着什么未知的挑战"]
+			hide_dependency_lines: false
+			id: "6954B082E44FC799"
+			rewards: [{
+				count: 2
+				id: "15E1B45CAC7E57B3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:golden_apple"
+				}
+				type: "item"
+			}]
+			size: 1.25d
+			tasks: [{
+				id: "5F1A33849A110C6C"
+				type: "checkmark"
+			}]
+			title: "结束,也是开始"
+			x: 5.0d
+			y: -7.0d
+		}
+	]
+	title: "第一章-一切的起源"
+}

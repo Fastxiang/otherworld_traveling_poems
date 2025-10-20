@@ -1,0 +1,877 @@
+{
+	default_hide_dependency_lines: true
+	default_quest_shape: ""
+	filename: "1E5B2F3CDC641D51"
+	group: ""
+	icon: "minecraft:grass_block"
+	id: "1E5B2F3CDC641D51"
+	images: [
+		{
+			height: 0.7d
+			image: "fast:item/the_hero_shield"
+			rotation: 0.0d
+			width: 0.7d
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			height: 0.7d
+			image: "fast:item/the_hero_bow"
+			rotation: 0.0d
+			width: 0.7d
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			height: 0.7d
+			image: "fast:item/the_hero_staff"
+			rotation: 0.0d
+			width: 0.7d
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			height: 0.7d
+			image: "fast:item/the_hero_sword"
+			rotation: 0.0d
+			width: 0.7d
+			x: -1.5d
+			y: -2.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4FC47D3100377377"]
+			description: [
+				"本整合包是以赚钱与战斗为核心的整合包。"
+				"赚钱的主要手段是烹饪，钓鱼，战斗。"
+				"&6&l女仆可以帮助你实现烹饪自动化，或者钓鱼自动化。"
+				""
+				"&l&e女仆还能帮助你进行战斗，内有多种提升女仆战斗力方式的手段。"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "touhou_little_maid:entity_placeholder"
+				tag: {
+					RecipeId: "touhou_little_maid:altar/spawn_box"
+				}
+			}
+			id: "48CF184D2E6FBC77"
+			rewards: [{
+				id: "1EF0F3446686AA8B"
+				item: "touhou_little_maid:smart_slab_init"
+				type: "item"
+			}]
+			subtitle: "女仆"
+			tasks: [{
+				id: "12E543AF925B8DA0"
+				title: "开始"
+				type: "checkmark"
+			}]
+			title: "一切的开始"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4FC47D3100377377"]
+			description: [
+				"教程书合集。"
+				"&l&6右键选择你想看的书，这本书就会绑定那本书，再次右键即可打开绑定的书。"
+				"&l左键空气可取消绑定。"
+				"把这本书和任意书合成，即可增加这本书能绑定的选项。（任务书也行）"
+				"部分书可能有bug会消失。"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "eccentrictome:tome"
+				tag: {
+					"eccentrictome:mods": {
+						touhou_little_maid: {
+							0: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"patchouli:book": "touhou_little_maid:memorizable_gensokyo"
+								}
+							}
+						}
+					}
+				}
+			}
+			id: "39FF536AD7319594"
+			rewards: [{
+				id: "53C5BFBE89A68BFA"
+				item: {
+					Count: 1
+					id: "eccentrictome:tome"
+					tag: {
+						Enchantments: [ ]
+						"eccentrictome:mods": {
+							irons_spellbooks: {
+								0: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										Enchantments: [ ]
+										"patchouli:book": "irons_spellbooks:iss_guide_book"
+									}
+								}
+							}
+							tconstruct: {
+								0: {
+									Count: 1b
+									id: "tconstruct:materials_and_you"
+									tag: {
+										mantle: {
+											book: {
+												current_page: "further_reading.tinkergadgetry_craft"
+											}
+										}
+									}
+								}
+							}
+							touhou_little_maid: {
+								0: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "touhou_little_maid:memorizable_gensokyo"
+									}
+								}
+							}
+							umapyoi: {
+								0: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										Enchantments: [ ]
+										"patchouli:book": "umapyoi:trainers_manual"
+									}
+								}
+							}
+						}
+						"eccentrictome:version": 1
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "403068E674EAC761"
+				title: "怪奇宝典"
+				type: "checkmark"
+			}]
+			title: "怪奇宝典"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4FC47D3100377377"]
+			description: [
+				"BOSS血量和小怪血量都进行了修改，这里的不变指的是不会x倍数。"
+				""
+				"&l&b普通难度 5倍血量 1.5倍攻击 "
+				"&l&bBOSS血量和攻击不变"
+				""
+				"&l&6困难难度 10倍血量 2倍攻击 "
+				"&l&6BOSS血量x2 攻击x1.5"
+				""
+				"&l&c地狱难度 20倍血量 4倍攻击 "
+				"&l&cBOSS血量x4 攻击x2"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "minecraft:diamond_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6F1598F4944CFAB2"
+			rewards: [{
+				exclude_from_claim_all: true
+				icon: {
+					Count: 1
+					id: "minecraft:diamond_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "4D2A79B5E1F8627B"
+				table_id: 2547445582873568579L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "55C966C9E37BB584"
+				title: "选择难度"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependency_requirement: "all_started"
+			description: [
+				"欢迎来到异界随行诗，怪物的强度对比原版进行了大幅度加强。但相应的，你通过赚钱获得的强化让你足以对抗他们，但你得开始赚钱。"
+				""
+				"加入了新的系统：末影饰品，把末影饰品放入末影箱即可获得对应的效果。同时，背包新增了快捷打开末影箱的功能，前期即可打开末影箱。"
+				""
+				"&d&l商店系统由默认键O打开，或者背包左上角点击打开。&r&r"
+				""
+				"可以在商店转化成物品货币。"
+			]
+			icon: "money:coin_copper"
+			id: "4FC47D3100377377"
+			min_required_tasks: 1
+			rewards: [{
+				id: "384945052DD54B2A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:initial_item"
+				}
+				type: "item"
+			}]
+			size: 1.25d
+			tasks: [{
+				id: "5974791F2AE311D4"
+				title: "开始赚钱"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4FC47D3100377377"]
+			description: [
+				"本整合包拥有服务器常见指令的模组，如："
+				"/sethome /home /tpa /back等方便的指令。"
+				"当然你懒得打可以用指南针快捷输入这些指令。"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:compass"
+			}
+			id: "25068E53AAF7E053"
+			rewards: [
+				{
+					id: "33009E4EF9634022"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:compass"
+					}
+					type: "item"
+				}
+				{
+					id: "2659B2D740AA8D7A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "naturescompass:naturescompass"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "68BB9EC28AD26AD0"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4FC47D3100377377"]
+			description: [
+				"新增属性："
+				"&l&c力量：每点增加0.5攻击，0.1最大生命值。"
+				"&l&b敏捷：每点增加0.1%攻击速度，0.1%移动速度。"
+				"&l&d智力：每点增加0.005基础法术强度，1法力值上限。"
+				"&l&e体质：每点增加2防御，0.5最大生命值。"
+				"&l&7攻击无敌帧：顾名思义，降低攻击无敌帧可以降低敌人的无敌间隔。只有攻击伤害才能降低无敌帧。"
+				"&l&6攻击额外伤害：造成攻击伤害时，每点增加1点额外伤害。（除了魔法和子弹伤害基本都算攻击伤害）"
+				"&l物理精通：强化物理技能的伤害，暂时只用作物理技能加成。"
+			]
+			icon: {
+				Count: 1
+				id: "tarotcards:wheel_of_fortune"
+				tag: { }
+			}
+			id: "7E2CD7CD71DB178E"
+			tasks: [{
+				id: "5FCA954049EE86CD"
+				title: "新增属性"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4FC47D3100377377"]
+			description: [
+				"新增了属性点系统，打副本怪可以掉落经验值，左下角会显示经验。"
+				""
+				"&l&6按Y键打开属性值系统。"
+				""
+				"制作者：快翔。"
+				"任务书编写与修改：路过的明某人"
+				""
+				"感谢kubejs魔改交流群的大佬们提供的帮助，感谢脆骨症整合包。"
+				""
+				"我的魔改代码学习全靠他们。"
+			]
+			id: "345AC2E28D62121C"
+			tasks: [{
+				id: "726629E50D1299B5"
+				title: "属性点和制作者以及感谢"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4FC47D3100377377"]
+			description: [
+				"鼠标放到物品会有物品描述大家都知道。"
+				"在本整合包内，你鼠标放到物品描述时，若时间比较长，或者直接点击D键，即可让描述固定在屏幕上，变成固定提示框。"
+				"固定提示框可以随意拖动，且鼠标放到部分文字上有效果描述介绍。"
+				"{image:kubejs:textures/jiaocheng/shiping_jiao_cheng4.png width:230 height:115 align:center}"
+			]
+			icon: "fast:fire_magic_shard"
+			id: "4F226D2FC7C8E767"
+			tasks: [{
+				id: "483EA1A9A36E07B4"
+				title: "提示框"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4F226D2FC7C8E767"]
+			description: [
+				"当你固定好了提示框，鼠标放到高亮文字或者类型文字时，则会显示对应的描述。"
+				""
+				"关闭固定提示框只需要点击鼠标中键即可，或者D+鼠标中间关闭所有固定提示框。"
+				"{image:kubejs:textures/jiaocheng/shiping_jiao_cheng6.png width:230 height:115 align:center}"
+			]
+			hide_dependency_lines: true
+			icon: "fast:ice_magic_shard"
+			id: "79BB8A5D908C5F9C"
+			tasks: [{
+				id: "59F88864929D9C29"
+				title: "查看文字具体说明"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4FC47D3100377377"]
+			description: ["开启或关闭副本系统播报。"]
+			icon: "minecraft:sea_lantern"
+			id: "25F4D3C67C88C124"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4A2BFFA3D139BA1B"
+				table_id: 1028206424591687517L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "664BFBF10D418373"
+				title: "开启或关闭副本系统播报"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4FC47D3100377377"]
+			description: [
+				"勇者之剑是&f&l物理伤害&r的绝对核心。"
+				""
+				"&l物理伤害&r是一个伤害类型，&6近战攻击&r的伤害即为&l物理伤害&r。"
+				""
+				"拥有专属资源条&c怒气值&r，怒气值既可以增伤也能使用各种&6剑技&r末影饰品"
+				""
+				"&6近战攻击&r吃攻击，因此一般而言，堆攻击和力量是该饰品的核心加成。"
+				""
+				"因为勇者之剑的条件是原始&l物理伤害&r，因此，当你由&l物理伤害&r转化为任意伤害类型都会触发勇者之剑效果，可以以此来构筑你的末影饰品。"
+			]
+			icon: "fast:the_hero_sword"
+			id: "089B113AB60B0C3D"
+			rewards: [{
+				id: "27A829F355BBABAC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:the_hero_sword"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "44A4A39F5858812C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:initial_item"
+				}
+				type: "item"
+			}]
+			title: "勇者之剑"
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4FC47D3100377377"]
+			description: [
+				"勇者之盾是&l防御&r体系的重要组件。"
+				""
+				"&b嘲讽&r在女仆与你一起战斗时或者多人的情况下是个非常有用的效果，能有效的为队伍抗住伤害。"
+				""
+				"&6装备盾牌抵消伤害的情况下也能触发反击&r，多利用这个特点来提高你的伤害。"
+				""
+				"反击造成的&d末影伤害&r可以让你吃到末影伤害相关末影饰品的增伤来提高你的伤害。"
+				""
+				"使用法术&e骑士之誓&r在女仆受到伤害时，你帮忙分摊时，可以既触发女仆的勇者之盾效果的同时触发你自己的勇者之盾效果。"
+			]
+			icon: "fast:the_hero_shield"
+			id: "2375DF49FC213C09"
+			rewards: [{
+				id: "1BCDE94F1239EC26"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:the_hero_shield"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "557AD3C76BF21804"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:initial_item"
+				}
+				type: "item"
+			}]
+			title: "勇者之盾"
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4FC47D3100377377"]
+			description: [
+				"勇者之弓是强化&l弓弩&r的绝对核心。"
+				""
+				"弓弩造成的伤害皆为&a弓箭伤害&r，因此，堆敏捷即可大幅强化你的弓弩伤害。"
+				""
+				"末影饰品&b魔法箭袋&r可在使用弓弩时造成&3唤魔伤害&r，同时还能打到部分免疫箭投射物的boss。"
+				""
+				"末影饰品&c狂战之弓&r可以在不使用弓弩的情况下吃到勇者之弓的加成。"
+				""
+				"&a弓箭伤害&r可以吃到&6攻击无敌帧&r的属性效果，因此，攻击无敌帧为0%时，弓弩造成的伤害将会无视无敌帧。"
+			]
+			icon: "fast:the_hero_bow"
+			id: "6BC22036F2E1EAD3"
+			rewards: [{
+				id: "694D1BE0FBCEEBDB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:the_hero_bow"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "48710E1FD377F346"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:initial_item"
+				}
+				type: "item"
+			}]
+			title: "勇者之弓"
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4FC47D3100377377"]
+			description: [
+				"勇者之杖是&d智力&r玩法的绝对核心。"
+				""
+				"&d智力的效果提升1.5倍&r相当于独立乘区的1.5倍智力加成，任何有智力相关的末影饰品都能吃到这个加成。"
+				""
+				"&d智力&r可以提升&b基础法术强度&r，因此，&d智力&r越高，&b百分比的法术强度加成效果&r的收益就越高，利用这点，法术强度的堆叠将变得非常容易，&b法术强度&r是释放&6铁魔法法术&r的重要属性，一般而言，铁魔法法术公式为基础伤害x&b法术强度&rx对应学派属性法术强度，其中等级影响了基础伤害。"
+				""
+				"单纯的堆叠智力对&d非末影伤害&r的&6铁魔法法术&r的伤害提升并不大，部分&6铁魔法法术&r不需要堆&d智力&r也能打出高伤害。"
+			]
+			icon: "fast:the_hero_staff"
+			id: "69998063DBDD9C5A"
+			rewards: [{
+				id: "3EE282466584F4C8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:the_hero_staff"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "550A8BF98B1C50A2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:initial_item"
+				}
+				type: "item"
+			}]
+			title: "勇者之杖"
+			x: -2.0d
+			y: -5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4FC47D3100377377"]
+			description: [
+				"勇者之骰是通用&b运气&r组件。"
+				""
+				"任何玩法都可以携带，前提是你的&b运气&r够好。"
+			]
+			icon: "fast:the_hero_dice"
+			id: "5DA0341981F3BBDA"
+			rewards: [{
+				id: "3A0936DB06C63ABB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:the_hero_dice"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "5EDAD9C03816C0E5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:initial_item"
+				}
+				type: "item"
+			}]
+			title: "勇者之骰"
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4FC47D3100377377"]
+			description: [
+				"剑灵是&6额外&r的伤害手段或纯&b飞剑&r的核心。"
+				""
+				"&b飞剑&r的伤害无视无敌帧，因此大部分玩法也都可以携带一个来增加伤害手段。"
+				""
+				"通过&e遗迹残响：骸影&rboss掉落的&b飞剑系列&r末影饰品，可强化&b飞剑&r的伤害来组成纯&b飞剑&r玩法。"
+			]
+			icon: "fast:sword_soul"
+			id: "04D99F6CA36DB4B2"
+			rewards: [{
+				id: "011F73616F5035E8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:sword_soul"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "56F8D261F331BC6E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:initial_item"
+				}
+				type: "item"
+			}]
+			title: "剑灵"
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4FC47D3100377377"]
+			description: [
+				"塔罗牌：恋人是&c强化女仆&r的绝对核心"
+				""
+				"女仆既可以&d穿戴部分勇者系列&r的末影饰品，又可以&6释放比玩家等级还高的铁魔法法术&r，因此女仆的伤害比起玩家不会低很多。"
+				""
+				"任务书的&c女仆章节&r有所有强化女仆的末影饰品和女仆饰品，需要强化女仆可以查看这个章节。"
+				""
+				"&c强化女仆，提升好感度&r是重点。"
+			]
+			icon: {
+				Count: 1
+				id: "tarotcards:the_lovers"
+				tag: { }
+			}
+			id: "61D77B0848D2167B"
+			rewards: [{
+				id: "0B74B2EB427F56F2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tarotcards:the_lovers"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "139F80F83340503D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:initial_item"
+				}
+				type: "item"
+			}]
+			title: "塔罗牌：恋人"
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4FC47D3100377377"]
+			description: [
+				"工匠大百科是&f&l攻击&r比较简单的获取渠道。"
+				""
+				"一般而言，&l物理伤害&r都是由攻击进行计算来增加伤害的。"
+				""
+				"但也有例外，比如潜力锻造&d魔剑士&r，即可造成&l物理伤害&r时转化为对应学派的&d魔法伤害&r并根据&l攻击&r来改变这次伤害的计算公式。"
+			]
+			icon: "tconstruct:encyclopedia"
+			id: "43D8F53658B63726"
+			rewards: [{
+				id: "49EADFFBC5ED41A7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tconstruct:encyclopedia"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "214BFEA18F9DA5D7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:initial_item"
+				}
+				type: "item"
+			}]
+			title: "工匠大百科"
+			x: -2.0d
+			y: -6.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4FC47D3100377377"]
+			description: [
+				"勇者之竿是&b钓鱼&r玩法的绝对核心。"
+				""
+				"&b钓鱼&r系统是&b星露谷钓鱼&r，喜好&b星露谷钓鱼&r的勇者可以尝试。"
+				""
+				"钓鱼相关末影饰品不多，因此介绍一下所有钓鱼相关末影饰品。"
+				""
+				"&d宝藏诱饵&r，商店100块购买，能必定出宝藏，星露谷钓鱼的大多数奖励都在宝藏。"
+				""
+				"&d宝藏囤积者&r，宝藏获得，提升1%金宝藏的概率，金宝藏只有普通宝藏存在时才能出现，相当于2-4个普通宝藏。"
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "fast:the_hero_fishing_rod"
+			}
+			id: "592BF5970F9882FC"
+			rewards: [{
+				id: "284687B7D3A75B80"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:the_hero_fishing_rod"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "6C2F6C8E73785182"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:initial_item"
+				}
+				type: "item"
+			}]
+			title: "勇者之竿"
+			x: 2.0d
+			y: -6.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4FC47D3100377377"]
+			description: [
+				"幸运水晶+是&b种田&r玩法的核心。"
+				""
+				"幸运水晶+可以让你不打任何副本只通过&b种田&r来获得大部分副本末影饰品。"
+				""
+				"商店只能出售食物，因此，该末影饰品只能通过出售食物来获得副本抽奖券。"
+				""
+				"魔改了女仆与商店，现在可以通过&d女仆销售凭证&r来让&c女仆自动出售食物&r或者让&c女仆自动购买商店的物品&r。"
+			]
+			icon: "hmag:fortune_crystal_plus"
+			id: "53653269614470A7"
+			rewards: [{
+				id: "3318BBE21EFBDEB8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "hmag:fortune_crystal_plus"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "4F37979EFD8C3879"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:initial_item"
+				}
+				type: "item"
+			}]
+			title: "幸运水晶+"
+			x: 0.0d
+			y: -8.0d
+		}
+	]
+	title: "一切的开始"
+}

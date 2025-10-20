@@ -1,0 +1,10 @@
+{
+    "attribute.name.str": "力量",
+    "attribute.name.vit": "体质",
+    "attribute.name.agi": "敏捷",
+    "attribute.name.int": "智力",
+    "attribute.name.tec": "技巧",
+    "attribute.name.defense": "防御",
+    "attribute.name.extra_damage": "额外攻击伤害",
+    "attribute.name.generic.attack_invulnerable_frames": "攻击无敌帧"
+}

@@ -1,0 +1,373 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "454D6D8DE4F13B4F"
+	group: "4FC82DFE0A9AFD1F"
+	icon: "refinedstorage:creative_controller"
+	id: "454D6D8DE4F13B4F"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["合成获得。前期廉价的无尽能源，可以放置在任何能使用充电物品的机器上。也可以放入紫水晶发电机，使其发电量翻倍。"]
+			id: "3ECFB54659958ED2"
+			tasks: [{
+				id: "3E41A4E0B1D5CDEB"
+				item: {
+					Count: 1
+					id: "fast:endless_battery1"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["373997F9B898B2C0"]
+			description: [
+				"效率是基础的两倍。"
+				"把基础放置到动力充能器上，使其升级。"
+			]
+			id: "194BDB1B062CC9E3"
+			tasks: [{
+				id: "46BC404CBC963223"
+				item: {
+					Count: 1
+					id: "fast:endless_battery2"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3ECFB54659958ED2"]
+			description: [
+				"让紫水晶钻石发电更快。"
+				"商店购买。"
+			]
+			id: "2199C2EFD46D8FFB"
+			tasks: [{
+				id: "7C2B746BFB6ED72D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mbd2:fastchongdian"
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["64CEE7D016A2B856"]
+			description: ["{image:kubejs:textures/jiaocheng/jiao_cheng2.png width:220 height:100 align:center}"]
+			id: "65ABAAF94D49BC6A"
+			tasks: [{
+				id: "5087CBADD5211740"
+				item: "refinedstorage:controller"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["65ABAAF94D49BC6A"]
+			description: ["决定存储容量"]
+			icon: "refinedstorage:disk_drive"
+			id: "6241D1DE70E9BFBD"
+			rewards: [{
+				id: "0F1A523CA43C2F09"
+				item: "refinedstorage:64k_storage_disk"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "64DCFF6A702FA7D4"
+					item: "refinedstorage:1k_storage_disk"
+					type: "item"
+				}
+				{
+					id: "682767C7D9C722F1"
+					item: "refinedstorage:disk_drive"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["65ABAAF94D49BC6A"]
+			id: "63F64A0AE42A1CE0"
+			tasks: [{
+				id: "6FC9EDC1C64CA943"
+				item: "refinedstorage:grid"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["63F64A0AE42A1CE0"]
+			id: "33C3A65B49724512"
+			tasks: [{
+				id: "3479282012BAC98E"
+				item: "refinedstorage:crafting_grid"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"3ECFB54659958ED2"
+				"29AD0D5C64DF00D3"
+			]
+			id: "52EB0899DF82ED84"
+			tasks: [{
+				id: "0571A44F1B7095F2"
+				item: "sophisticatedbackpacks:battery_upgrade"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			id: "29AD0D5C64DF00D3"
+			rewards: [{
+				id: "349FE38096CA5E80"
+				item: "sophisticatedbackpacks:battery_upgrade"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2FB2BF690F2589B3"
+				item: "sophisticatedbackpacks:upgrade_base"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["52EB0899DF82ED84"]
+			description: [
+				"背包可以放下并使用小型链接器和铜线圈连接控制器。"
+				""
+				"也可以使用紫水晶发电机连接。"
+				"{image:kubejs:textures/jiaocheng/jiao_cheng1.png width:220 height:100 align:center}"
+			]
+			id: "3300D1EEF51C9DB3"
+			rewards: [
+				{
+					count: 2
+					id: "6039423B9F4AC4F6"
+					item: "createaddition:connector"
+					type: "item"
+				}
+				{
+					id: "35905CD99B7E0F7F"
+					item: "createaddition:copper_spool"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "69272BD1EFE56FE4"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3300D1EEF51C9DB3"]
+			id: "64CEE7D016A2B856"
+			tasks: [
+				{
+					id: "464AA922C8D47568"
+					item: "createaddition:copper_spool"
+					type: "item"
+				}
+				{
+					id: "3F63D0BFCE981909"
+					item: "createaddition:connector"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["63F64A0AE42A1CE0"]
+			description: [
+				"远程访问终端。"
+				"需要放背包充电。"
+			]
+			id: "728D5F8D85902037"
+			tasks: [{
+				id: "4F718E6F4D757460"
+				item: "refinedstorage:wireless_grid"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7D8FC80E4D492980"]
+			id: "14067DCE10E85CEE"
+			tasks: [{
+				id: "5C5692D23E5EE435"
+				item: "refinedstorage:wireless_transmitter"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["14067DCE10E85CEE"]
+			description: ["无线范围使用无线终端。"]
+			id: "78F53CA6BDA7B5B2"
+			tasks: [{
+				id: "07AAD47D193CBDE2"
+				item: "rsinfinitybooster:infinity_card"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["78F53CA6BDA7B5B2"]
+			description: ["无限范围+跨纬度使用无线存储终端"]
+			id: "78B2AAA9211B75EA"
+			tasks: [{
+				id: "573C0AE3E7FEDE84"
+				item: "rsinfinitybooster:dimension_card"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["33C3A65B49724512"]
+			description: [
+				"远程访问无线终端。"
+				"需要放背包充电。"
+			]
+			id: "7D8FC80E4D492980"
+			tasks: [{
+				id: "765891777C71F000"
+				item: "refinedstorageaddons:wireless_crafting_grid"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["194BDB1B062CC9E3"]
+			id: "5FA3C8C17E269BB7"
+			tasks: [{
+				id: "0B6D1BF77BC362F7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:endless_battery3"
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5FA3C8C17E269BB7"]
+			id: "7518769A382E625B"
+			tasks: [{
+				id: "500F4F3ACC277A69"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:endless_battery4"
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["194BDB1B062CC9E3"]
+			id: "47C6AB3B767E44DE"
+			tasks: [{
+				id: "6E94F41E9836E0CD"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:shimmering_diamond"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3ECFB54659958ED2"]
+			id: "373997F9B898B2C0"
+			tasks: [{
+				id: "62E615896370E5B1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mbd2:create001"
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7518769A382E625B"]
+			id: "1519D09F5CE3F50F"
+			tasks: [{
+				id: "196C63953C04B29D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:endless_battery5"
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+	]
+	title: "RS精妙存储"
+}

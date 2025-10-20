@@ -1,0 +1,148 @@
+{
+  "list": [
+    {
+      "id": "fast:vit",
+      "intrinsic": 0.0,
+      "order": 1000,
+      "usePercent": false
+    },
+    {
+      "id": "fast:str",
+      "intrinsic": 0.0,
+      "order": 2000,
+      "usePercent": false
+    },
+    {
+      "id": "fast:agi",
+      "intrinsic": 0.0,
+      "order": 3000,
+      "usePercent": false
+    },
+    {
+      "id": "fast:int",
+      "intrinsic": 0.0,
+      "order": 4000,
+      "usePercent": false
+    },
+    {
+      "id": "fast:tec",
+      "intrinsic": 0.0,
+      "order": 4500,
+      "usePercent": false
+    },
+    {
+      "id": "minecraft:generic.max_health",
+      "intrinsic": 0.0,
+      "order": 5000,
+      "usePercent": false
+    },
+    {
+      "id": "fast:defense",
+      "intrinsic": 0.0,
+      "order": 5500,
+      "usePercent": false
+    },
+    {
+      "id": "minecraft:generic.attack_damage",
+      "intrinsic": 0.0,
+      "order": 6000,
+      "usePercent": false
+    },
+    {
+      "id": "fast:extra_damage",
+      "intrinsic": 0.0,
+      "order": 6100,
+      "usePercent": false
+    },
+    {
+      "id": "irons_spellbooks:spell_power",
+      "intrinsic": 0.0,
+      "order": 6200,
+      "usePercent": true
+    },
+    {
+      "id": "fast:physical_mastery",
+      "intrinsic": 0.0,
+      "order": 6250,
+      "usePercent": true
+    },
+    {
+      "id": "irons_spellbooks:max_mana",
+      "intrinsic": 0.0,
+      "order": 6300,
+      "usePercent": false
+    },
+    {
+      "id": "irons_spellbooks:cooldown_reduction",
+      "intrinsic": 0.0,
+      "order": 6400,
+      "usePercent": true
+    },
+    {
+      "id": "irons_spellbooks:cast_time_reduction",
+      "intrinsic": 0.0,
+      "order": 6500,
+      "usePercent": true
+    },
+    {
+      "id": "irons_spellbooks:mana_regen",
+      "intrinsic": 0.0,
+      "order": 6750,
+      "usePercent": false
+    },
+    {
+      "id": "minecraft:generic.attack_speed",
+      "intrinsic": 0.0,
+      "order": 7000,
+      "usePercent": false
+    },
+    {
+      "id": "minecraft:generic.movement_speed",
+      "intrinsic": 0.0,
+      "order": 7100,
+      "usePercent": false
+    },
+    {
+      "id": "kubejs:generic.attack_invulnerable_frames",
+      "intrinsic": 0.0,
+      "order": 7200,
+      "usePercent": true
+    },
+    {
+      "id": "fast:sword_limit",
+      "intrinsic": 0.0,
+      "order": 7210,
+      "usePercent": false
+    },
+    {
+      "id": "fast:sword_hover_speed",
+      "intrinsic": 0.0,
+      "order": 7220,
+      "usePercent": false
+    },
+    {
+      "id": "fast:sword_hover_radius",
+      "intrinsic": 0.0,
+      "order": 7230,
+      "usePercent": false
+    },
+    {
+      "id": "forge:block_reach",
+      "intrinsic": 0.0,
+      "order": 8000,
+      "usePercent": false
+    },
+    {
+      "id": "forge:entity_reach",
+      "intrinsic": 0.0,
+      "order": 9000,
+      "usePercent": false
+    },
+    {
+      "id": "minecraft:generic.luck",
+      "intrinsic": 0.0,
+      "order": 10000,
+      "usePercent": false
+    }
+  ]
+}

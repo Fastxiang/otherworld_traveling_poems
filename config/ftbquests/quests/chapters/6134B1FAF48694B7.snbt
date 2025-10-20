@@ -1,0 +1,36 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6134B1FAF48694B7"
+	group: "67091C4774FC5F4A"
+	icon: "fast:deepblue_crystal"
+	id: "6134B1FAF48694B7"
+	order_index: 5
+	quest_links: [ ]
+	quests: [{
+		dependencies: ["40F4145C0DDAEA5F"]
+		description: [
+			"右键深蓝水晶开启深蓝之渊。"
+			""
+			"几乎所有内容都在开启的页面进行。"
+			""
+			"到达第10层时，怪物和boss都会换成另一批怪物，且变得更强。奖励也会升级。"
+			""
+			"尽你所能，通关最高的层数吧！"
+			""
+			"&c&l注意：深蓝之渊会替换地形，开启时远离自己家！！！！！"
+			""
+			"&l&c注意：深蓝水晶在非背包外的地方无法记录进度。"
+		]
+		icon: "fast:deepblue_crystal"
+		id: "76406CD10963FE76"
+		tasks: [{
+			id: "243256977B5EA55D"
+			title: "深蓝之渊教程"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "深蓝之渊"
+}

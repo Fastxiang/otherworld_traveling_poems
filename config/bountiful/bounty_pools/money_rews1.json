@@ -1,0 +1,16 @@
+{
+	"content": {
+
+        "money_rew1_fast1": {
+            "type": "item",
+            "content": "money:coin_copper",
+            "amount": {
+                "min": 1,
+                "max": 30
+            },
+			"rarity": "COMMON",
+            "unitWorth": 80
+        }
+        
+    }
+}

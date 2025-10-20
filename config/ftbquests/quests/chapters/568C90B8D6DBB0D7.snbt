@@ -1,0 +1,376 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "568C90B8D6DBB0D7"
+	group: "67091C4774FC5F4A"
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			"celestisynth:celestisynthitemstackcapabilities": {
+				cs.aquaSkin: 0
+			}
+		}
+		id: "celestisynth:solaris"
+		tag: {
+			Damage: 0
+			csController: {
+				cs.AttackIndex: -1
+				cs.animationTimer: 0
+				cs.directionIndex: 0
+				cs.hasAnimationBegun: 0b
+				cs.hasStartedSoulDash: 0b
+				cs.headRotLock: 0.0f
+			}
+		}
+	}
+	id: "568C90B8D6DBB0D7"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4890753AA4DDC4BE"]
+			description: [
+				"天体武器是一种以主动技能为核心的武器。"
+				""
+				"它们的主动技能非常强大，因此，使用这些主动技能需要在末影饰品放置天体核心才能正常的释放主动技能。"
+				""
+				"天体核心也是合成天体武器所需的燃料材料，可以用紫水晶代替。"
+			]
+			id: "38128B4B583CCB09"
+			tasks: [{
+				id: "7EDD6770BBB916B2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "celestisynth:celestial_core"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["38128B4B583CCB09"]
+			description: ["制作天体武器所需要的合成台。"]
+			id: "26A65205289E68A4"
+			tasks: [{
+				id: "50989C6FF3E29006"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "celestisynth:starlit_factory"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["26A65205289E68A4"]
+			description: [
+				"长按右键时，持续召唤火球环绕自身。"
+				"右键时，自身高速旋转对较大范围的敌人造成伤害。"
+				"蹲下右键时，为向前高速冲锋。"
+			]
+			id: "758F28A4362EFD9A"
+			tasks: [{
+				id: "2AB4DA2E01F3145B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "celestisynth:solaris"
+					tag: {
+						Damage: 0
+						csController: {
+							cs.AttackIndex: -1
+							cs.animationTimer: 0
+							cs.directionIndex: 0
+							cs.hasAnimationBegun: 0b
+							cs.hasStartedSoulDash: 0b
+							cs.headRotLock: 0.0f
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["26A65205289E68A4"]
+			description: [
+				"右键时，对敌人前方敌人造成多段连击。"
+				"蹲下右键时，拖拽敌人到你身边。"
+			]
+			id: "6AF629ECEBA0B437"
+			tasks: [{
+				id: "3FDD552B17813292"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "celestisynth:crescentia"
+					tag: {
+						Damage: 0
+						csController: {
+							cs.AttackIndex: -1
+							cs.animationTimer: 0
+							cs.hasAnimationBegun: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["26A65205289E68A4"]
+			description: [
+				"手持时，大大的提升灵活性，但受到伤害增加。"
+				"右键时，对前方造成一段伤害，蓄力一段时间为两段。"
+				"蹲下右键时，向前方造成伤害。"
+				"跳跃右键时，往下造成一段伤害。"
+				"冲刺右键时，向前冲锋，对附近敌人造成伤害。"
+			]
+			id: "7E8FA71A5CC0D1CC"
+			tasks: [{
+				id: "71AA40B731E59E10"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "celestisynth:breezebreaker"
+					tag: {
+						Damage: 0
+						csController: {
+							cs.AttackIndex: -1
+							cs.animationTimer: 0
+							cs.hasAnimationBegun: 0b
+						}
+						csExtras: {
+							cs.bbBuffState: 0b
+							cs.bbBuffStateLimiter: 0
+							cs.bbCombo: 15
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["26A65205289E68A4"]
+			description: [
+				"右键时，对前方造成范围伤害。"
+				"释放十次时，变为跳跃后对地面造成一次范围伤害。"
+				"蹲下右键时，生成一个短时间屏障，并后跳。"
+			]
+			id: "75A9F27D42A034E4"
+			tasks: [{
+				id: "2D647EA23B53B543"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "celestisynth:poltergeist"
+					tag: {
+						Damage: 0
+						csController: {
+							cs.AttackIndex: -1
+							cs.animationTimer: 0
+							cs.hasAnimationBegun: 0b
+							cs.poltergeistSmashHeight: 0
+						}
+						csExtras: {
+							cs.queueComboLarge: 0b
+							cs.smashCountForPassive: 3
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["26A65205289E68A4"]
+			description: [
+				"右键时，对前方的敌人造成多段连击。"
+				"蹲下右键时，将怪物击飞，且切换形态。"
+				"切换形态时，右键变为自动锁定附近的敌人造成多段伤害。"
+				"这个形态蹲下右键为聚怪，并切换形态。"
+			]
+			id: "2767C08ECF5873F5"
+			tasks: [{
+				id: "7085817C24447C9E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "celestisynth:aquaflora"
+					tag: {
+						Damage: 0
+						Fireworks: {
+							Explosions: [{
+								Colors: [I;14188952]
+								Type: 0b
+							}]
+							Flight: 3b
+						}
+						csController: {
+							cs.AttackIndex: -1
+							cs.animationTimer: 0
+							cs.atkOngoing: 0b
+							cs.checkPassiveIfBlooming: 0b
+							cs.hasAnimationBegun: 0b
+							cs.initViewAngle: 24.060871f
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["26A65205289E68A4"]
+			description: [
+				"长按右键时，持续召唤冰块投射物对造成伤害。"
+				"右键时，对前方造成三次范围伤害。"
+				"蹲下右键时，向前方直线造成范围伤害。"
+			]
+			id: "5F4D03E625F7F6D3"
+			tasks: [{
+				id: "220681FAB147AEB3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "celestisynth:frostbound"
+					tag: {
+						Damage: 0
+						csController: {
+							cs.AttackIndex: -1
+							cs.animationTimer: 0
+							cs.hasAnimationBegun: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["26A65205289E68A4"]
+			description: [
+				"长按右键持续献祭血量。"
+				"右键时，对敌人造成伤害，和献祭血量有关。"
+				"蹲下长按右键时，调整向前跳跃的位置。"
+				"蹲下右键时，朝着调整到的位置跳跃并释放法阵。"
+			]
+			id: "0AAF85450DDD34E1"
+			tasks: [{
+				id: "5C6DC57EFBCA9297"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "celestisynth:keres"
+					tag: {
+						Damage: 0
+						csController: {
+							cs.AttackIndex: -1
+							cs.animationTimer: 0
+							cs.hasAnimationBegun: 0b
+							cs.keresStack: 0
+						}
+						csExtras: {
+							cs.keres.xx: -8.134917f
+							cs.keres.zz: -2.626994f
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4890753AA4DDC4BE"]
+			description: ["唯一一个不需要天体核心就能使用的武器。也是唯一一个天体远程武器。"]
+			id: "7A408E00687CE913"
+			tasks: [{
+				id: "7E73D64CEBDEDCB9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "celestisynth:rainfall_serenity"
+					tag: {
+						Damage: 0
+						csExtras: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			description: ["掉落全部天体武器的材料，难度约和无名守门人一个级别。血量1w。"]
+			id: "4890753AA4DDC4BE"
+			tasks: [{
+				id: "58708FC296665BC3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:instance_pass39"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	title: "天体武器"
+}

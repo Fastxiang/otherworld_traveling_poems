@@ -1,0 +1,206 @@
+{
+  "content": {
+    "armorer_trade_66": {
+      "type": "item",
+      "content": "money:coin_copper",
+      "amount": {
+				"min": 4,
+				"max": 12
+			},
+      "unitWorth": 200
+    },
+    "armorer_trade_5": {
+      "type": "item",
+      "content": "minecraft:iron_ingot",
+      "amount": {
+				"min": 1,
+				"max": 1
+			},
+      "unitWorth": 500,
+      "nbt": "{enderbonus:{genericVitBonus:2}}",
+      "weightMult": 0.1
+    },
+    "armorer_trade_6": {
+      "type": "item",
+      "content": "irons_spellbooks:arcane_essence",
+      "amount": {
+				"min": 1,
+				"max": 1
+			},
+      "unitWorth": 500,
+      "nbt": "{enderbonus:{genericIntBonus:2}}",
+      "weightMult": 0.1
+    },
+    "armorer_trade_7": {
+      "type": "item",
+      "content": "minecraft:gold_ingot",
+      "amount": {
+				"min": 1,
+				"max": 1
+			},
+      "unitWorth": 500,
+      "nbt": "{enderbonus:{genericAgiBonus:2}}",
+      "weightMult": 0.1
+    },
+    "armorer_trade_1": {
+      "type": "item",
+      "content": "fast:iron_ring",
+      "amount": {
+				"min": 1,
+				"max": 1
+			},
+      "unitWorth": 500,
+      "weightMult": 0.1
+    },
+    "armorer_trade_8": {
+      "type": "item",
+      "content": "fast:the_hero_shield",
+      "amount": {
+				"min": 1,
+				"max": 1
+			},
+      "unitWorth": 650,
+      "weightMult": 0.1
+    },
+    "armorer_trade_9": {
+      "type": "item",
+      "content": "fast:the_hero_sword",
+      "amount": {
+				"min": 1,
+				"max": 1
+			},
+      "unitWorth": 1400,
+      "weightMult": 0.1
+    },
+    "armorer_trade_10": {
+      "type": "item",
+      "content": "fast:the_hero_bow",
+      "amount": {
+				"min": 1,
+				"max": 1
+			},
+      "unitWorth": 1300,
+      "weightMult": 0.1
+    },
+    "armorer_trade_11": {
+      "type": "item",
+      "content": "fast:the_hero_staff",
+      "amount": {
+				"min": 1,
+				"max": 1
+			},
+      "unitWorth": 1200,
+      "weightMult": 0.1
+    },
+    "armorer_trade_12": {
+      "type": "item",
+      "content": "fast:shadow_dagge",
+      "amount": {
+				"min": 1,
+				"max": 1
+			},
+      "unitWorth": 1100,
+      "weightMult": 0.1
+    },
+    "armorer_trade_13": {
+      "type": "item",
+      "content": "fast:godspeed_wield",
+      "amount": {
+				"min": 1,
+				"max": 1
+			},
+      "unitWorth": 1000,
+      "weightMult": 0.1
+    },
+    "armorer_trade_14": {
+      "type": "item",
+      "content": "tarotcards:the_world",
+      "amount": {
+				"min": 1,
+				"max": 1
+			},
+      "unitWorth": 900,
+      "weightMult": 0.1
+    },
+    "armorer_trade_15": {
+      "type": "item",
+      "content": "tarotcards:the_empress",
+      "amount": {
+				"min": 1,
+				"max": 1
+			},
+      "unitWorth": 800,
+      "weightMult": 0.1
+    },
+    "armorer_trade_16": {
+      "type": "item",
+      "content": "tarotcards:the_emperor",
+      "amount": {
+				"min": 1,
+				"max": 1
+			},
+      "unitWorth": 700,
+      "weightMult": 0.1
+    },
+    "armorer_trade_17": {
+      "type": "item",
+      "content": "fast:ender_necklace",
+      "amount": {
+				"min": 1,
+				"max": 1
+			},
+      "unitWorth": 600,
+      "weightMult": 0.1
+    },
+    "armorer_trade_18": {
+      "type": "item",
+      "content": "fast:the_hero_dice",
+      "amount": {
+				"min": 1,
+				"max": 1
+			},
+      "unitWorth": 780,
+      "weightMult": 0.1
+    },
+    "armorer_trade_19": {
+      "type": "item",
+      "content": "fast:ender_pouch",
+      "amount": {
+				"min": 1,
+				"max": 1
+			},
+      "unitWorth": 500,
+      "weightMult": 0.1
+    },
+    "armorer_trade_20": {
+      "type": "item",
+      "content": "fast:lethal_shutter",
+      "amount": {
+				"min": 1,
+				"max": 1
+			},
+      "unitWorth": 650,
+      "weightMult": 0.1
+    },
+    "armorer_trade_22": {
+      "type": "item",
+      "content": "fast:sword_soul",
+      "amount": {
+				"min": 1,
+				"max": 1
+			},
+      "unitWorth": 790,
+      "weightMult": 0.1
+    },
+    "armorer_trade_21": {
+      "type": "item",
+      "content": "fast:compassionate_heart",
+      "amount": {
+				"min": 1,
+				"max": 1
+			},
+      "unitWorth": 670,
+      "weightMult": 0.1
+    }
+  }
+}

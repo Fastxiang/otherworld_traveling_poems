@@ -1,0 +1,44 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "432381797A30AACD"
+	group: "39EFE5D4ED781F69"
+	icon: "transmog:transmogrification_table"
+	id: "432381797A30AACD"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["幻化物品前，你得先获得这个。"]
+			id: "2BEA0EDE5DB40D36"
+			tasks: [{
+				id: "3C775B59E2206074"
+				item: "transmog:void_fragment"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2BEA0EDE5DB40D36"]
+			description: [
+				"左上角是充电栏，放置紫水晶充电。"
+				""
+				"第一个栏位是被幻化的物品，是拥有实际效果的物品。"
+				""
+				"第二个栏位，是你要把第一个栏位所幻化的样子的物品，你放什么第一个物品就会渲染什么。"
+				""
+				"第三个栏位是输出栏。"
+			]
+			id: "1902EAF23F1F617C"
+			tasks: [{
+				id: "4E49E09BC6D7B14B"
+				item: "transmog:transmogrification_table"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+	]
+	title: "幻化"
+}

@@ -1,0 +1,47 @@
+{
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			"celestisynth:celestisynthitemstackcapabilities": {
+				cs.aquaSkin: 0
+			}
+		}
+		id: "minecraft:red_wool"
+	}
+	id: "0E44EC4BA58FDF5D"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{
+			command: "/fast instance message @s false"
+			elevate_perms: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:lime_wool"
+			}
+			title: "开启"
+			type: "command"
+		}
+		{
+			command: "/fast instance message @s true"
+			elevate_perms: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:red_wool"
+			}
+			title: "关闭"
+			type: "command"
+		}
+	]
+	title: "开启或关闭"
+}

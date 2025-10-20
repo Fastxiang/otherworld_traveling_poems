@@ -1,0 +1,936 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "05C777C3898B1646"
+	group: "1D1516A5D26CBDD3"
+	icon: "money:coin_iron"
+	id: "05C777C3898B1646"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"56B9860B570AAF28"
+				"6954B082E44FC799"
+			]
+			description: [
+				"更多的强化体系,更强的武器末影饰品,以及...挑战!"
+				""
+				"ps:你是否觉得出售的食物太便宜了？你可以选择浇灌果酱出售更高价格。（这样真的能更好吃嘛...）"
+			]
+			icon: "money:coin_gold"
+			id: "3331AE98D46D40FF"
+			rewards: [{
+				id: "16E9DA7236A40E67"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fruitsdelight:lemon_jelly"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2E6D5AA8D335FA00"
+				title: "开始第二章"
+				type: "checkmark"
+			}]
+			x: -10.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3331AE98D46D40FF"]
+			description: [
+				"&l&b开启匠魂章节"
+				"后续比较贵重的食物都需要特殊的碗制作。而匠魂就是制作这些特殊碗的起点。"
+			]
+			icon: "tconstruct:seared_melter"
+			id: "03504F1EB4B5D615"
+			rewards: [{
+				id: "690BDD12AB55BD5C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:raffle_ticket"
+					tag: {
+						RaffleTicket: "mediumInstance"
+					}
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [
+				{
+					id: "06C1B51767E94061"
+					item: "tconstruct:seared_melter"
+					type: "item"
+				}
+				{
+					id: "7A420B391FD6305E"
+					item: "tconstruct:seared_faucet"
+					type: "item"
+				}
+				{
+					id: "4F752A11F0D60EB5"
+					item: "tconstruct:seared_basin"
+					type: "item"
+				}
+			]
+			title: "正式开启工匠之路"
+			x: -10.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["3331AE98D46D40FF"]
+			description: [
+				"&l&b开启潜力锻造章节"
+				"当你开始第二章时，你的游戏也正式开启了。"
+				""
+				"&l&3拥有潜力值的装备只能在副本获得或者通过潜力纸为任意物品加上潜力。"
+				""
+				"&l&6具体教程在强化自身里的潜力锻造章节有详细讲解。"
+			]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1
+				id: "minecraft:wooden_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "62883B1717961C17"
+			rewards: [
+				{
+					id: "0BEDFAA1305615C1"
+					item: {
+						Count: 1
+						id: "fast:potential_paper"
+						tag: {
+							Damage: 0.0d
+							weapon: {
+								potential: 20.0d
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5C4439B994E11AD7"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "fast:raffle_ticket"
+						tag: {
+							RaffleTicket: "mediumInstance"
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "7080D8ADF64B14D3"
+				type: "checkmark"
+			}]
+			title: "潜力系统(必看)"
+			x: -10.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1C1102D082D59B07"]
+			description: [
+				"&l&b开启第三章"
+				"&l&6只需击杀任意一名掉落100-120潜力纸的BOSS即可进入第三章。"
+			]
+			icon: "minecraft:spawner"
+			id: "1B845BA783D316D4"
+			min_required_dependencies: 1
+			min_required_tasks: 1
+			rewards: [{
+				id: "75B29D4F82AA6292"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:raffle_ticket"
+					tag: {
+						RaffleTicket: "mediumInstance"
+					}
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [
+				{
+					id: "594033DFD92E15E0"
+					item: "fast:instance_pass13"
+					type: "item"
+				}
+				{
+					id: "0822033163419A7C"
+					item: "fast:instance_pass15"
+					type: "item"
+				}
+				{
+					id: "4765492AC971AD93"
+					item: "fast:instance_pass17"
+					type: "item"
+				}
+				{
+					id: "02B4F8A2C68D5B5C"
+					item: "fast:instance_pass18"
+					type: "item"
+				}
+				{
+					id: "45589D5C10CE1C35"
+					item: "fast:instance_pass19"
+					type: "item"
+				}
+				{
+					id: "3CB23FF9D81CEFE9"
+					item: "fast:instance_pass12"
+					type: "item"
+				}
+				{
+					id: "2FD7790CBF8D8EEE"
+					item: "fast:instance_pass14"
+					type: "item"
+				}
+				{
+					id: "76632DE8FF5BC4D1"
+					item: "fast:instance_pass11"
+					type: "item"
+				}
+				{
+					id: "2945C9A86CE116FE"
+					item: "fast:instance_pass10"
+					type: "item"
+				}
+			]
+			title: "击杀任意一名BOSS"
+			x: 5.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3331AE98D46D40FF"]
+			description: [
+				"&l&6可以通过购买抽奖卷来获得妖怪们归家的种子。"
+				""
+				"当然,它并不是只能依靠抽奖券获得，你也可以选择自己去外面收集这些种子。"
+			]
+			id: "214E1DB5107703DC"
+			progression_mode: "linear"
+			rewards: [{
+				id: "7AD8E2F5A7664D89"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:raffle_ticket"
+					tag: {
+						RaffleTicket: "mediumInstance"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0BA13C44246BCAD4"
+				item: "fast:raffle_ticket"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"3C6DA25D8E48844D"
+				"0D7ECE98659EF0E1"
+			]
+			description: [
+				"当你获得到了足够强力的装备，就可以尝试挑战第一个BOSS了，这个BOSS很简单，普通难度下只有5000血，技能也只有召唤僵尸和火球术。"
+				""
+				"&l&6掉落的法术卷轴固定是：爆裂魔法。吟唱速度越低，伤害越高，最高提升1800%。"
+				""
+				"具体数值可在爆裂魔法的jei查看。"
+			]
+			icon: "fast:instance_pass8"
+			id: "39265341B350AF0D"
+			min_required_tasks: 1
+			rewards: [
+				{
+					id: "649FC6073D09C91D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "fast:pot_pot"
+					}
+					type: "item"
+				}
+				{
+					id: "37F009ED005FD3B4"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "fast:raffle_ticket"
+						tag: {
+							RaffleTicket: "mediumInstance"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "fast:zombie_summoner"
+					id: "2FA48D60D8FE93D1"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "5C11EC5B152C6AF3"
+					item: "fast:instance_pass8"
+					type: "item"
+				}
+				{
+					id: "04F45DA5E9524A0B"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "kubejs:explosion"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
+				}
+			]
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["62883B1717961C17"]
+			description: ["能够获得木质工匠锤的副本，工匠锤非常重要，它可以大幅提高你潜力锻造的上限。"]
+			icon: "fast:instance_pass5"
+			id: "11C0D2A9A79CF3D8"
+			rewards: [{
+				id: "258E3D3B465A424E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:raffle_ticket"
+					tag: {
+						RaffleTicket: "mediumInstance"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0542C2F22D03FB52"
+					item: "fast:instance_pass5"
+					type: "item"
+				}
+				{
+					id: "24CE8EE59A61F68C"
+					item: "fast:wooden_craftsman_hammer"
+					type: "item"
+				}
+			]
+			x: -9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["11C0D2A9A79CF3D8"]
+			description: [
+				"通过木质工匠锤，我们可以很容易的获得其他工匠锤，就是越往后，就越需要亿些岩浆。"
+				""
+				"下面是一些锤子的分类"
+			]
+			id: "03B106038FB7DB08"
+			tasks: [{
+				id: "58E9A96563C6A049"
+				item: "fast:craftsman_hammer_cast"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["03B106038FB7DB08"]
+			description: ["比较基础的锤子"]
+			hide_dependency_lines: true
+			id: "7136B527D4035A59"
+			tasks: [{
+				id: "1665515BF14D7D49"
+				item: "fast:iron_craftsman_hammer"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["03B106038FB7DB08"]
+			description: ["上位"]
+			hide_dependency_lines: true
+			id: "0FBBC9A55AFE19C3"
+			tasks: [{
+				id: "555BC048A06D18D7"
+				item: "fast:gold_craftsman_hammer"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["03B106038FB7DB08"]
+			description: ["上上位"]
+			hide_dependency_lines: true
+			id: "3A6D210087368274"
+			tasks: [{
+				id: "064E191C4196E41A"
+				item: "fast:diamond_craftsman_hammer"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["03B106038FB7DB08"]
+			description: ["顶级锤子,不用多解释"]
+			hide_dependency_lines: true
+			id: "546FF669F5CB9EB8"
+			tasks: [{
+				id: "1EF883607E5C23CA"
+				item: "fast:netherite_ingot_craftsman_hammer"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["03B106038FB7DB08"]
+			description: ["哦,它?他不是锻造锤子,是个战斗锤子,依靠技巧增加暴击率"]
+			hide_dependency_lines: true
+			id: "56FAB835F6FADDF2"
+			tasks: [{
+				id: "2CA31B96B0C6BC79"
+				item: "fast:brass_craftsman_hammer"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3331AE98D46D40FF"]
+			description: ["tacz暂时没有配套末影饰品，但是有些末影饰品可以让枪械有超大的提升。"]
+			id: "7B6FB03EE4577C5D"
+			tasks: [{
+				id: "034A7E8D465FAF7B"
+				item: "tacz:gun_smith_table"
+				type: "item"
+			}]
+			title: "大人,时代变了"
+			x: -12.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["74770FFA7B0FDB5B"]
+			description: [
+				"获得强力前期末影饰品：树枝的副本。(有没有树枝)"
+				""
+				"''古怪的半兽人,宝箱怪以及那迦?这些家伙是怎么混到一起的...''"
+			]
+			icon: "fast:instance_pass2"
+			id: "3C6DA25D8E48844D"
+			rewards: [{
+				id: "03D5D094554FBA5B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:raffle_ticket"
+					tag: {
+						RaffleTicket: "mediumInstance"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4F6D5D7480F50241"
+					item: "fast:instance_pass2"
+					type: "item"
+				}
+				{
+					id: "53CD3014517E66E3"
+					item: "fast:branch"
+					type: "item"
+				}
+			]
+			title: "风影迷踪"
+			x: -2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["74770FFA7B0FDB5B"]
+			description: [
+				"获得法师材料的副本。"
+				""
+				"''与其说这是一场试炼,倒不如说更像是法师们的狂欢''"
+			]
+			hide_dependency_lines: true
+			id: "6FC81D6C6B8889FB"
+			rewards: [{
+				id: "076FADB3E52FAB3F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:raffle_ticket"
+					tag: {
+						RaffleTicket: "mediumInstance"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "56579DE4A4A0B8BF"
+				item: "fast:instance_pass35"
+				type: "item"
+			}]
+			title: "元素试炼(可选)"
+			x: -1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["74770FFA7B0FDB5B"]
+			description: [
+				"获得源质灰烬和下界合金碎片以及部分法师材料的副本。"
+				""
+				"''身披重铠的远古灵魂,时至今日,他手中的剑刃依旧锋利''"
+			]
+			icon: "fast:instance_pass37"
+			id: "0D7ECE98659EF0E1"
+			rewards: [{
+				id: "671AA068CC258021"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:raffle_ticket"
+					tag: {
+						RaffleTicket: "mediumInstance"
+					}
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [
+				{
+					id: "1F294344A041DE7C"
+					item: "fast:instance_pass37"
+					type: "item"
+				}
+				{
+					id: "7B6C10181206868E"
+					item: "fast:riftsong_edge"
+					type: "item"
+				}
+			]
+			title: "远古骑士"
+			x: -2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["74770FFA7B0FDB5B"]
+			description: [
+				"p点和女仆专属末影饰品。"
+				""
+				"''好多妖精女仆,她们是怎么聚集到一起的?这简直就是萝卜开会''"
+			]
+			hide_dependency_lines: true
+			icon: "fast:instance_pass36"
+			id: "3CCEFF6EA3FAF61A"
+			rewards: [{
+				id: "461B58CEE1BF07A5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:raffle_ticket"
+					tag: {
+						RaffleTicket: "mediumInstance"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1EAF0EB3C466E251"
+					item: "fast:instance_pass36"
+					type: "item"
+				}
+				{
+					id: "5D26E40AF858B56E"
+					item: {
+						Count: 1
+						id: "tarotcards:the_lovers"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "妖精之森(可选)"
+			x: -2.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["62883B1717961C17"]
+			description: ["前期最容易获得潜力纸的副本。"]
+			id: "6CFF4CFD362618EB"
+			tasks: [{
+				id: "403F680D7B62D8AA"
+				item: "fast:instance_pass3"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["214E1DB5107703DC"]
+			description: [
+				"这种贵重的合金在大部分武器装备中都有着举足轻重的地位,更是匠魂升级的不二之选,所以在面对更多的挑战之前,还是先做好基础准备吧"
+				""
+				"应该不算卡进度吧?(小声bb)"
+			]
+			id: "1D6A26BBC1DD27AA"
+			rewards: [{
+				id: "6B0611357703F917"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:netherite_upgrade_smithing_template"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "52CA034CE1244A3A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:netherite_ingot"
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1D6A26BBC1DD27AA"]
+			description: ["推荐目前打的四个副本已经标出来了,具体点开对应任务即可查看,依照自己需求酌情选择"]
+			id: "74770FFA7B0FDB5B"
+			rewards: [{
+				id: "6EFD2B7AB0DF31D5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:golden_apple"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7EA77D4940CD988F"
+				type: "checkmark"
+			}]
+			title: "做好准备,迎敌吧"
+			x: -4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["74770FFA7B0FDB5B"]
+			description: [
+				"一双貌不惊人的跑鞋"
+				""
+				"并没有什么特殊的东西,唯一会爆出的也就是他们的鞋子了,不过你难道不好奇他们为什么能跑这么快么?"
+				""
+				"''空气中弥漫着一股腐烂的味道,这种味道除了它们,也没别的生物会散发出来了''"
+			]
+			hide_dependency_lines: true
+			id: "34A61135D6F48E30"
+			tasks: [{
+				id: "17A9B394F870DFCC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:instance_pass1"
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["74770FFA7B0FDB5B"]
+			description: [
+				"末影饰品,塔罗牌:愚者的获取途径"
+				""
+				"''森林深处的奇怪祭祀,以及一张名为愚者的塔罗牌''"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "fast:instance_pass4"
+			}
+			id: "23BFD13BD8496F61"
+			tasks: [
+				{
+					id: "3E8A704E30EEC48A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "fast:instance_pass4"
+					}
+					type: "item"
+				}
+				{
+					id: "44E23DB7E4D74FA1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "tarotcards:the_fool"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["74770FFA7B0FDB5B"]
+			description: [
+				"获取专属副本饰品,烈焰卷轴的途径"
+				""
+				"''漫天纷飞的火焰,这是属于烈焰人的天下''"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "fast:instance_pass9"
+			}
+			id: "6913A831765790E6"
+			tasks: [
+				{
+					id: "2EBB64CB4F97369A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "fast:instance_pass9"
+					}
+					type: "item"
+				}
+				{
+					id: "708936DAD2DC776D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "fast:blaze_scroll"
+					}
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["39265341B350AF0D"]
+			description: ["存储元件,以及种类繁多的末影饰品"]
+			id: "1D5BD05109B25740"
+			tasks: [{
+				id: "0F7602617D24EB86"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:instance_pass41"
+				}
+				type: "item"
+			}]
+			title: "渐入佳境"
+			x: 0.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["39265341B350AF0D"]
+			description: ["种类繁多的末影饰品"]
+			id: "624F7601345B4CE3"
+			tasks: [{
+				id: "7369257EB517C325"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:instance_pass43"
+				}
+				type: "item"
+			}]
+			title: "魔意渐浓"
+			x: 0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["39265341B350AF0D"]
+			description: ["依旧是种类繁多的末影饰品,这里就不一一介绍了"]
+			id: "1A1300D4550A357A"
+			tasks: [{
+				id: "45603DE36D8D7597"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:instance_pass42"
+				}
+				type: "item"
+			}]
+			title: "展露锋芒"
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"624F7601345B4CE3"
+				"1D5BD05109B25740"
+				"1A1300D4550A357A"
+			]
+			dependency_requirement: "one_completed"
+			description: ["第一章的具体任务到这里就结束了,下面将是第二章的内容,此外第二章减少了怪物战斗,但有了更多的boos"]
+			id: "1C1102D082D59B07"
+			min_required_dependencies: 1
+			min_required_tasks: 1
+			rewards: [{
+				id: "46B19F541B73902E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "grimoireofgaia:golden_apple_pie"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5FAD2FF4BCBB33F8"
+				title: "崭露头角"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -5.0d
+		}
+	]
+	title: "第二章-战斗与科技"
+}

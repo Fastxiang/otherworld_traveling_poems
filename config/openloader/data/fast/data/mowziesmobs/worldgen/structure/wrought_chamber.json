@@ -1,0 +1,7 @@
+{
+  "type": "mowziesmobs:wrought_chamber",
+  "biomes": "#no_op",
+  "spawn_overrides": {},
+  "step": "surface_structures",
+  "terrain_adaptation": "none"
+}

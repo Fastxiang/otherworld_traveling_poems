@@ -1,0 +1,29 @@
+{
+    "item.tconstruct.encyclopedia.type": "书 §5末影饰品",
+    "item.tconstruct.encyclopedia.tooltip": "每位工匠人手一本的参考材料，现在赋予了新的意义。（可右键使用，匠魂原版物品，材料大全）",
+    "item.tconstruct.encyclopedia.tooltip2": "§6唯一 §e末影饰品每放置一个匠魂工具/武器 根据该工具/武器(近战伤害-1)的二分之一来增加你的攻击",
+    
+    "modifier.tconstruct.conducting": "导热",
+    "modifier.tconstruct.conducting.description": "手持工具时女仆会触发烈焰卷轴和原初之火。着火时工具会造成成倍的伤害",
+    "modifier.tconstruct.conducting.boost": "自身着火时工具造成的伤害最大伤害增益，手持该工具时，女仆造成的伤害会触发烈焰卷轴和原初之火的效果",
+    "material.tconstruct.blazing_bone.encyclopedia": "自身在火焰中每秒伤害+1%，熔岩中15秒伤害至多+15%。若有抗火效果会减少加成。玩家手持时，女仆造成的伤害会触发烈焰卷轴和原初之火的效果",
+    
+    "material.tconstruct.wood.flavor": "伐伐伐伐伐伐伐伐伐木工！",
+    "material.tconstruct.wood.encyclopedia": "每有一个木部件，工具修理效率提高50%。该工具获得的潜力锻造属性每级额外增加15%",
+    "modifier.tconstruct.cultivated.description": "工具在修复时，单位材料能够提供更多耐久度。增加潜力锻造属性的数值",
+    
+    "modifier.tconstruct.stonebound.flavor": "你的工具真的超爱石头诶！似乎蕴含着奥术能量？！",
+    "modifier.tconstruct.stonebound.description": "工具的耐久度越低，挖掘速度越高，但伤害值越低。手持时，每级增加10点智力",
+    "material.tconstruct.rock.encyclopedia": "按已消耗耐久度与材料特性等级积的平方根的一半加快工具的挖掘速度。手持时，每级增加10点智力",
+    
+    "modifier.tconstruct.jagged.description": "工具的耐久度越低，伤害值越高，但挖掘速度越低。手持时，每级增加10点力量",
+    "material.tconstruct.flint.encyclopedia": "按已消耗耐久度与材料特性等级积的平方根的四分之一增加工具的伤害。手持时，每级增加10点力量",
+    
+    "modifier.tconstruct.magnetic.description": "进行攻击时吸引周围的物品。手持时，每级增加10点体质",
+    "material.tconstruct.iron.encyclopedia": "挖掘方块与攻击生物时吸引周围物品。手持时，每级增加10点体质",
+    "material.tconstruct.iron.ranged": "发射箭矢时吸引周围物品。手持时，每级增加10点体质",
+    
+     "modifier.tconstruct.dwarven.description": "挖掘的越深，工具挖掘速度和弹射物初速度越快。但是如果你身处高处，效果可能大打折扣。提高潜力锻造的潜力值上限",
+     "material.tconstruct.copper.encyclopedia": "在低海拔时额外增加挖掘速度，每低于海平面64格，挖掘速度+6。该工具的潜力锻造的潜力上限每级额外+2",
+     "material.tconstruct.copper.ranged": "在低海拔时额外增加初速度，每低于海平面64格，初速度+0.05。该工具的潜力锻造的潜力上限每级额外+2"
+}

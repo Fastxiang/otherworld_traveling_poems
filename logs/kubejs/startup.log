@@ -1,0 +1,53 @@
+[20:55:58] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
+[20:55:58] [INIT] Loaded plugins:
+[20:55:58] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[20:55:58] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[20:55:58] [INIT] - dev.latvian.mods.kubejs.integration.forge.gamestages.GameStagesIntegration
+[20:55:58] [INIT] - com.lowdragmc.lowdraglib.kjs.LDLibKubeJSPlugin
+[20:55:58] [INIT] - io.github.mortuusars.exposure.integration.kubejs.ExposureJSPlugin
+[20:55:58] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
+[20:55:58] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbchunks.kubejs.FTBChunksKubeJSPlugin
+[20:55:58] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
+[20:55:58] [INIT] - com.squoshi.irons_spells_js.IronsSpellsJSPlugin
+[20:55:58] [INIT] - com.squoshi.irons_spells_js.compat.entityjs.EntityJSPlugin
+[20:55:58] [INIT] - com.lowdragmc.mbd2.integration.kubejs.MBDKubeJSPlugin
+[20:55:58] [INIT] - zank.mods.eventjs.EventJSKubeJSPlugin
+[20:55:58] [INIT] - net.liopyu.entityjs.EntityJSPlugin
+[20:55:58] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
+[20:55:58] [INIT] - studio.fantasyit.maid_storage_manager.integration.kubejs.KJSPlugin
+[20:55:58] [INIT] - com.prunoideae.powerfuljs.forge.PowerfulJSPluginForge
+[20:55:58] [INIT] - com.almostreliable.morejs.Plugin
+[20:55:58] [INIT] - pie.ilikepiefoo.AdditionsPlugin
+[20:55:58] [INIT] - pie.ilikepiefoo.compat.jei.JEIKubeJSPlugin
+[20:55:58] [INIT] - com.github.tartaricacid.touhoulittlemaid.compat.kubejs.ModKubeJSPlugin
+[20:55:58] [INIT] - qinomed.kubejsdelight.KubeJSDelightPlugin
+[20:55:58] [INIT] - net.sixik.sdmshoprework.common.integration.KubeJS.ShopJSPlugin
+[20:55:58] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
+[20:55:58] [INIT] - com.tacz.guns.compat.kubejs.TimelessKubeJSPlugin
+[20:55:58] [INIT] - net.liopyu.animationjs.AnimationJSPlugin
+[20:55:58] [INIT] - snownee.loquat.compat.kubejs.LoquatKubeJSPlugin
+[20:55:58] [INIT] - snownee.lychee.compat.kubejs.LycheeKubeJSPlugin
+[20:56:02] [INFO] Loaded script startup_scripts:item_create/item.js in 0.197 s
+[20:56:02] [INFO] Loaded script startup_scripts:forge.js in 0.038 s
+[20:56:02] [INFO] Loaded script startup_scripts:player/ui.js in 0.002 s
+[20:56:02] [INFO] Loaded script startup_scripts:sounds/rigister.js in 0.003 s
+[20:56:02] [INFO] Loaded script startup_scripts:maid/maid.js in 0.0 s
+[20:56:02] [INFO] Loaded script startup_scripts:magic/registry_schools.js in 0.005 s
+[20:56:02] [INFO] Loaded script startup_scripts:magic/registry_item.js in 0.002 s
+[20:56:02] [INFO] Loaded script startup_scripts:magic/registry.js in 0.036 s
+[20:56:02] [INFO] key/key.js#1: Loaded Java class 'dev.architectury.registry.client.keymappings.KeyMappingRegistry'
+[20:56:02] [INFO] key/key.js#2: Loaded Java class 'net.minecraft.client.KeyMapping'
+[20:56:02] [INFO] key/key.js#3: Loaded Java class 'org.lwjgl.glfw.GLFW'
+[20:56:02] [INFO] Loaded script startup_scripts:key/key.js in 0.024 s
+[20:56:02] [INFO] Loaded script startup_scripts:item_create/reload_item.js in 0.001 s
+[20:56:02] [INFO] Loaded script startup_scripts:item_create/money.js in 0.004 s
+[20:56:02] [INFO] Loaded script startup_scripts:item_create/jam.js in 0.007 s
+[20:56:02] [INFO] Loaded script startup_scripts:item_create/curios_event_item.js in 0.0 s
+[20:56:02] [INFO] Loaded script startup_scripts:item_create/infinite_energy.js in 0.003 s
+[20:56:02] [INFO] Loaded script startup_scripts:entity/spawn.js in 0.001 s
+[20:56:02] [INFO] Loaded script startup_scripts:entity/register.js in 0.002 s
+[20:56:02] [INFO] Loaded script startup_scripts:entity/attribute.js in 0.005 s
+[20:56:02] [INFO] Loaded script startup_scripts:effect/effect.js in 0.006 s
+[20:56:02] [INFO] attribute/register.js#1: Loaded Java class 'net.minecraft.world.entity.ai.attributes.RangedAttribute'
+[20:56:02] [INFO] Loaded script startup_scripts:attribute/register.js in 0.004 s
+[20:56:02] [INFO] Loaded 19/19 KubeJS startup scripts in 3.711 s with 0 errors and 0 warnings

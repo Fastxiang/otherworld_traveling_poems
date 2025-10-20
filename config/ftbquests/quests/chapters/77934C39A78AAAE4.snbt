@@ -1,0 +1,152 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "77934C39A78AAAE4"
+	group: "3BBD5D19C3FF2423"
+	icon: "farmersdelight:steak_and_potatoes"
+	id: "77934C39A78AAAE4"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7B1F615A9A656339"]
+			description: [
+				"你现在应该已经制作了第一份属于自己的食物，你可能发现了，女仆使用一些厨具需要好感度，好感度一般而言有三种方法："
+				"1.能吃的任何物品放女仆背包，女仆每隔一段时间会自己吃，并增加好感度。用于回血的食物并不会增加好感度。"
+				"2.制作女仆床，非工作时间睡觉后会增加好感度。"
+				"3.用碗右键女仆消耗一个碗，女仆会生成想要吃的食物（可以无限更换），再用正确的食物右键女仆即可提升好感度，具体数值在下面的碗的任务描述中。"
+			]
+			icon: "farmersdelight:mixed_salad"
+			id: "2BD01EB2FCA45F9A"
+			rewards: [{
+				id: "00F0DAE309F65A1B"
+				item: "touhou_little_maid:maid_bed"
+				type: "item"
+			}]
+			size: 1.25d
+			tasks: [{
+				id: "2ACE83F206FAF128"
+				title: "开始制作食物之旅"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["14388E08EE7F7781"]
+			description: ["农夫乐事的核心，也是本整合包的核心。做饭才能赚钱.jpg"]
+			id: "08D0866F2FB4469A"
+			size: 1.25d
+			tasks: [{
+				id: "3FDCC12C1F3A534F"
+				item: "farmersdelight:cooking_pot"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2BD01EB2FCA45F9A"]
+			description: ["在做锅炉之前，你需要一个火源，营火就是一个不错的选择。"]
+			id: "14388E08EE7F7781"
+			tasks: [{
+				id: "3DEB2D64FEB29DE3"
+				item: "minecraft:campfire"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["14388E08EE7F7781"]
+			description: ["升级版的火源。"]
+			id: "7A1CBA6944D4115B"
+			tasks: [{
+				id: "2889E85FE4B54A48"
+				item: "farmersdelight:stove"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2BD01EB2FCA45F9A"]
+			description: ["捕捉动物的好帮手。手持右键动物即可捕捉。（注意，有时间限制，但是钻石套索就没这个限制）"]
+			id: "1C00C0EF14E342A9"
+			tasks: [{
+				id: "24A750210B8F90C1"
+				item: "moblassos:golden_lasso"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1C00C0EF14E342A9"]
+			description: ["捉鱼小能手。"]
+			id: "47699C62FA96F1C2"
+			tasks: [{
+				id: "34A841C4E59D62D4"
+				item: "moblassos:aqua_lasso"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["47699C62FA96F1C2"]
+			description: ["全能（动物）套索。"]
+			id: "0614A2405F318CF8"
+			tasks: [{
+				id: "24A92DD7F685A568"
+				item: "moblassos:diamond_lasso"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0614A2405F318CF8"]
+			description: ["可以用来抓烈焰人。"]
+			id: "124C64373766B275"
+			tasks: [{
+				id: "4B117FCCBEFE6F07"
+				item: "moblassos:hostile_lasso"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2BD01EB2FCA45F9A"]
+			description: [
+				"使用碗右键女仆消耗一个碗，会生成女仆想要吃吃的食物（可无限生成）"
+				"再用对应食物右键她即可提高好感度"
+				"普通食物+2好感"
+				"果酱食物+4好感"
+			]
+			id: "696ECE46EB7DA58B"
+			tasks: [{
+				id: "085985A00428BA00"
+				item: "minecraft:bowl"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["696ECE46EB7DA58B"]
+			description: ["由碗模具浇筑而成烧制后即可获得新的烹饪材料：铁碗。可以制作一些妖怪们的归家食物，这些食物比果酱食物更贵，流程也更长。具体价格在商店和jei查看,简单来说就是制作更好的食物。"]
+			id: "7C40627DA8626ADC"
+			tasks: [{
+				id: "39D84CBABE90312E"
+				item: "fast:iron_bowl"
+				type: "item"
+			}]
+			title: "铁饭碗(物理)"
+			x: 0.0d
+			y: 3.0d
+		}
+	]
+	title: "食物"
+}
