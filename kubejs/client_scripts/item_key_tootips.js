@@ -27,7 +27,7 @@ const dungeonMobs = {
         3: [{ type: 'list', count: 1, xp: 8 }, { type: 'list', count: 1, xp: 8 }, { type: 'list', count: 1, xp: 8 }, { type: 'list', count: 1, xp: 8 }]
     },
     fast6: {
-        1: [{ type: 'mokels_bossfight_saphyra:nameless', count: 1, xp: 49 }]
+        1: [{ type: 'fast:alex', count: 1, xp: 49 }]
     },
     fast7: {
         1: [{ type: 'mokels_bossfight_saphyra:witchboss', count: 1, xp: 92 }]
@@ -216,7 +216,6 @@ const dungeonLists = {
     "grimoireofgaia:arachne",
     "grimoireofgaia:banshee",
     "grimoireofgaia:bee",
-    "grimoireofgaia:behender",
     "grimoireofgaia:bone_knight",
     "grimoireofgaia:cecaelia",
     "grimoireofgaia:centaur",
@@ -240,7 +239,6 @@ const dungeonLists = {
     "grimoireofgaia:matango",
     "grimoireofgaia:mermaid",
     "grimoireofgaia:mimic",
-    "grimoireofgaia:minotaurus",
     "grimoireofgaia:naga",
     "grimoireofgaia:nine_tails",
     "grimoireofgaia:oni",
@@ -681,9 +679,14 @@ const dungeonConfig = {
                 chance: 0.5
             },
             {
-                item: 'fast:sword_technique_flying_sword_guard',
+                item: 'minecraft:iron_sword',
                 count: 1,
-                chance: 0.15
+                nbt: { 
+                    enderbonus: { 
+                        SwordSoulCount: 1
+                    } 
+                },
+                chance: 0.5
             },
             {
                 item: 'fast:shadow_chaser',
@@ -1502,7 +1505,7 @@ const dungeonConfig = {
                 count: 1,
                 nbt: { 
                     enderbonus: { 
-                        genericPhysicalMasteryBonus: 1 
+                        genericPhysicalMasteryBonus: 10
                     } 
                 },
                 chance: 0.5
@@ -1559,7 +1562,6 @@ const dungeonConfig = {
         ]
     },
 };
-
     
     // 辅助函数：通过keyItem获取对应的副本类型
     function getDungeonTypeByKeyItem(keyItemId) {
