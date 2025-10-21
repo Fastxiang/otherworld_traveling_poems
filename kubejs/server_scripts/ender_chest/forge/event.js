@@ -9,6 +9,7 @@ const $SpellHealEvent = Java.loadClass('io.redspace.ironsspellbooks.api.events.S
 const $InteractMaidEvent = Java.loadClass('com.github.tartaricacid.touhoulittlemaid.api.event.InteractMaidEvent');
 const $LivingGetProjectileEvent = Java.loadClass('net.minecraftforge.event.entity.living.LivingGetProjectileEvent');
 const $AnvilUpdateEvent = Java.loadClass('net.minecraftforge.event.AnvilUpdateEvent');
+const $AnvilRepairEvent = Java.loadClass('net.minecraftforge.event.entity.player.AnvilRepairEvent');
 const $ShieldBlockEvent = Java.loadClass('net.minecraftforge.event.entity.living.ShieldBlockEvent');
 const $ItemStackedOnOtherEvent = Java.loadClass('net.minecraftforge.event.ItemStackedOnOtherEvent');
 const $GunShootEvent = Java.loadClass("com.tacz.guns.api.event.common.GunShootEvent")
@@ -37,6 +38,10 @@ NativeEvents.onEvent($ShieldBlockEvent, event => {
 
 NativeEvents.onEvent($AnvilUpdateEvent, event => {
     PlayerAnvilUpdateEvent(event);
+})
+
+NativeEvents.onEvent($AnvilRepairEvent, event => {
+    PlayerAnvilRepairEvent(event);
 })
 
 NativeEvents.onEvent($LivingGetProjectileEvent, event => {

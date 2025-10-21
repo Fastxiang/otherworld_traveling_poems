@@ -354,6 +354,11 @@ const SpecialPropertyItemList = {
 "minecraft:bedrock": 100,
 }
 
+function PlayerAnvilRepairEvent(event) {
+    const { left, right, player } = event;
+    event.setBreakChance(0)
+}
+
 function PlayerAnvilUpdateEvent(event) {
     const { left, right, player } = event;
     if (left.count > 1) return;
@@ -374,7 +379,7 @@ function PlayerAnvilUpdateEvent(event) {
             NewWeaponNbt.weapon = {};
             NewWeaponNbt.weapon.potential = rightNbt.weapon.potential;
             event.setMaterialCost(1);
-            event.setCost(1);
+            event.setCost(0);
             event.setOutput(NewWeapon);
         }
     }
@@ -393,7 +398,7 @@ function PlayerAnvilUpdateEvent(event) {
             NewNbt.remove("weapon")
             NewWeapon.setNbt(NewNbt)
             event.setMaterialCost(1);
-            event.setCost(1);
+            event.setCost(0);
             event.setOutput(NewWeapon)
             }
     }
@@ -421,7 +426,7 @@ function PlayerAnvilUpdateEvent(event) {
             NewWeapon = thisItem
             }
             event.setMaterialCost(1);
-            event.setCost(1);
+            event.setCost(0);
             event.setOutput(NewWeapon);
         }
     }
@@ -510,7 +515,7 @@ function PlayerAnvilUpdateEvent(event) {
         NewWeaponConfig.potential -= totalPotentialCost;
         NewWeaponConfig[augmentation.attribute] = newValue; // 应用新的属性值
         event.setMaterialCost(actualCount); // 设置实际消耗的右物品数量
-        event.setCost(1);
+        event.setCost(0);
         event.setOutput(NewWeapon);
     }
 }

@@ -1030,7 +1030,7 @@
     "item.fast.compassionate_heart": "仁慈之心",
     "item.fast.compassionate_heart.type": "§5末影饰品",
     "item.fast.compassionate_heart.tooltip": "生命祝福",
-    "item.fast.compassionate_heart.tooltip2": "§6唯一 §e无法造成非原始%s§e 左键目标时 对释放一次铁魔法法术 生命祝福 生命祝福等级为1+((体质+智力)/30)级 无冷却 无消耗",
+    "item.fast.compassionate_heart.tooltip2": "§6唯一 §e无法造成非原始%s§e 左键目标时 对目标释放一次铁魔法法术 生命祝福 生命祝福等级为1+((体质+智力)/30)级 无冷却 无消耗",
     
     "item.fast.shimmering_diamond": "闪耀钻石",
     "item.fast.shimmering_diamond.type": "§8机械 §5末影饰品",

@@ -4744,6 +4744,55 @@
 				}
 				{
 					entryUUID: [I;
+						1781281696
+						-553106127
+						-1132590773
+						-162587201
+					]
+					entryPrice: 2L
+					entryType: {
+						itemStack: {
+							ForgeCaps: {
+								"celestisynth:celestisynthitemstackcapabilities": {
+									cs.aquaSkin: 0
+								}
+							}
+							id: "minecraft:raw_copper"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 3
+					isSell: 0b
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					entryCondition: [
+						{
+							gameStages: [ ]
+							entryConditionID: "gamestagesConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							gameStages: [ ]
+							entryConditionID: "gamestagesConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+					]
+					shopSeller: {
+						moneyID: "base_money"
+						shopSellerTypeID: "money"
+					}
+				}
+				{
+					entryUUID: [I;
 						1187196041
 						549736429
 						-1415132342
@@ -4789,6 +4838,47 @@
 						-1307754147
 						-2006087503
 						-167966191
+					]
+					entryPrice: 1L
+					entryType: {
+						itemStack: {
+							ForgeCaps: {
+								"celestisynth:celestisynthitemstackcapabilities": {
+									cs.aquaSkin: 0
+								}
+							}
+							id: "minecraft:lapis_lazuli"
+							Count: 1b
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 4
+					isSell: 0b
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					entryCondition: [
+						{
+							gameStages: [ ]
+							entryConditionID: "gamestagesConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+					]
+					shopSeller: {
+						moneyID: "base_money"
+						shopSellerTypeID: "money"
+					}
+				}
+				{
+					entryUUID: [I;
+						651634563
+						1042630647
+						-1512278666
+						1024301749
 					]
 					entryPrice: 1L
 					entryType: {
