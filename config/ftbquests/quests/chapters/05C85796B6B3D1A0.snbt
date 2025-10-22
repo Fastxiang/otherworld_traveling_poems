@@ -409,17 +409,8 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "5094197862CB54D9"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "cataclysm:cursed_eye"
-				}
-				type: "item"
+				id: "467149E6377FC325"
+				type: "checkmark"
 			}]
 			x: 6.0d
 			y: -9.0d

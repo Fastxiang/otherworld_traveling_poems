@@ -15,3 +15,6 @@
 [logging]
 	disable_blockup = false
 
+[misc]
+	self_rescue = true
+

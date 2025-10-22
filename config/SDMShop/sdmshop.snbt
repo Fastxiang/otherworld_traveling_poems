@@ -8494,6 +8494,110 @@
 			tabEntry: [
 				{
 					entryUUID: [I;
+						-1669774294
+						-631222673
+						-1754669148
+						-883836144
+					]
+					entryPrice: 10L
+					entryType: {
+						itemStack: {
+							ForgeCaps: {
+								"celestisynth:celestisynthitemstackcapabilities": {
+									cs.aquaSkin: 0
+								}
+							}
+							id: "fast:raffle_ticket"
+							Count: 1b
+							tag: {
+								RaffleTicket: "BOPItem"
+							}
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 0b
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					entryCondition: [
+						{
+							gameStages: [ ]
+							entryConditionID: "gamestagesConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							gameStages: [ ]
+							entryConditionID: "gamestagesConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+					]
+					shopSeller: {
+						moneyID: "base_money"
+						shopSellerTypeID: "money"
+					}
+				}
+				{
+					entryUUID: [I;
+						-150222090
+						-1484567960
+						-1422888608
+						1707314182
+					]
+					entryPrice: 50L
+					entryType: {
+						itemStack: {
+							ForgeCaps: {
+								"celestisynth:celestisynthitemstackcapabilities": {
+									cs.aquaSkin: 0
+								}
+							}
+							id: "fast:raffle_ticket"
+							Count: 1b
+							tag: {
+								RaffleTicket: "FruitsItem"
+							}
+						}
+						shopEntryTypeID: "shopItemEntryType"
+					}
+					entryCount: 1
+					isSell: 0b
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					entryCondition: [
+						{
+							gameStages: [ ]
+							entryConditionID: "gamestagesConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+						{
+							gameStages: [ ]
+							entryConditionID: "gamestagesConditions"
+						}
+						{
+							questID: [ ]
+							entryConditionID: "ftbquestConditions"
+						}
+					]
+					shopSeller: {
+						moneyID: "base_money"
+						shopSellerTypeID: "money"
+					}
+				}
+				{
+					entryUUID: [I;
 						1833172559
 						1008225537
 						-2001103371

@@ -18,7 +18,7 @@ PlayerEvents.spellOnCast(event => {
    if (item) {
    if (hasSpecialProperty(item, "youkaishomecoming:assorted_dango")) {
    player.server.scheduleInTicks((2), () => {
-   if (checkPlayerManaCost(player, ManaCost * 5, false)) {
+   if (checkPlayerManaCost(player, ManaCost * 1.5, false)) {
    let Cast = overLimitSpellCast(spellId, spellLevel, player, false)
    }
    })

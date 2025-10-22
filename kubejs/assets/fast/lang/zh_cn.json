@@ -415,7 +415,7 @@
     "special.property.modifier.fast.lavafishing.arowana_fish.item.name": "§6可锻造特性: §d血脉之源 §f潜力需求: %s",
   
     "special.property.modifier.fast.youkaishomecoming.assorted_dango.name": "§6特性: §c奥术共鸣",
-    "special.property.modifier.fast.youkaishomecoming.assorted_dango": "§e主手手持该装备时 法术施法成功时会固定扣除原始蓝量5倍的蓝量来再次进行施法",
+    "special.property.modifier.fast.youkaishomecoming.assorted_dango": "§e主手手持该装备时 法术施法成功时会固定扣除原始蓝量1.5倍的蓝量来再次进行施法",
     "special.property.modifier.fast.youkaishomecoming.assorted_dango.item.name": "§6可锻造特性: §d奥术共鸣 §f潜力需求: %s",
     
     "special.property.modifier.fast.waystones.warp_dust.name": "§6特性: §c光辉岁月",
@@ -1244,6 +1244,10 @@
     "item.fast.raffle_ticket.tooltip.mediumInstance2":"类型：随机获得一个中级副本的副本盲盒",
     "item.fast.raffle_ticket.tooltip.highInstance":"奖池：高级副本",
     "item.fast.raffle_ticket.tooltip.highInstance2":"类型：随机获得一个高级副本的副本盲盒",
+    "item.fast.raffle_ticket.tooltip.FruitsItem":"奖池：果园乐事",
+    "item.fast.raffle_ticket.tooltip.FruitsItem2":"类型：果园乐事的各种树苗",
+    "item.fast.raffle_ticket.tooltip.BOPItem":"奖池：超多生物群系",
+    "item.fast.raffle_ticket.tooltip.BOPItem2":"类型：超多生物群系的各种杂项，树苗之类的，可能会出小垃圾",
     
     "entity.fast.newzombie":"§b精英怪：极速僵尸",
     

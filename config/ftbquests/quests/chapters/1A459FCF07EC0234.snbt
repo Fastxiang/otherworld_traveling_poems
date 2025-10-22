@@ -1088,6 +1088,31 @@
 			x: 5.0d
 			y: -7.0d
 		}
+		{
+			dependencies: ["0668452E8E4183F3"]
+			description: [
+				"可在地狱找到获得合成获得。"
+				"放地上用水浇灌即可孵化出快乐恶魂。"
+				"孵化出来后可以用雪球喂大，然后用鞍右键即可获得飞行坐骑。"
+			]
+			hide_dependency_lines: true
+			id: "0E16AB2B1A24C681"
+			tasks: [{
+				id: "66AA704E2CE15896"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "happy_ghast_legacy:dried_ghast"
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -14.0d
+		}
 	]
 	title: "第一章-一切的起源"
 }

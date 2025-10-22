@@ -989,6 +989,7 @@ function spawnFlySwordEntity(level, entity, target, Delay, Speed, LifeTime, Dama
     flySwordEntity.setLifeTime(LifeTime);
     flySwordEntity.setDamage(Damage);
     flySwordEntity.setDisappearOnHit(true);
+    flySwordEntity.setVanishWhenNoTarget(true);
     if (DamageType) {
     flySwordEntity.setCustomDamageSource(DamageType)
     }

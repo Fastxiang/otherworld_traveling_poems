@@ -1,10 +1,4 @@
 EntityJSEvents.attributes(event => {
-    event.modify('mokels_bossfight_saphyra:witchboss', attribute => {
-        attribute.add("minecraft:generic.max_health", 20000)
-    });
-    event.modify('mokels_bossfight_saphyra:mothboss', attribute => {
-        attribute.add("minecraft:generic.max_health", 15000)
-    });
     event.modify('fast:alex', attribute => {
         attribute.add("minecraft:generic.max_health", 10000)
     });

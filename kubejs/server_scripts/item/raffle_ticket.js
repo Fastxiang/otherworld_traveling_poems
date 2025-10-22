@@ -30,6 +30,10 @@ let ticketTypeObject = {
     highInstance: highLevelInstanceList
 };
 
+function addTicketTypeObject(key, list) {
+    ticketTypeObject[key] = list
+}
+
 // 添加战利品
 function addBasalItem(itemId, weight) {
     basalItemList.push({ itemId: itemId, weight: weight });
@@ -198,8 +202,8 @@ ItemEvents.rightClicked(event => {
             item.count--;
             
             let itemIdString = selectedItem.itemId.toString(); // 将 Java 对象转换为 JavaScript 字符串
-            let langId = itemIdString.replace(":", ".");
-            let ItemlangId = Text.translatable(`item.${langId}`).getString();
+            let langId = stack.getItem().getDescriptionId()
+            let ItemlangId = Text.translatable(`${langId}`).getString();
             
             player.tell(Text.of(`你抽到了：${ItemlangId}`).gold());
         }

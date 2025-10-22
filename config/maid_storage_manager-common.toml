@@ -137,3 +137,15 @@ debug_msg = false
 		#Allowed Values: RELEVANCE, RELEVANCE_THREADED
 		algorithm = "RELEVANCE_THREADED"
 
+[misc]
+
+	[misc.inv_list_damage]
+		#Range: 0.0 ~ 1.0
+		factor = 0.02500000037252903
+		#Range: 0.0 ~ 1.0E7
+		max = 20.0
+		#Range: 0.0 ~ 1.0E7
+		min = 2.0
+		#Range: 0.0 ~ 100.0
+		speed = 1.2000000476837158
+

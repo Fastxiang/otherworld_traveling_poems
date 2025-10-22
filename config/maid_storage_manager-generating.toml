@@ -64,3 +64,49 @@
 	[create.deploying]
 		enable = true
 
+[maidsoulkitchen_youkaishomecoming]
+
+	[maidsoulkitchen_youkaishomecoming.moka_pot]
+		enable = true
+
+	[maidsoulkitchen_youkaishomecoming.kettle]
+		enable = true
+
+	[maidsoulkitchen_youkaishomecoming.drying_rack]
+		enable = true
+		count = 4
+
+	[maidsoulkitchen_youkaishomecoming.cuisine]
+		enable = true
+
+	[maidsoulkitchen_youkaishomecoming.basin]
+		enable = true
+
+[maidsoulkitchen_farmersdelight]
+
+	[maidsoulkitchen_farmersdelight.campfire_cooking]
+		enable = true
+
+	[maidsoulkitchen_farmersdelight.skillet]
+		enable = true
+
+	[maidsoulkitchen_farmersdelight.campfire_cooking_from_hand]
+		enable = true
+
+	[maidsoulkitchen_farmersdelight.cutting]
+		enable = true
+
+	[maidsoulkitchen_farmersdelight.cooking]
+		enable = true
+
+[maidsoulkitchen_maidsoulkitchen]
+
+	[maidsoulkitchen_maidsoulkitchen.consume_water_from_single]
+		enable = true
+
+	[maidsoulkitchen_maidsoulkitchen.consume_water_from_multi]
+		enable = true
+
+	[maidsoulkitchen_maidsoulkitchen.item_use]
+		enable = true
+

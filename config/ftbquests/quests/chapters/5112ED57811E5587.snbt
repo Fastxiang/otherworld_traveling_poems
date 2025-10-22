@@ -216,6 +216,78 @@
 			x: 0.0d
 			y: -6.0d
 		}
+		{
+			dependencies: ["2B44C416256311BF"]
+			description: [
+				"铁工具与新增属性联动"
+				"手持时 每级增加10点体质"
+			]
+			hide_dependency_lines: true
+			id: "0516007A30D5F318"
+			tasks: [{
+				id: "1E49712D1FCA0CE8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:iron_ingot"
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2B44C416256311BF"]
+			description: [
+				"石头工具与新增属性联动"
+				"手持时 每级增加10点智力"
+			]
+			hide_dependency_lines: true
+			id: "6E7EE7596847722D"
+			tasks: [{
+				id: "18A5556493F87A17"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:cobblestone"
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2B44C416256311BF"]
+			description: [
+				"燧石工具与新增属性联动"
+				"手持时 每级增加10点力量"
+			]
+			hide_dependency_lines: true
+			id: "65D4860E4C210B8F"
+			tasks: [{
+				id: "1083F21E490945C7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:flint"
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
 	]
 	title: "匠魂"
 }
