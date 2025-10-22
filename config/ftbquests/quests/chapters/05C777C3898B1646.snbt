@@ -151,7 +151,7 @@
 			dependencies: ["1C1102D082D59B07"]
 			description: [
 				"&l&b开启第三章"
-				"&l&6只需击杀任意一名掉落100-120潜力纸的BOSS即可进入第三章。"
+				"&l&6只需击杀任意一名掉落80-100潜力纸的BOSS即可进入第三章。"
 			]
 			icon: "minecraft:spawner"
 			id: "1B845BA783D316D4"
@@ -218,6 +218,32 @@
 				{
 					id: "2945C9A86CE116FE"
 					item: "fast:instance_pass10"
+					type: "item"
+				}
+				{
+					id: "72829F3C08942402"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "fast:instance_pass6"
+					}
+					type: "item"
+				}
+				{
+					id: "64990602309EBBF8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "fast:instance_pass39"
+					}
 					type: "item"
 				}
 			]
