@@ -1,0 +1,47 @@
+
+["General Combat Settings"]
+	#the item used to activate the portal
+	ancient_ruin_block_activation_key = "minecraft:nether_star"
+	#he will use the dash ability every X amount of Ticks
+	dash_timer = 100.0
+	#the dash distance amplifier
+	dash_distance = 2.0
+	#he will throw a shuriken every X amount of Ticks
+	shuriken_timer = 50.0
+	#the damage of the ranged attacks
+	shuriken_damage = 5.0
+	#the knockback of the ranged attacks
+	shuriken_knockback = 1.0
+	#the pierce damage of the ranged attacks
+	shuriken_pierce = 0.0
+	#speed boost level when holding the sword
+	speed_amplifier = 1.0
+	#the percentage of life steal you will get when killing a enemy
+	life_steal_power = 20.0
+
+["Phase 1 Settings"]
+	#the max health on second phase
+	max_health = 20000.0
+	#the attack damage on second phase
+	attack_damage = 7.0
+	#the movement on second phase
+	movement_speed = 0.25
+
+["Phase 2 Settings"]
+	#the percentage of the hp when he will transform [1-100]
+	hp_threshold = 50.0
+	#the delay before he transforms into second phase
+	transform_delay = 40.0
+	#number of skeletons he will spawn when he transforms
+	skeletons_on_transform = 5.0
+	#number of skeletons he will spawn when he dashes on second phase
+	skeletons_on_dash = 2.0
+	#the chance to apply a special attack each dash on second phase
+	special_attack_chance = 20.0
+	#the number in ticks how much he will stay invisible when he transforms
+	invisibility_timer = 40.0
+	#the attack damage on second phase
+	attack_damage = 9.0
+	#the movement on second phase
+	movement_speed = 0.3
+

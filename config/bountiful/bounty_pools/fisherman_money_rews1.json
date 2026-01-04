@@ -1,0 +1,27 @@
+{
+	"content": {
+
+        "money_rew1_fast1": {
+            "type": "item",
+            "content": "money:coin_copper",
+            "amount": {
+                "min": 5,
+                "max": 64
+            },
+			"rarity": "COMMON",
+            "unitWorth": 80
+        },
+        
+        "money_rew1_fast2": {
+            "type": "item",
+            "content": "money:coin_iron",
+            "amount": {
+                "min": 1,
+                "max": 64
+            },
+			"rarity": "UNCOMMON",
+            "unitWorth": 800
+        } 
+        
+    }
+}

@@ -1,0 +1,41 @@
+{
+  "content": {
+    "armorer_trade_3_1": {
+      "type": "item",
+      "content": "fast:overcharged_mana_flask",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 17000,
+      "weightMult": 0.1
+    },
+    "armorer_trade_3_2": {
+      "type": "item",
+      "content": "cataclysm:mech_eye",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 10000
+    },
+    "armorer_trade_3_3": {
+      "type": "item",
+      "content": "cataclysm:desert_eye",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 15000
+    },
+    "armorer_trade_3_4": {
+      "type": "item",
+      "content": "fast:blaze_necklace",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 13500
+    }
+  }
+}

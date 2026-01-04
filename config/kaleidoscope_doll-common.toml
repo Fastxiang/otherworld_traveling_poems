@@ -1,0 +1,9 @@
+
+[doll]
+	#Range: 0 ~ 100
+	YellowDollGiftBoxWeight = 10
+	#Range: 0 ~ 100
+	GreenDollGiftBoxWeight = 10
+	#Range: 0 ~ 100
+	PurpleDollGiftBoxWeight = 80
+

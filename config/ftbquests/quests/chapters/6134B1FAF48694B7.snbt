@@ -1,0 +1,232 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6134B1FAF48694B7"
+	group: "67091C4774FC5F4A"
+	icon: "fast:deepblue_crystal"
+	id: "6134B1FAF48694B7"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["40F4145C0DDAEA5F"]
+			description: [
+				"右键深蓝水晶开启深蓝之渊。"
+				""
+				"几乎所有内容都在开启的页面进行。"
+				""
+				"到达第10层时，怪物和boss都会换成另一批怪物，且变得更强。奖励也会升级。"
+				""
+				"尽你所能，通关最高的层数吧！"
+				""
+				"&c&l注意：深蓝之渊会替换地形，开启时远离自己家！！！！！"
+				""
+				"&l&c注意：深蓝水晶在非背包外的地方无法记录进度。"
+			]
+			icon: "fast:deepblue_crystal"
+			id: "76406CD10963FE76"
+			tasks: [{
+				id: "243256977B5EA55D"
+				title: "深蓝之渊教程"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["59A0C42A7F6AAFB3"]
+			description: ["商店购买"]
+			id: "3D8EA2F5FF3797FE"
+			tasks: [{
+				id: "64A146E3755DF395"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:deepblue_crystal"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["76406CD10963FE76"]
+			description: ["商店购买，右键进入深蓝维度"]
+			id: "59A0C42A7F6AAFB3"
+			tasks: [{
+				id: "5A3BC01193BCAE73"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:blue_realm"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3D8EA2F5FF3797FE"]
+			id: "3A5798628925F5AE"
+			tasks: [{
+				id: "4A1B69D28E724D3A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:deepblue_shard"
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3D8EA2F5FF3797FE"]
+			description: ["放在末影箱里，在深蓝之渊冒险时，前进的方块数缩短"]
+			id: "018DDDE2EA48CD53"
+			rewards: [
+				{
+					id: "37EFB9E797A3658F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:iron_helmet"
+						tag: {
+							Damage: 0
+							"transmog:transmogItem": {
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "hmag:ancient_helmet"
+								tag: {
+									Damage: 0
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5C4A4ABEE82E0D45"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:iron_chestplate"
+						tag: {
+							Damage: 0
+							"transmog:transmogItem": {
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "hmag:ancient_chestplate"
+								tag: {
+									Damage: 0
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4F9B8687D98DD0D6"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:iron_leggings"
+						tag: {
+							Damage: 0
+							"transmog:transmogItem": {
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "hmag:ancient_leggings"
+								tag: {
+									Damage: 0
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "214E8823E6E6B681"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:iron_boots"
+						tag: {
+							Damage: 0
+							"transmog:transmogItem": {
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "hmag:ancient_boots"
+								tag: {
+									Damage: 0
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "奖励用作幻化，本质上只是铁装备，你可以将其他物品幻化为它的样子。"
+			tasks: [{
+				id: "01D693C6B1596F77"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "fast:deep_blue_core"
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+	]
+	title: "深蓝之渊"
+}

@@ -1,0 +1,47 @@
+{
+	id: "436D8504A8C2E51B"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ item: "fast:the_hero_shield" }
+		{ item: "fast:the_hero_sword" }
+		{ item: "fast:the_hero_bow" }
+		{ item: "fast:the_hero_staff" }
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "fast:the_hero_dice"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "tarotcards:the_lovers"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "fast:sword_soul"
+			}
+		}
+	]
+	title: "初始末影饰品"
+	use_title: true
+}

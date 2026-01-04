@@ -1,0 +1,218 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"idle": {
+			"animation_length": 1,
+			"bones": {
+				"Head": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.25": {
+							"vector": [0, -7.5, 0]
+						},
+						"0.5": {
+							"vector": [0, 2.5, 0]
+						},
+						"0.75": {
+							"vector": [0, 10, 0]
+						},
+						"1.0": {
+							"vector": [0, 0, 0]
+						}
+					}
+				},
+				"Body": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, -2.5, 0]
+						},
+						"0.1667": {
+							"vector": [-2.5, -2.5, 0]
+						},
+						"0.5": {
+							"vector": [0, -2.5, 0]
+						},
+						"0.75": {
+							"vector": [2.5, -1.25, 0]
+						},
+						"1.0": {
+							"vector": [0, 0, 0]
+						}
+					}
+				},
+				"RightArm": {
+					"rotation": {
+						"0.1667": {
+							"vector": [0, 5, 0]
+						},
+						"0.3333": {
+							"vector": [-9, 5, 0]
+						},
+						"0.375": {
+							"vector": [0, 5, 0]
+						},
+						"0.4167": {
+							"vector": [6.13636, 5, 0]
+						},
+						"0.4583": {
+							"vector": [4.449, 5, 0]
+						},
+						"0.75": {
+							"vector": [5.22727, 5, 0]
+						},
+						"0.8333": {
+							"vector": [7.5, 5, 0]
+						},
+						"1.0": {
+							"vector": [0, 5, 0]
+						}
+					}
+				},
+				"knife": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.375": {
+							"vector": [0, 17.5, 0]
+						},
+						"0.625": {
+							"vector": [0, -5, 0]
+						},
+						"0.8333": {
+							"vector": [0, 2.5, 0]
+						}
+					}
+				},
+				"LeftArm": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.3333": {
+							"vector": [0, -5, 0]
+						},
+						"0.5": {
+							"vector": [0, 2.5, 0]
+						},
+						"0.875": {
+							"vector": [7.5, 2.5, 0]
+						},
+						"1.0": {
+							"vector": [0, 0, 0]
+						}
+					}
+				}
+			}
+		},
+		"walk": {
+			"loop": true,
+			"animation_length": 1.4583,
+			"bones": {
+				"Head": {
+					"rotation": {
+						"vector": ["math.sin(query.anim_time*250)*0.75", "math.sin(query.anim_time*250)*0.75", 0]
+					}
+				},
+				"RightArm": {
+					"rotation": {
+						"vector": ["math.sin(query.anim_time*250)*-15", 0, 0]
+					},
+					"position": {
+						"vector": [0, 0, "math.sin(query.anim_time*250)*0.75"]
+					}
+				},
+				"LeftArm": {
+					"rotation": {
+						"vector": ["math.sin(query.anim_time*250)*10", 0, "math.sin(query.anim_time*250)*0.75"]
+					}
+				},
+				"RightLeg": {
+					"rotation": {
+						"vector": ["math.sin(query.anim_time*250)*30", 0, 0]
+					},
+					"position": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"LeftLeg": {
+					"rotation": {
+						"vector": ["math.sin(query.anim_time*250)*-30", 0, 0]
+					}
+				},
+				"frontleft": {
+					"rotation": {
+						"vector": ["math.sin(query.anim_time*250)*10", 0, 0]
+					},
+					"position": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"frontright": {
+					"rotation": {
+						"vector": ["math.sin(query.anim_time*250)*10", 0, 0]
+					}
+				}
+			}
+		},
+		"attack": {
+			"animation_length": 1.2917,
+			"bones": {
+				"RightArm": {
+					"rotation": {
+						"0.0417": {
+							"vector": [0, 0, 157.5]
+						},
+						"0.75": {
+							"vector": [0, 0, 145]
+						},
+						"1.2917": {
+							"vector": [0, 0, 157.5]
+						}
+					}
+				},
+				"LeftArm": {
+					"rotation": {
+						"0.0417": {
+							"vector": [0.32062, 1.54596, -160]
+						},
+						"0.75": {
+							"vector": [0, 0, -142.5]
+						},
+						"1.2917": {
+							"vector": [0, 0, -160]
+						}
+					}
+				}
+			}
+		},
+		"attack2": {
+			"animation_length": 0.375,
+			"bones": {
+				"RightArm": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 147.5]
+						},
+						"0.25": {
+							"vector": [-130, 0, 147.5]
+						}
+					}
+				},
+				"LeftArm": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, -147.5]
+						},
+						"0.25": {
+							"vector": [-122.5, 0, -147.5]
+						}
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

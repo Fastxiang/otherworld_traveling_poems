@@ -1,0 +1,13 @@
+{
+  "__comment": "This is a blocklist for the target of Jade. You can add registry ids to the \"values\" list. Restart the game to apply changes.",
+  "values": [
+    "minecraft:area_effect_cloud",
+    "minecraft:firework_rocket",
+    "minecraft:interaction",
+    "minecraft:text_display",
+    "maid_sword_soaring:fly_sword",
+    "maid_sword_soaring:rideable_sword",
+    "fast:fast_sword",
+    "minecraft:lightning_bolt"
+  ]
+}

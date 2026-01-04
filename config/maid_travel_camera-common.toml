@@ -1,0 +1,10 @@
+#女仆进行旅行时，默认会根据权重随机选择旅行地点，旅行地点绑定时间。（时间单位：tick）
+#格式示例：forest=1200,weight=5
+#格式对应着：旅行地点=时间，weight为随机权重
+#旅行地点可以随意自己写任何英文，旅行地点的奖励在data/maid_travel_camera/loot_tables/travel_success/旅行地点名字.json
+#When the maid goes on a trip, a location will be randomly selected according to weight, and each location has a corresponding travel time (unit: tick).
+#Example format: forest=1200,weight=5
+#Format explanation: location=ticks, weight is the random weight
+#You can write any English name for locations, rewards are in data/maid_travel_camera/loot_tables/travel_success/location_name.json
+travel_locations = ["forest=1200,weight=5", "desert=2400,weight=2", "village=2000,weight=1", "nether=6000,weight=3"]
+

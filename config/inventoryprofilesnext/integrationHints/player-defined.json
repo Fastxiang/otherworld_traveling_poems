@@ -1,0 +1,19 @@
+{
+    "io.ejekta.bountiful.client.BoardScreen": {
+        "buttonHints": {
+            "SETTINGS": {
+                "horizontalOffset": 45,
+                "top": 13
+            }
+        }
+    },
+    "io.github.mortuusars.exposure.gui.screen.album.AlbumScreen": {
+        "ignore": true
+    },
+    "io.ejekta.bountiful.content.gui.BoardScreenHandler": {
+        "ignore": true
+    },
+    "com.lowdragmc.lowdraglib.gui.modular.ModularUIGuiContainer": {
+        "ignore": true
+    }
+}

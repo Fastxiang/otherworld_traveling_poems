@@ -1,0 +1,9 @@
+{
+	"experience_per_level": {
+		"type": "expression",
+		"data": {
+			"expression": "(level*6 + 25) * min(max(30 - level + 1,0),1) + (level*32 - 400) * min(max(level - 30,0),1) * min(max(60 - level + 1,0),1) + (level*85 - 2900) * min(max(level - 60,0),1)"
+		}
+	},
+	"sources": []
+}

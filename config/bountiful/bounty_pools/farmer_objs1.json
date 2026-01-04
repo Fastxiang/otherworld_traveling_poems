@@ -1,0 +1,107 @@
+{
+	"content": {
+
+		"farmer_obj_nether_wart": {
+			"type": "item",
+			"content": "minecraft:nether_wart",
+			"rarity": "RARE",
+			"amount": {
+				"min": 30,
+				"max": 64
+			},
+			"unitWorth": 80
+		},
+		
+		"farmer_obj_melon": {
+			"type": "item",
+			"rarity": "UNCOMMON",
+			"content": "minecraft:melon_slice",
+			"amount": {
+				"min": 30,
+				"max": 64
+			},
+			"unitWorth": 72
+		},
+		
+		"farmer_obj_cabbage": {
+			"type": "item",
+			"content": "farmersdelight:cabbage",
+			"amount": {
+				"min": 30,
+				"max": 64
+			},
+			"unitWorth": 68
+		},
+
+		"farmer_obj_wheat": {
+			"type": "item",
+			"content": "minecraft:wheat",
+			"amount": {
+				"min": 30,
+				"max": 64
+			},
+			"unitWorth": 66
+		},
+
+		"farmer_obj_beetroot": {
+			"type": "item",
+			"content": "minecraft:beetroot",
+			"amount": {
+				"min": 30,
+				"max": 64
+			},
+			"unitWorth": 64
+		},
+
+		"farmer_obj_tomato": {
+			"type": "item",
+			"content": "farmersdelight:tomato",
+			"amount": {
+				"min": 30,
+				"max": 64
+			},
+			"unitWorth": 63
+		},
+
+		"farmer_obj_carrot": {
+			"type": "item",
+			"content": "minecraft:carrot",
+			"amount": {
+				"min": 30,
+				"max": 64
+			},
+			"unitWorth": 60
+		},
+
+		"farmer_obj_onion": {
+			"type": "item",
+			"content": "farmersdelight:onion",
+			"amount": {
+				"min": 30,
+				"max": 64
+			},
+			"unitWorth": 60
+		},
+
+		"farmer_obj_rice": {
+			"type": "item",
+			"content": "farmersdelight:rice",
+			"amount": {
+				"min": 30,
+				"max": 64
+			},
+			"unitWorth": 60
+		},
+
+		"farmer_obj_potato": {
+			"type": "item",
+			"content": "minecraft:potato",
+			"amount": {
+				"min": 30,
+				"max": 64
+			},
+			"unitWorth": 60
+		}
+
+	}
+}

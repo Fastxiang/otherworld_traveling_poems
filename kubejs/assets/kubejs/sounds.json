@@ -1,0 +1,82 @@
+{
+    "sword1": {
+         "sounds":[
+             {
+                 "name": "kubejs:sword1",
+                 "pitch": 1.0,
+                 "weight": 1,
+                 "stream": false
+             } 
+         ]
+    },
+    "sword2": {
+         "sounds":[
+             {
+                 "name": "kubejs:sword2",
+                 "pitch": 1.0,
+                 "weight": 1,
+                 "stream": false
+             } 
+         ]
+    },
+    "explosion1": {
+         "sounds":[
+             {
+                 "name": "kubejs:explosion1",
+                 "pitch": 1.0,
+                 "weight": 1,
+                 "stream": true
+             } 
+         ]
+    },
+    "explosion2": {
+         "sounds":[
+             {
+                 "name": "kubejs:explosion2",
+                 "pitch": 1.0,
+                 "weight": 1,
+                 "stream": true
+             } 
+         ]
+    },
+    "felien": {
+         "sounds":[
+             {
+                 "name": "kubejs:felien",
+                 "pitch": 1.0,
+                 "weight": 1,
+                 "stream": true
+             } 
+         ]
+    },
+    "eroded_pilz": {
+         "sounds":[
+             {
+                 "name": "kubejs:eroded_pilz",
+                 "pitch": 1.0,
+                 "weight": 1,
+                 "stream": true
+             } 
+         ]
+    },
+    "mydterious_figure1": {
+         "sounds":[
+             {
+                 "name": "kubejs:mydterious_figure1",
+                 "pitch": 1.0,
+                 "weight": 1,
+                 "stream": true
+             } 
+         ]
+    },
+    "mydterious_figure2": {
+         "sounds":[
+             {
+                 "name": "kubejs:mydterious_figure2",
+                 "pitch": 1.0,
+                 "weight": 1,
+                 "stream": true
+             } 
+         ]
+    }
+}

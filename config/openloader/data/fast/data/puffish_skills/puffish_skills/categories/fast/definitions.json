@@ -1,0 +1,1066 @@
+{
+	"str+1": {
+		"title": "+1 力量",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:copper_ingot"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "fast:str",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "nujeix59cx7b1vic"
+		}
+	},
+	"agi+1": {
+		"title": "+1 敏捷",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "feather"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "fast:agi",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "fdwpth6fi9uqdvga"
+		}
+	},
+	"int+1": {
+		"title": "+1 智力",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "book"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "fast:int",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "jbqmp9vo9x5vtogs"
+		}
+	},
+	"vit+1": {
+		"title": "+1 体质",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "apple"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "fast:vit",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "ocwk2acfxshexkpp"
+		}
+	},
+	"bar_size+1": {
+		"title": "+1 钓鱼条长度",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "stardew_fishing:cork_bobber"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "fast:bar_size",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "nujeix59cx7b1vic"
+		}
+	},
+	"line_strength+1": {
+		"title": "+1 鱼线强度（钓鱼条降低的速度变慢）",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "stardew_fishing:quality_bobber"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "fast:line_strength",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "nujeix59cx7b1vic"
+		}
+	},
+	"str+2": {
+		"title": "+2 力量",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:copper_ingot"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "fast:str",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "nujeix59cx7b1vic"
+		}
+	},
+	"str+5": {
+		"title": "+5 力量",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:copper_ingot"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "fast:str",
+					"value": 5,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "nujeix59cx7b1vic"
+		}
+	},
+	"str+10": {
+		"title": "+10 力量",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:copper_ingot"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "fast:str",
+					"value": 10,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "nujeix59cx7b1vic"
+		}
+	},
+	"str+20": {
+		"title": "+20 力量",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:copper_ingot"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "fast:str",
+					"value": 20,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "nujeix59cx7b1vic"
+		}
+	},
+	"agi+2": {
+		"title": "+2 敏捷",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "feather"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "fast:agi",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "fdwpth6fi9uqdvga"
+		}
+	},
+	"agi+5": {
+		"title": "+5 敏捷",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "feather"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "fast:agi",
+					"value": 5,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "fdwpth6fi9uqdvga"
+		}
+	},
+	"agi+10": {
+		"title": "+10 敏捷",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "feather"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "fast:agi",
+					"value": 10,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "fdwpth6fi9uqdvga"
+		}
+	},
+	"agi+20": {
+		"title": "+20 敏捷",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "feather"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "fast:agi",
+					"value": 20,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "fdwpth6fi9uqdvga"
+		}
+	},
+	"int+2": {
+		"title": "+2 智力",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "book"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "fast:int",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "ndr5kjzhw2b2p1v4"
+		}
+	},
+	"int+5": {
+		"title": "+5 智力",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "book"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "fast:int",
+					"value": 5,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "ndr5kjzhw2b2p1v4"
+		}
+	},
+	"int+10": {
+		"title": "+10 智力",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "book"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "fast:int",
+					"value": 10,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "ndr5kjzhw2b2p1v4"
+		}
+	},
+	"int+20": {
+		"title": "+20 智力",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "book"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "fast:int",
+					"value": 20,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "ndr5kjzhw2b2p1v4"
+		}
+	},
+	"vit+2": {
+		"title": "+2 体质",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "apple"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "fast:vit",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "ocwk2acfxshexkpp"
+		}
+	},
+	"vit+5": {
+		"title": "+5 体质",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "apple"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "fast:vit",
+					"value": 5,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "ocwk2acfxshexkpp"
+		}
+	},
+	"vit+10": {
+		"title": "+10 体质",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "apple"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "fast:vit",
+					"value": 10,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "ocwk2acfxshexkpp"
+		}
+	},
+	"vit+20": {
+		"title": "+20 体质",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "apple"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "fast:vit",
+					"value": 20,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "ocwk2acfxshexkpp"
+		}
+	},
+	"str_talent1": {
+		"title": "无畏",
+		"description": "力量不再提供生命值，但是提供的攻击力从0.5变为1",
+		"size": 1.5,
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "fast:sword_technique_decisive_strike"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:tag",
+				"data": {
+					"tag": "str_talent1"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "s9uo4q0p4wii2hsl"
+		}
+	},
+	"str_talent2": {
+		"title": "愤怒",
+		"description": "+15攻击怒气值回复",
+		"size": 1.5,
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "fast:the_hero_sword"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:tag",
+				"data": {
+					"tag": "str_talent2"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "unoj1lkacjmis3tv"
+		}
+	},
+	"str_talent3": {
+		"title": "收割者",
+		"description": "造成物理伤害时 对低血量目标将会有增伤 每降低10%血量则增加8%",
+		"size": 1.5,
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "fast:shadow_assassin_cloak"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:tag",
+				"data": {
+					"tag": "str_talent3"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "unoj1lkacjmis3tv"
+		}
+	},
+	"str_talent4": {
+		"title": "唤魔者",
+		"description": "造成物理伤害时 还会附加一次120%攻击的唤魔伤害 该效果有2秒冷却时间",
+		"size": 1.5,
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "fast:demon_caller"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:tag",
+				"data": {
+					"tag": "str_talent4"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "unoj1lkacjmis3tv"
+		}
+	},
+	"str_talent5": {
+		"title": "均衡之道",
+		"description": "无法造成非原始物理/神圣伤害 获得30%减伤 造成物理伤害时 会扣除当前血量的5% 并增加40%的伤害",
+		"size": 1.5,
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "fast:gold_ring"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:tag",
+				"data": {
+					"tag": "str_talent5"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "unoj1lkacjmis3tv"
+		}
+	},
+	"agi_talent1": {
+		"title": "神速",
+		"description": "+50%攻击速度",
+		"size": 1.5,
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "fast:godspeed_wield"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:generic.attack_speed",
+					"value": 0.5,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "ocwk2acfxshexkpp"
+		}
+	},
+	"agi_talent2": {
+		"title": "极速",
+		"description": "-50%攻击无敌帧",
+		"size": 1.5,
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "fast:berserker_bow"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "kubejs:generic.attack_invulnerable_frames",
+					"value": -0.5,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "ocwk2acfxshexkpp"
+		}
+	},
+	"agi_talent3": {
+		"title": "迅捷者",
+		"description": "获得和移动速度加成相同的攻击速度",
+		"size": 1.5,
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "umapyoi:uma_factor_item"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:tag",
+				"data": {
+					"tag": "agi_talent3"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "unoj1lkacjmis3tv"
+		}
+	},
+	"agi_talent4": {
+		"title": "游侠",
+		"description": "+2拉弓速度（基础为1）",
+		"size": 1.5,
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "fast:the_hero_bow"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "fast:bow_draw_speed",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "unoj1lkacjmis3tv"
+		}
+	},
+	"agi_talent5": {
+		"title": "弱点箭矢",
+		"description": "造成弓箭伤害时 会使目标获得10秒的易伤 易伤：受到的伤害增加50%",
+		"size": 1.5,
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "fast:magic_arrow"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:tag",
+				"data": {
+					"tag": "agi_talent5"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "unoj1lkacjmis3tv"
+		}
+	},
+	"vit_talent1": {
+		"title": "反甲",
+		"description": "勇者之盾的反伤伤害增加50%",
+		"size": 1.5,
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "fast:the_hero_shield"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:tag",
+				"data": {
+					"tag": "vit_talent1"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "iwy8483e571p2v2m"
+		}
+	},
+	"vit_talent2": {
+		"title": "守护",
+		"description": "每10秒自动给予附近20格的女仆获得15秒骑士之誓 骑士之誓: 女仆受到敌人伤害时 玩家受到相同伤害 该伤害的伤害类型为分摊伤害 女仆受到的伤害变为0",
+		"size": 1.5,
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "fast:justice_shield"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:tag",
+				"data": {
+					"tag": "vit_talent2"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "fcwxax6dvo853q36"
+		}
+	},
+	"vit_talent3": {
+		"title": "碾压姿态",
+		"description": "造成所有伤害时 根据自身血量增伤 满血时增加60%伤害 自身血量每降低9%则降低5%",
+		"size": 1.5,
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "fast:sword_technique_four_strike"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:tag",
+				"data": {
+					"tag": "vit_talent3"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "fcwxax6dvo853q36"
+		}
+	},
+	"vit_talent4": {
+		"title": "磐石护体",
+		"description": "受到伤害时 若伤害≥5 获得1级临时防御 持续10秒 临时防御每级增加10%防御 再次获得时提升1级且刷新持续时间 最多可叠加至15级",
+		"size": 1.5,
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:cobblestone"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:tag",
+				"data": {
+					"tag": "vit_talent4"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "fcwxax6dvo853q36"
+		}
+	},
+	"vit_talent5": {
+		"title": "荣耀壁垒",
+		"description": "勇者之盾的主动造成的伤害变为1的效果变为 主动造成的伤害变为50 且触发末影饰品效果",
+		"size": 1.5,
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:shield"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:tag",
+				"data": {
+					"tag": "vit_talent5"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "fcwxax6dvo853q36"
+		}
+	},
+	"int_talent1": {
+		"title": "魔源",
+		"description": "+1000法力值",
+		"size": 1.5,
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "fast:overcharged_mana_flask"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:max_mana",
+					"value": 1000,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "ocwk2acfxshexkpp"
+		}
+	},
+	"int_talent2": {
+		"title": "充能",
+		"description": "+50%法力回复",
+		"size": 1.5,
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "fast:apprentice_staff"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:mana_regen",
+					"value": 0.5,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "ocwk2acfxshexkpp"
+		}
+	},
+	"int_talent3": {
+		"title": "多重施法",
+		"description": "施法成功时 0.6秒后会再释放一次相同的无吟唱法术 冷却时间6秒",
+		"size": 1.5,
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "irons_spellbooks:arcane_essence"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:tag",
+				"data": {
+					"tag": "int_talent3"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "fcwxax6dvo853q36"
+		}
+	},
+	"int_talent4": {
+		"title": "启示密咒",
+		"description": "勇者之杖释放的法术可根据末影箱内的法术卷轴更换为任意法术 但无法再获得法力值",
+		"size": 1.5,
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "irons_spellbooks:scroll"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:tag",
+				"data": {
+					"tag": "int_talent4"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "fcwxax6dvo853q36"
+		}
+	},
+	"int_talent5": {
+		"title": "魔心载流",
+		"description": "+30%智力 智力不再提供法术强度 而是每1点增加5点法力值",
+		"size": 1.5,
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "irons_spellbooks:copper_spell_book"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:tag",
+				"data": {
+					"tag": "int_talent5"
+				}
+			},
+	        {
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "fast:int",
+					"value": 0.3,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "fcwxax6dvo853q36"
+		}
+	},
+	"all+1": {
+		"title": "+1 全属性",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "fast:branch"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "fast:vit",
+					"value": 1,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "fast:int",
+					"value": 1,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "fast:agi",
+					"value": 1,
+					"operation": "addition"
+				}
+			},
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "fast:str",
+					"value": 1,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "eeus6u3phh4thu3j"
+		}
+	},
+	"initial_fishing": {
+    	"title": "初始点-钓鱼",
+    	"description": "以钓鱼倾向开始加点 该加点提供+1钓鱼条长度",
+    	"icon": {
+	    	"type": "item",
+    		"data": {
+			"item": "fast:the_hero_fishing_rod"
+    		}
+    	},
+    	"rewards": [
+    		{
+    			"type": "puffish_skills:attribute",
+	    		"data": {
+	    			"attribute": "fast:bar_size",
+	    			"value": 1,
+	    			"operation": "addition"
+	    		}
+	    	},
+	    	{
+				"type": "puffish_skills:tag",
+				"data": {
+					"tag": "initial_fishing"
+				}
+			}
+	    ]
+    },
+    "initial_combat_allround": {
+	    "title": "初始点-战斗-全能",
+	    "description": "以战斗倾向开始加点 该加点提供+1全属性 如果天赋不生效重新打开背包就好了",
+	    "icon": {
+	    	"type": "item",
+	    	"data": {
+    			"item": "minecraft:netherite_sword"
+	    	}
+    	},
+    	"rewards": [
+    		{
+	    		"type": "puffish_skills:attribute",
+    			"data": {
+	    			"attribute": "fast:str",
+	    			"value": 1,
+	    			"operation": "addition"
+    			}
+	    	},
+	    	{
+	    		"type": "puffish_skills:attribute",
+	    		"data": {
+	    			"attribute": "fast:vit",
+	    			"value": 1,
+	    			"operation": "addition"
+    			}
+    		},
+	    	{
+	    		"type": "puffish_skills:attribute",
+	    		"data": {
+	    			"attribute": "fast:int",
+	    			"value": 1,
+	    			"operation": "addition"
+    			}
+    		},
+	    	{
+	    		"type": "puffish_skills:attribute",
+	    		"data": {
+	    			"attribute": "fast:agi",
+	    			"value": 1,
+	    			"operation": "addition"
+	    		}
+    		},
+    		{
+				"type": "puffish_skills:tag",
+				"data": {
+					"tag": "initial_combat_allround"
+				}
+			}
+    	]
+    }
+}

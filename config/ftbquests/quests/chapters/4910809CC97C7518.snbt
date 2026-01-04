@@ -1,0 +1,440 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "4910809CC97C7518"
+	group: "67091C4774FC5F4A"
+	icon: "weaponmaster:workstation"
+	id: "4910809CC97C7518"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"017E6F4623DD2EF6"
+				"1B8A981B2F355302"
+				"57344A31E94C3F00"
+				"3EAA5E72B51014C7"
+			]
+			dependency_requirement: "one_completed"
+			description: ["用于修复和修改武器外观或者武器升级的地方。"]
+			id: "7E9CFA71EEAD6B5D"
+			min_required_dependencies: 1
+			tasks: [{
+				id: "43E7683DCECF712C"
+				item: "weaponmaster:workstation"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3D864108302055EA"]
+			description: ["获得武器套件右键，即可获得武器大师模组的武器。它们都具有成长性。"]
+			id: "01AE7C871F07F162"
+			shape: "circle"
+			tasks: [{
+				id: "1241A467096E463C"
+				type: "checkmark"
+			}]
+			title: "武器大师章"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["01AE7C871F07F162"]
+			description: ["剑，攻击范围中等，攻击范围较短，攻速较快。"]
+			id: "3EAA5E72B51014C7"
+			tasks: [{
+				id: "3451D675E78221DE"
+				item: {
+					Count: 1
+					id: "weaponmaster:wm_broadsword"
+					tag: {
+						Ability: "none"
+						AicData: {
+							AgressiveAbility: 25.0f
+							AttackHostile: 25.0f
+							AttackPassive: 25.0f
+							Farming: 0.0f
+							Fishing: 0.0f
+							LowDurability: 5.0f
+							LowHealth: 5.0f
+							Mining: 0.0f
+							NearHostile: 5.0f
+							PassiveAbility: 25.0f
+							Respawn: 0.0f
+							TakeDamage: 5.0f
+							VersionNumber: 2
+						}
+						AicMood: ""
+						AicPersonality: ""
+						BonusDucks: 0
+						CoreWeaponUUID: [I;
+							1163803140
+							-1280817072
+							-1937945065
+							-705863971
+						]
+						CoreWeaponlevels: { }
+						CoreWeaponlevelsPlayerless: { }
+						Damage: 0
+						LastAicMessageTime: 0L
+						PartList: {
+							blade: "iron0"
+							guard: "iron0"
+							handle: "default"
+						}
+						PhanToolStatus: 0b
+						PreviousPlayerUUID: "3194f9fe-a6f9-3118-be8b-70008ebfef87"
+						Rerolls: 0
+						SelectedLevel: "AttackLevel"
+						UnlockedAICs: { }
+						UnlockedAbilities: "none"
+						WeaponID: "sword"
+						display: {
+							Name: "{\"text\":\"Broadsword\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "剑"
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["01AE7C871F07F162"]
+			description: ["长戟，攻击范围几乎是单体，攻击距离最长，攻速最慢。"]
+			id: "1B8A981B2F355302"
+			tasks: [{
+				id: "6A2AE4903367CF9E"
+				item: {
+					Count: 1
+					id: "weaponmaster:wm_rapierlarge"
+					tag: {
+						Ability: "none"
+						AicData: {
+							AgressiveAbility: 25.0f
+							AttackHostile: 25.0f
+							AttackPassive: 85.0f
+							Farming: 0.0f
+							Fishing: 0.0f
+							LowDurability: 5.0f
+							LowHealth: 5.0f
+							Mining: 0.0f
+							NearHostile: 5.0f
+							PassiveAbility: 25.0f
+							Respawn: 0.0f
+							TakeDamage: 5.0f
+							VersionNumber: 2
+						}
+						AicMood: ""
+						AicPersonality: ""
+						BonusDucks: 0
+						CoreWeaponUUID: [I;
+							1015706533
+							-908508354
+							-1130653765
+							-1427314870
+						]
+						CoreWeaponlevels: {
+							3194f9fe-a6f9-3118-be8b-70008ebfef87: { }
+						}
+						CoreWeaponlevelsPlayerless: { }
+						Damage: 0
+						LastAicMessageTime: 0L
+						PartList: {
+							blade: "iron0"
+							guard: "iron0"
+							handle: "basic"
+						}
+						PhanToolStatus: 0b
+						PreviousPlayerUUID: "3194f9fe-a6f9-3118-be8b-70008ebfef87"
+						Rerolls: 0
+						SelectedLevel: "AttackLevel"
+						UnlockedAICs: { }
+						UnlockedAbilities: "none"
+						WeaponID: "polearm"
+						display: {
+							Name: "{\"text\":\"Polearm\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "长戟"
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["01AE7C871F07F162"]
+			description: ["镰刀，攻击范围最大，攻击距离中等，攻速最慢。"]
+			id: "017E6F4623DD2EF6"
+			tasks: [{
+				id: "58BAE24DC1E27B13"
+				item: {
+					Count: 1
+					id: "weaponmaster:wm_broadswordlarge"
+					tag: {
+						Ability: "none"
+						AicData: {
+							AgressiveAbility: 25.0f
+							AttackHostile: 25.0f
+							AttackPassive: 25.0f
+							Farming: 0.0f
+							Fishing: 0.0f
+							LowDurability: 5.0f
+							LowHealth: 5.0f
+							Mining: 0.0f
+							NearHostile: 5.0f
+							PassiveAbility: 25.0f
+							Respawn: 0.0f
+							TakeDamage: 5.0f
+							VersionNumber: 2
+						}
+						AicMood: ""
+						AicPersonality: ""
+						BonusDucks: 0
+						CoreWeaponUUID: [I;
+							-1073529768
+							903892829
+							-1798455786
+							1485965294
+						]
+						CoreWeaponlevels: { }
+						CoreWeaponlevelsPlayerless: { }
+						Damage: 0
+						LastAicMessageTime: 0L
+						PartList: {
+							blade: "iron0"
+							guard: "iron0"
+							handle: "basic"
+						}
+						PhanToolStatus: 0b
+						PreviousPlayerUUID: "3194f9fe-a6f9-3118-be8b-70008ebfef87"
+						Rerolls: 0
+						SelectedLevel: "AttackLevel"
+						UnlockedAICs: { }
+						UnlockedAbilities: "none"
+						WeaponID: "scythe"
+						display: {
+							Name: "{\"text\":\"Scythe\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "镰刀"
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["01AE7C871F07F162"]
+			description: ["刺剑，攻击范围几乎是单体，攻击范围中等，攻速最快。"]
+			id: "57344A31E94C3F00"
+			tasks: [{
+				id: "3180590ABE5FCFF8"
+				item: {
+					Count: 1
+					id: "weaponmaster:wm_rapier"
+					tag: {
+						Ability: "none"
+						AicData: {
+							AgressiveAbility: 25.0f
+							AttackHostile: 25.0f
+							AttackPassive: 55.0f
+							Farming: 0.0f
+							Fishing: 0.0f
+							LowDurability: 5.0f
+							LowHealth: 5.0f
+							Mining: 0.0f
+							NearHostile: 5.0f
+							PassiveAbility: 25.0f
+							Respawn: 0.0f
+							TakeDamage: 5.0f
+							VersionNumber: 2
+						}
+						AicMood: ""
+						AicPersonality: ""
+						BonusDucks: 0
+						CoreWeaponUUID: [I;
+							455597952
+							344411395
+							-1609890878
+							-1999659616
+						]
+						CoreWeaponlevels: {
+							3194f9fe-a6f9-3118-be8b-70008ebfef87: { }
+						}
+						CoreWeaponlevelsPlayerless: { }
+						Damage: 0
+						LastAicMessageTime: 0L
+						PartList: {
+							blade: "iron0"
+							guard: "iron0"
+							handle: "default"
+						}
+						PhanToolStatus: 0b
+						PreviousPlayerUUID: "3194f9fe-a6f9-3118-be8b-70008ebfef87"
+						Rerolls: 0
+						SelectedLevel: "AttackLevel"
+						UnlockedAICs: { }
+						UnlockedAbilities: "none"
+						WeaponID: "rapier"
+						display: {
+							Name: "{\"text\":\"Rapier\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "刺剑"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7E9CFA71EEAD6B5D"]
+			description: [
+				"放入武器到武器工坊上，点击左边最下面的按钮即可开启修理。"
+				"{image:kubejs:textures/jiaocheng/weapon_jiao_cheng1.png width:220 height:100 align:center}"
+			]
+			icon: "minecraft:anvil"
+			id: "5F1BCBDD783F4C19"
+			tasks: [{
+				id: "54FAFA5C10E169DA"
+				type: "checkmark"
+			}]
+			title: "修理"
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5F1BCBDD783F4C19"]
+			description: [
+				"拖动灰色圆形的物品，并让武器充分的被填满。随后拖动蓝色的物品进行清洗即可。"
+				"{image:kubejs:textures/jiaocheng/weapon_jiao_cheng3.png width:220 height:100 align:center}"
+			]
+			icon: "minecraft:anvil"
+			id: "77EAA2E6EE7AE07F"
+			tasks: [{
+				id: "06B7B44FFA5DD416"
+				title: "开始修理"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["77EAA2E6EE7AE07F"]
+			description: [
+				"清理完毕后需再进行一次操作，即可修复武器。"
+				"{image:kubejs:textures/jiaocheng/weapon_jiao_cheng4.png width:220 height:100 align:center}"
+			]
+			icon: "minecraft:anvil"
+			id: "355C159465BA4A07"
+			tasks: [{
+				id: "1C5AF9D58B912139"
+				title: "再次清洗"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["355C159465BA4A07"]
+			description: [
+				"武器升级时，放入武器工坊，并选择相应的技能和外观即可完成升级。"
+				"{image:kubejs:textures/jiaocheng/weapon_jiao_cheng6.png width:220 height:100 align:center}"
+			]
+			icon: "create:experience_nugget"
+			id: "4B29434FE0E8C4F5"
+			tasks: [{
+				id: "096A103AB1FA88DE"
+				title: "武器升级"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["4B29434FE0E8C4F5"]
+			description: [
+				"当你的武器成功升级时，会获得外观和技能。"
+				"技能左边按钮进行选择。"
+				"外观在最上面按钮进行选择。"
+				"注意：技能有2页，分为主动和被动。"
+				"外观有3页。"
+				"{image:kubejs:textures/jiaocheng/weapon_jiao_cheng7.png width:220 height:100 align:center}"
+			]
+			icon: {
+				Count: 1
+				id: "weaponmaster:wm_broadsword"
+				tag: {
+					Ability: "phantool"
+					AicData: {
+						AgressiveAbility: 25.0f
+						AttackHostile: 100.0f
+						AttackPassive: 43.0f
+						Farming: 0.0f
+						Fishing: 0.0f
+						LowDurability: 5.0f
+						LowHealth: 5.0f
+						Mining: 0.0f
+						NearHostile: 5.0f
+						PassiveAbility: 25.0f
+						Respawn: 100.0f
+						TakeDamage: 100.0f
+						VersionNumber: 2
+					}
+					AicMood: ""
+					AicPersonality: ""
+					BonusDucks: 0
+					CoreWeaponUUID: [I;
+						-63011641
+						-25869725
+						-1330649624
+						1806104475
+					]
+					CoreWeaponlevels: {
+						3194f9fe-a6f9-3118-be8b-70008ebfef87: {
+							AttackLevel: 695
+							DefenseLevel: 0
+							MobilityLevel: 0
+							UtilityLevel: 0
+						}
+					}
+					CoreWeaponlevelsPlayerless: {
+						AttackLevel: 695
+					}
+					Damage: 0
+					LastAicMessageTime: 0L
+					PartList: {
+						blade: "rubium1"
+						guard: "fluix0"
+						handle: "knight"
+					}
+					PassiveTrait: "nonep"
+					PhanToolStatus: 0b
+					PreviousPlayerUUID: "3194f9fe-a6f9-3118-be8b-70008ebfef87"
+					Rerolls: 1
+					SelectedLevel: "AttackLevel"
+					UnlockedAICs: { }
+					UnlockedAbilities: "none,phantool"
+					WeaponID: "sword"
+					display: {
+						Name: "{\"text\":\"Broadsword\"}"
+					}
+				}
+			}
+			id: "5A52E07449B29891"
+			tasks: [{
+				id: "6004CBCEB7E6D718"
+				title: "自定义外观与技能"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -10.5d
+		}
+	]
+	title: "武器大师"
+}

@@ -1,0 +1,22 @@
+// priority: 500
+
+registerItemMaidBauble("hmag:evil_crystal")
+registerItemMaidBauble("hmag:soul_powder")
+registerItemMaidBauble("hmag:ender_plasm")
+registerItemMaidBauble("hmag:ancient_stone")
+registerItemMaidBauble("hmag:lightning_particle")
+registerItemMaidBauble("hmag:insomnia_fruit")
+registerItemMaidBauble("hmag:insomnia_sword")
+registerItemMaidBauble("hmag:reinforcing_chain")
+registerItemMaidBauble("hmag:purification_cloth")
+registerItemMaidBauble("hmag:endless_pearl")
+registerItemMaidBauble("hmag:fire_bottle")
+registerItemMaidBauble("hmag:greedy_crystal_plus")
+
+registerItemTag("hmag:soul_powder", "fast:magic")
+registerItemTag("hmag:ender_plasm", "fast:magic")
+registerItemTag("hmag:lightning_particle", "fast:magic")
+registerItemTag("hmag:insomnia_fruit", "fast:magic")
+registerItemTag("hmag:purification_cloth", "fast:magic")
+registerItemTag("hmag:endless_pearl", "fast:magic")
+registerItemTag("hmag:fire_bottle", "fast:magic")

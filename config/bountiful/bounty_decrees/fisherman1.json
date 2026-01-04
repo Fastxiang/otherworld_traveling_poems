@@ -1,0 +1,10 @@
+{
+	"objectives": [
+		"fisherman_objs1"
+	],
+	"rewards": [
+        "money_rews1",
+		"fisherman_rews",
+		"ender_rews1"
+	]
+}

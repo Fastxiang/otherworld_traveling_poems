@@ -1,0 +1,21 @@
+[
+  {
+    "authors": "fast",
+    "name": "memory_of_the_past 汉化包",
+    "desc": "汉化",
+    "mods": "memory_of_the_past", 
+    "dynamic": false
+  },
+  {
+    "target_class": {
+      "name": "tn.mbs.memory.procedures.ReturnNextAttributeTwoProcedure",
+      "method": "execute" 
+    },
+    "pairs": [
+      {
+        "key": "@##.##", 
+        "value": "##.#"
+      }
+    ]
+  }
+]

@@ -1,0 +1,9 @@
+{
+	chapter_groups: [
+		{ id: "1D1516A5D26CBDD3", title: "主线" }
+		{ id: "3BBD5D19C3FF2423", title: "贸易-民以食为天" }
+		{ id: "67091C4774FC5F4A", title: "战斗-强化自身" }
+		{ id: "4FC82DFE0A9AFD1F", title: "机械-便利你的生活" }
+		{ id: "39EFE5D4ED781F69", title: "装饰-生活点缀" }
+	]
+}

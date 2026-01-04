@@ -1,0 +1,182 @@
+
+{
+	"content": {
+
+        "fisherman_rew_1": {
+    "type": "minecraft:item",
+    "content": "aquaculture:neptunium_ingot",
+    "amount": {
+        "min": 1,
+        "max": 10
+    },
+    "unitWorth": 500
+},
+
+        "money_fisherman_rew_1": {
+            "type": "item",
+            "content": "money:coin_copper",
+            "amount": {
+                "min": 10,
+                "max": 64
+            },
+			"rarity": "COMMON",
+            "unitWorth": 100
+        },
+        
+        "money_fisherman_rew_2": {
+            "type": "item",
+            "content": "money:coin_iron",
+            "amount": {
+                "min": 1,
+                "max": 12
+            },
+			"rarity": "COMMON",
+            "unitWorth": 1000
+        },
+        
+        "fisherman_rew_2": {
+    "type": "minecraft:item",
+    "content": "aquaculture:neptunium_leggings",
+    "amount": {
+        "min": 1,
+        "max": 1
+    },
+    "unitWorth": 1500,
+    "nbt": "{Damage:0}"
+},
+
+        "fisherman_rew_3": {
+    "type": "minecraft:item",
+    "content": "aquaculture:neptunium_boots",
+    "amount": {
+        "min": 1,
+        "max": 1
+    },
+    "unitWorth": 1500,
+    "nbt": "{Damage:0}"
+},
+
+        "fisherman_rew_4": {
+    "type": "minecraft:item",
+    "content": "aquaculture:neptunium_helmet",
+    "amount": {
+        "min": 1,
+        "max": 1
+    },
+    "unitWorth": 1500,
+    "nbt": "{Damage:0}"
+},
+
+        "fisherman_rew_5": {
+    "type": "minecraft:item",
+    "content": "aquaculture:neptunium_chestplate",
+    "amount": {
+        "min": 1,
+        "max": 1
+    },
+    "unitWorth": 1500,
+    "nbt": "{Damage:0}"
+},
+
+        "fisherman_rew_6": {
+    "type": "minecraft:item",
+    "content": "aquaculture:neptunium_fillet_knife",
+    "amount": {
+        "min": 1,
+        "max": 1
+    },
+    "unitWorth": 1500
+},
+
+        "fisherman_rew_7": {
+    "type": "minecraft:item",
+    "content": "aquaculture:neptunium_bow",
+    "amount": {
+        "min": 1,
+        "max": 1
+    },
+    "unitWorth": 1500,
+    "nbt": "{Damage:0}"
+},
+
+        "fisherman_rew_8": {
+    "type": "minecraft:item",
+    "content": "aquaculture:neptunium_sword",
+    "amount": {
+        "min": 1,
+        "max": 1
+    },
+    "unitWorth": 1500,
+    "nbt": "{Damage:0}"
+},
+
+        "fisherman_rew_9": {
+    "type": "minecraft:item",
+    "content": "aquaculture:neptunium_hoe",
+    "amount": {
+        "min": 1,
+        "max": 1
+    },
+    "unitWorth": 1500,
+    "nbt": "{Damage:0}"
+},
+
+        "fisherman_rew_10": {
+    "type": "minecraft:item",
+    "content": "aquaculture:neptunium_axe",
+    "amount": {
+        "min": 1,
+        "max": 1
+    },
+    "unitWorth": 1500,
+    "nbt": "{Damage:0}"
+},
+
+        "fisherman_rew_11": {
+    "type": "minecraft:item",
+    "content": "aquaculture:neptunium_shovel",
+    "amount": {
+        "min": 1,
+        "max": 1
+    },
+    "unitWorth": 1500,
+    "nbt": "{Damage:0,inWater:0b}"
+},
+
+        "fisherman_rew_12": {
+    "type": "minecraft:item",
+    "content": "aquaculture:neptunium_fishing_rod",
+    "amount": {
+        "min": 1,
+        "max": 1
+    },
+    "unitWorth": 1500,
+    "nbt": "{Damage:0}"
+},
+
+
+        "fisherman_rew_13": {
+    "type": "minecraft:item",
+    "content": "aquaculture:neptunium_pickaxe",
+    "amount": {
+        "min": 1,
+        "max": 1
+    },
+    "unitWorth": 1500,
+    "nbt": "{Damage:0,inWater:0b}"
+},
+
+        "fisherman_rew_14": {
+    "type": "minecraft:item",
+    "content": "aquaculture:worm",
+    "amount": {
+        "min": 1,
+        "max": 1
+    },
+    "unitWorth": 500,
+    "nbt": "{Damage:0}"
+}
+
+	}
+
+}

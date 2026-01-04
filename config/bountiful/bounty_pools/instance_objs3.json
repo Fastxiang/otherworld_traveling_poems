@@ -1,0 +1,127 @@
+{
+	"content": {
+	
+		"instance_obj3_fast22": {
+			"type": "item",
+			"content": "fast:instance_pass22",
+			"amount": { "min": 1, "max": 1 },
+			"unitWorth": 170000,
+		    "weightMult": 1.0,
+			"rarity": "COMMON",
+			"forbids": [
+				{
+					"type": "item_tag",
+					"content": "fast:instance_pass"
+				}
+			]
+		},
+		
+		"instance_obj3_fast23": {
+			"type": "item",
+			"content": "fast:instance_pass23",
+			"amount": { "min": 1, "max": 1 },
+			"unitWorth": 160000,
+		    "weightMult": 1.0,
+			"rarity": "COMMON",
+			"forbids": [
+				{
+					"type": "item_tag",
+					"content": "fast:instance_pass"
+				}
+			]
+		},
+		
+		"instance_obj3_fast24": {
+			"type": "item",
+			"content": "fast:instance_pass24",
+			"amount": { "min": 1, "max": 1 },
+			"unitWorth": 150000,
+		    "weightMult": 1.0,
+			"rarity": "COMMON",
+			"forbids": [
+				{
+					"type": "item_tag",
+					"content": "fast:instance_pass"
+				}
+			]
+		},
+		
+		"instance_obj3_fast25": {
+			"type": "item",
+			"content": "fast:instance_pass25",
+			"amount": { "min": 1, "max": 1 },
+			"unitWorth": 140000,
+		    "weightMult": 1.0,
+			"rarity": "COMMON",
+			"forbids": [
+				{
+					"type": "item_tag",
+					"content": "fast:instance_pass"
+				}
+			]
+		},
+		
+		"instance_obj3_fast26": {
+			"type": "item",
+			"content": "fast:instance_pass26",
+			"amount": { "min": 1, "max": 1 },
+			"unitWorth": 130000,
+		    "weightMult": 1.0,
+			"rarity": "COMMON",
+			"forbids": [
+				{
+					"type": "item_tag",
+					"content": "fast:instance_pass"
+				}
+			]
+		},
+		
+		"instance_obj3_fast27": {
+			"type": "item",
+			"content": "fast:instance_pass27",
+			"amount": { "min": 1, "max": 1 },
+			"unitWorth": 120000,
+		    "weightMult": 1.0,
+			"rarity": "COMMON",
+			"forbids": [
+				{
+					"type": "item_tag",
+					"content": "fast:instance_pass"
+				}
+			]
+		},
+		
+		"instance_obj3_fast34": {
+			"type": "item",
+			"content": "fast:instance_pass34",
+			"amount": { "min": 1, "max": 1 },
+			"unitWorth": 100000,
+		    "weightMult": 1.0,
+			"rarity": "COMMON",
+			"forbids": [
+				{
+					"type": "item_tag",
+					"content": "fast:instance_pass"
+				}
+			]
+		},
+		
+    	"instance_obj3_fast40": {
+			"type": "item",
+			"content": "fast:instance_pass40",
+			"amount": { "min": 1, "max": 1 },
+			"unitWorth": 95000,
+		    "weightMult": 1.0,
+			"rarity": "COMMON",
+			"forbids": [
+				{
+					"type": "item_tag",
+					"content": "fast:instance_pass"
+				}
+			]
+		}
+		
+
+		
+	}
+}

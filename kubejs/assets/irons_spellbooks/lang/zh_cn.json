@@ -1,0 +1,13 @@
+{
+  "attribute.irons_spellbooks.spell_power": "法术强度",
+  "attribute.irons_spellbooks.fire_spell_power": "炽焰法术强度",
+  "attribute.irons_spellbooks.ice_spell_power": "冰霜法术强度",
+  "attribute.irons_spellbooks.lightning_spell_power": "雷霆法术强度",
+  "attribute.irons_spellbooks.holy_spell_power": "神圣法术强度",
+  "attribute.irons_spellbooks.ender_spell_power": "末影法术强度",
+  "attribute.irons_spellbooks.blood_spell_power": "猩红法术强度",
+  "attribute.irons_spellbooks.evocation_spell_power": "唤魔法术强度",
+  "attribute.irons_spellbooks.nature_spell_power": "自然法术强度",
+  "attribute.irons_spellbooks.eldritch_spell_power": "远古巫术强度",
+  "attribute.irons_spellbooks.cast_time_reduction": "法术吟唱速度"
+}
